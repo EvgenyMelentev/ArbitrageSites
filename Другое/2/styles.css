@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'FontAwesome';
+	src:url("urn:scrapbook:download:error:http://probloggroup.ru/princesshair/r1/fonts/FontAwesome.eot?#iefix") format('embedded-opentype'),
+		url("FontAwesome.woff") format('woff'),
+		url("FontAwesome.ttf")  format('truetype'),
+		url("FontAwesome.svg#FontAwesome") format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -1,0 +1,441 @@
+.b-article {
+position: relative;
+}
+
+.b-article-meta-top {
+position: relative;
+}
+
+.b-article-meta-top .b-article-flow {
+font: 11px/17px "Arial", sans-serif; text-align:center;
+padding: 13px 205px 20px; margin: 0;
+min-height: 51px;
+}
+.b-article-meta-top .b-article-flow .meta {
+display: block;
+color: #808080;
+}
+.b-article-meta-top .b-article-flow a {
+font-size: 14px; font-weight: bold;
+}
+
+
+.b-article .b-article-flow-small {
+font-size:14px;
+line-height:16px;
+}
+.b-article .b-article-title {
+font:bold 28px/30px "Arial", sans-serif; text-align:center; letter-spacing: -1px;
+margin:20px 0 13px;
+}
+.b-article .b-article-title-look {
+margin-top:15px;
+}
+.b-article .data { margin:0 15px; text-align:center; font: 11px/12px "Arial", sans-serif; color:#b2b2b2; }
+.b-article .data a,
+.b-article .data b,
+.b-article .data span {
+display: inline-block!important; #display: inline!important; #zoom: 1!important;
+float: none!important;
+margin-left:4px;
+}
+.b-article .data .author {
+font: 11px/12px "Arial", sans-serif!important; text-transform: none!important; letter-spacing: 0!important; color: #b2b2b2;
+}
+.b-article .lead {
+font: normal 16px/20px 'Arial',sans-serif;
+margin:30px 0 15px;
+color:#161616;
+text-align:center;
+}
+.b-article .img {
+position: relative;
+margin-top: 15px;
+}
+.b-article .img img {
+display: block;
+margin:0 auto;
+}
+
+
+.relative-materials {
+padding-bottom: 40px;
+}
+.relative-materials h2 {
+margin-bottom: 30px;
+}
+.relative-materials .g-item-post_col {
+margin-left: 0;
+margin: 0 20px 0 0;
+text-align: center;
+}
+.relative-materials .g-item-post .pic {
+position: relative;
+}
+.relative-materials .g-item-post .pic > a {
+display: block;
+-webkit-border-radius: 4px; border-radius: 4px;
+overflow: hidden;
+}
+.relative-materials .g-item-post .pic img {
+display: block;
+background: rgba(0,0,0,.03);
+-webkit-border-radius: 4px; border-radius: 4px;
+}
+.relative-materials .g-item-post .pic > a:after {
+content: '';
+position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: 10;
+background: rgba(0,0,0,.24);
+border: 1px solid rgba(0,0,0,.1); -webkit-border-radius: 4px; border-radius: 4px;
+opacity: 0;
+-webkit-transition: opacity .2s; -moz-transition: opacity .2s; -ms-transition: opacity .2s; -o-transition: opacity .2s;
+}
+.relative-materials .g-item-post .pic > a:hover:after { opacity: 1; }
+
+
+.labeled-block {
+margin: 30px 0 20px;
+}
+.labeled-block .block-label {
+display: inline-block;
+width: 140px;
+margin-right: 20px;
+letter-spacing: 0; word-spacing: 0; vertical-align: top;
+}
+.labeled-block .block-title {
+font: 14px/20px "CirceWeb-ExtraBold", sans-serif; text-transform: uppercase; letter-spacing: 1px;
+}
+.labeled-block .block-content {
+display: inline-block;
+width: 460px;
+letter-spacing: 0; word-spacing: 0; vertical-align: top;
+}
+
+.labeled-block .block-content.block-justifier {
+width: 504px;
+margin-right: -28px;
+letter-spacing: inherit; word-spacing: inherit;
+}
+
+.materials-list .small-title,
+.relative-materials .small-title {
+font: normal 9px/11px "Arial", sans-serif; text-transform: uppercase; letter-spacing: 1px;
+}
+.relative-materials .small-title {
+line-height: 25px;
+}
+.relative-materials .data {
+padding-top: 6px;
+}
+.relative-materials .data,
+.relative-materials .data a {
+color: #b2b2b2; font-size: 12px; line-height: 14px;
+}
+.relative-materials .data p {
+margin-bottom: 0;
+}
+
+
+.sidebar-block {
+background: white;
+position: absolute;
+z-index: 1;
+width: 100%;
+}
+
+
+.row.post-additions h2 {
+font: 26px/40px "CirceWeb-ExtraBold", sans-serif; -webkit-font-smoothing: antialiased;
+}
+.post-tags {
+margin: 0 0 40px 0;
+}
+.post-tags a {
+display: inline-block;
+margin: 0 0 10px 10px; padding: 1px 10px 2px;
+color: #959595; font: 12px/20px "CirceWeb-Regualr", sans-serif;
+
+border: 1px solid #e1e1e1; -webkit-border-radius: 12px; border-radius: 12px;
+}
+.post-tags a:first-letter {
+text-transform: uppercase;
+}
+.post-tags a:hover { color: #000; text-decoration: none; border-color: #c89534; }
+.post-tag-list { overflow: hidden; }
+.post-tag-list:after { content: ''; display: table; clear: both; }
+.post-tag-list .title {
+float: left;
+width: 70px;
+position: relative;
+font: 11px/25px "CirceWeb-ExtraBold", sans-serif; text-transform: uppercase; -webkit-font-smoothing: antialiased;
+}
+.post-tag-list .tags {
+float: left;
+width: 890px;
+}
+.hype-panel {
+padding: 6px 0 40px 0;
+}
+.hype-panel .block-justifier {
+position: relative;
+margin-right: 0;
+border: 2px solid #e5bd77;
+}
+.hype-panel .block-justifier:before,
+.hype-panel .block-justifier:after {
+content: ''; position: absolute; top: 2px; bottom: 2px;
+width: 10px;
+background: url("urn:scrapbook:download:error:http://bloggerzlive.com/abbg/vogueAdel/img/diagonal-pattern.gif")/*tpa=http://tvblogi.org/vogueAdel/img/diagonal-pattern.gif*/ repeat;
+}
+.hype-panel .block-justifier:before {
+left: 2px;
+}
+.hype-panel .block-justifier:after {
+right: 2px;
+}
+.hype-panel h3 {
+margin-bottom: 0;
+font: 12px/1 "CirceWeb-ExtraBold", sans-serif; text-transform: uppercase;
+}
+.hype-panel .just-bl-x2 {
+position: relative;
+width: 290px; height: 140px;
+margin: 0 0 0 20px;
+}
+.hype-panel .hype-button {
+position: relative;
+display: inline-block;
+margin: 0 0 20px 20px;
+vertical-align: bottom;
+}
+.hype-panel .hype-button iframe {
+display: block;
+}
+.hype-panel .solid {
+border-right: 1px solid #e5bd77; border-left: 1px solid #e5bd77;
+}
+.hype-panel .solid .just-bl {
+position: relative;
+display: inline-block;
+padding: 29px 26px;
+width: 238px;
+vertical-align: bottom;
+}
+.hype-panel .solid .just-bl:first-child {
+border-bottom: 1px solid #e5bd77;
+}
+.hype-panel .solid .hype-button {
+position: absolute; top: 26px; right: 60px;
+}
+
+.hype-panel .facebook h3 {
+position: absolute; top: 24px; left: 20px;
+}
+.hype-panel .facebook .hype-button {
+z-index: 99; position: absolute; bottom: 0; left: 0;
+max-height: 65px;
+}
+
+.hype-panel .actions ul {
+margin: 18px 0 0 0;
+}
+.hype-panel .actions ul li {
+margin-bottom: 6px;
+}
+.hype-panel .actions .w-icon-new {
+float: none;
+padding-left: 30px;
+color: #808080; font: 14px/30px "CirceWeb-ExtraBold", sans-serif; -webkit-font-smoothing: antialiased;
+}
+.hype-panel .actions .w-icon-new:hover,
+.hype-panel .actions .w-icon-favorite.active:hover {
+color: #262626;
+}
+
+.hype-panel .actions .w-icon-favorite i { left: 2px; }
+.hype-panel .actions .w-icon-abuse i { left: 3px; }
+.hype-panel .actions .w-icon-embed i { left: 4px; }
+
+
+
+.embed_code {
+padding: 0;
+}
+.embed-ways {
+padding: 20px;
+
+}
+.embed-ways .embed-code {
+border: 1px solid #cccccc;
+background: #ffffff;
+margin-right: 20px; padding: 0 5px;
+float: left;
+}
+.embed-ways .embed-code input {
+padding: 0;
+width: 340px; height: 34px;
+border: none;
+font-size: 12px; line-height: 34px;
+}
+.embed-ways .button-group {
+float: left;
+margin: 4px 0 0 0;
+}
+.embed-ways .button-group .button {
+margin-right: 0;
+}
+.embed_code .expand-panel-content {
+overflow: hidden;
+}
+.embed_code .embed-preview {
+padding: 20px;
+width: 100%;
+background: #f7f7f5 url("urn:scrapbook:download:error:http://bloggerzlive.com/abbg/vogueAdel/img/11.footer.png")/*tpa=http://tvblogi.org/vogueAdel/img/11.footer.png*/ top left repeat-x;
+}
+
+
+.abuse-form .form {
+position: relative;
+padding: 16px 20px;
+}
+.abuse-form .form-item {
+border:1px solid #cccccc;
+background-color:#FFF;
+margin-bottom:8px;
+}
+.abuse-form .b-form-item {
+margin-bottom: 0;
+}
+.abuse-form .b-form-item .field  {
+padding: 10px;
+}
+.abuse-form .b-form-item .b-form-label {
+position: absolute; top: 42px; left: 41px; z-index: 1;
+width: 370px;
+font:normal 14px/20px "Arial",sans-serif;
+color:#262626;
+}
+.abuse-form .b-form-item .field-text_area {
+margin-bottom: 20px; padding: 6px 10px;
+width: 470px;
+-webkit-box-shadow:inset 0 2px 2px rgba(192, 192, 192, 0.4);
+-moz-box-shadow:inset 0 2px 2px rgba(192, 192, 192, 0.4);
+box-shadow:inset 0 2px 2px rgba(192, 192, 192, 0.4);
+}
+.abuse-form .b-form-item textarea {
+width:100%;
+height:60px;
+margin:0;
+padding:0;
+border:0;
+background:none;
+font:normal 14px/20px "Arial",sans-serif;
+}
+.abuse-form .abuse-type li {
+float:left;
+margin-right:5px;
+position:relative;
+font:normal 12px/14px "Arial",sans-serif;
+color:#333333;
+margin-bottom:5px;
+width: 230px;
+}
+.abuse-form .abuse-type input {
+margin-right: 4px;
+}
+.abuse-form .button-group .button {
+float: right; margin-right: 0;
+}
+.b-share {
+
+height: 22px;
+}
+.b-share .b-share-vkontakte,
+.b-share .b-share-tweetmeme,
+.b-share .b-share-surfingbird,
+.b-share .b-share-facebook {
+float: left;
+}
+.b-share .b-share-vkontakte *,
+.b-share .b-share-tweetmeme *,
+.b-share .b-share-surfingbird *,
+.b-share .b-share-facebook * {
+vertical-align: top;
+}
+
+
+.b-share .b-share-vkontakte .vk_like_inline, .b-share .b-share-vkontakte .vk_like_inline iframe,
+.b-share .b-share-vkontakte #vk_like_hype, .b-share .b-share-vkontakte #vk_like_hype iframe {
+width: 89px !important;
+}
+
+
+.b-share .b-share-tweetmeme {
+position: relative; top: 1px;
+}
+.b-share .b-share-tweetmeme .twitter-share-button {
+width: 92px !important;
+}
+
+
+.b-share .b-share-surfingbird {
+position: relative; top: 1px;
+min-width: 54px;
+text-align: left;
+}
+
+
+.b-share .b-share-facebook {
+position: relative; top: 1px;
+width: 95px;
+}
+.last .b-share .b-share-facebook {
+margin-right: 0;
+}
+.b-share .b-share-facebook {
+
+}
+.b-share .b-share-facebook .fb-custom-share {
+display: inline-block;
+width: 59px; height: 20px;
+text-indent: -999em;
+background: url("urn:scrapbook:download:error:http://bloggerzlive.com/abbg/vogueAdel/img/sprite-old.png")/*tpa=http://tvblogi.org/vogueAdel/img/sprite-old.png*/ -120px -220px;
+}
+.b-share .b-share-facebook .fb-custom-share:hover {
+background-position: -120px -241px;
+}
+.fb-custom-share-count {
+background: none repeat scroll 0 0 #FFFFFF;
+border: 1px solid #C1C1C1;
+display: inline-block;
+height: 14px;
+line-height: 14px;
+margin-left: 6px;
+min-width: 15px;
+padding: 1px 2px;
+text-align: center;
+white-space: nowrap;
+font-size: 11px;
+position: relative;
+top: 1px;
+}
+.fb-custom-share-count:before,
+.fb-custom-share-count:after {
+content: '.';
+display: block;
+border-color: transparent #D7D7D7;
+border-style: solid;
+border-width: 4px 5px 4px 0;
+display: block;
+position: relative;
+top: 4px;
+position: absolute;
+left: -5px;
+height: 0;
+line-height: 0;
+font-size: 0;
+}
+.fb-custom-share-count:after {
+border-color: transparent #fff;
+left: -3px;
+}

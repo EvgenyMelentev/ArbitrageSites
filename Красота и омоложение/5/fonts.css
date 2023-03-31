@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Times New Roman, serif;
+    font-weight: normal;
+    font-style: normal;
+    src: url("7a76cd14bfc567cd3f22fa6218c00f91426cd2bc.bin") format('woff'),
+    url("pfbulletinsanspro-medium-webfont.ttf") format('truetype'),
+    url("pfbulletinsanspro-medium-webfont.svg#pf_bulletin_sans_pro_mediumRg") format('svg');
+}
+
+@font-face {
+    font-family: Times New Roman, serif;
+    font-weight: normal;
+    font-style: normal;
+		src: url("083fcdb7dbec19e3cdfdb5a92bda5b59cdcfec69.bin") format('woff');
+		url("pfagoraslabpro-bold-webfont.ttf") format('truetype'),
+    url("pfagoraslabpro-bold-webfont.svg#pf_agora_slab_probold") format('svg');
+}

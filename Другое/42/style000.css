@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff url("393128_original.jpg")/*tpa=http://blogo-news.ru/domanova/index_files/393128_original.jpg*/ repeat;
+    font-family: Tahoma, Verdana;
+    font-size: 14px;
+    line-height: 23px;
+    width: 100%;
+}
+
+a {
+    color: #0A78C2;
+    outline: none;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin: 0 0 11px;
+}
+
+strong,b {
+    font-weight: bolder;
+}
+
+img {
+    border: none;
+}
+
+h1 {
+    margin: 10px 0px 10px 0px;
+    font-size: 25px;
+}
+
+h2 {
+    margin: 10px 0px 10px 0px;
+    font-size: 21px;
+}
+
+h3 {
+    margin: 2px 0px 10px 0px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+ul {
+    margin-bottom: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 960px;
+    margin: 0 auto;
+    background: url("header00.jpg")/*tpa=http://blogo-news.ru/domanova/index_files/header00.jpg*/ no-repeat;
+    height: 131px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 0px 1px 2px rgb(129, 129, 129);
+}
+
+.left-column {
+    float: left;
+    width: 570px;
+    background: white;
+    -moz-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    margin-right: 20px;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    float: left;
+    width: 309px;
+    font-size: 12px;
+}
+
+
+/*************************** Sidebar last posts block ***************************/
+
+.sidebar-last-posts {
+    background: white;
+    -moz-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.sidebar-last-post {
+    margin-bottom: 0px;
+}
+
+.sidebar-last-post a {
+    color: #489b1f;
+}
+
+.sidebar-last-post-info {
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+
+.sidebar-last-post-info-login {
+    color: #bb225c;
+    margin-right: 5px;
+}
+
+.sidebar-last-post-info-date {
+    margin-right: 5px;
+    color: #777;
+}
+
+.sidebar-last-post-info-comments {
+    color: #777;
+    text-decoration: underline;
+}
+
+
+/*************************** Sidebar bloggers block ***************************/
+
+.sidebar-bloggers {
+    background: white;
+    -moz-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.sidebar-bloggers-avatar {
+    display: inline-block;
+}
+
+.sidebar-bloggers img {
+    margin: 5px;
+}
+
+
+
+/*************************** Sidebar comments block ***************************/
+
+.sidebar-comments {
+    background: white;
+    -moz-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.sidebar-comment {
+    margin-bottom: 5px;
+}
+
+
+/*************************** Footer ***************************/
+
+.footer {
+    clear: both;
+    margin-left: 220px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #777;
+}
+
+.vk_p
+{
+	background:#dee5eb;
+	color:#45688E;
+	font-weight:bold;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding:4px 0 4px 8px;
+	font-size:11px;
+	border:none;
+}
+.vk_kol
+{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	padding:0px 8px;
+	color:#666666;
+	background:#F1F1F1;
+}
+.vk_kol p
+{
+	padding:0;
+	margin:0;
+}
+.vk_img
+{
+	float:left;
+	text-align:center;
+}
+.vk_body
+{
+	
+	padding:14px 0 14px 7px;
+	color:#2B587A;
+	font-size:11px;
+	background:#FFF;
+}
+.clear_fix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.vk_img img
+{
+	margin:0 14px;
+	height:50px;
+	padding-bottom:6px;
+}
+.vk_mar
+{
+	margin:0 0 20px 0;
+}
+.vk
+{
+	width:278px;
+	border:none;
+}
+.rigt_menu
+{
+	
+}
+.vk a
+{
+	color:#45688E;
+}
+.vk1
+{
+	margin:0 0 15px 0;
+}

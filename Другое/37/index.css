@@ -1,0 +1,315 @@
+.floating { width: 340px; }
+.colortext { font-style: italic; font-weight: bold; }
+.vopros { color: rgb(196, 0, 0); font-style: italic; font-weight: bold; }
+/* ::::: http://lifesblog.ru/tea_diabetd/index.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { vertical-align: baseline; background: none repeat scroll 0% 0% transparent; text-align: left; text-indent: 0px; font-size: 100%; text-decoration: none; list-style: outside none none; outline: 0px none; border: 0px none; margin: 0px; padding: 0px; }
+body { background-color: rgb(255, 255, 255); font: 15px/20px "Lucida Grande","Lucida Sans Unicode",Lucida,arial,sans-serif; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+img { vertical-align: middle; }
+ul li { display: block; }
+nav ul, nav li { margin: 0px; }
+h1 { font-size: 138.5%; }
+h2 { font-size: 123.1%; }
+h1, h2, h3 { margin: 1em 0px; }
+h1, h2, h3, h4, h5, h6, strong { font-weight: bold; }
+em { font-style: italic; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; }
+sup { top: -0.5em; }
+input, select, button { overflow: visible; vertical-align: middle; }
+:focus { outline: 0px none; }
+button::-moz-focus-inner { border: 0px none; }
+input::-moz-focus-inner { border: 0px none; }
+button, input, select, textarea { margin: 0px; }
+@font-face {
+	font-family: "RussiaMedium";
+	font-style: normal;
+	font-weight: normal;
+	src: url("russia-medium.woff")/*tpa=http://179523.selcdn.com/landings-production/1494/fonts/russia-medium.woff*/ format("woff"), url("russia-medium.ttf")/*tpa=http://179523.selcdn.com/landings-production/1494/fonts/russia-medium.ttf*/ format("truetype"), url("russia-medium.svg")/*tpa=http://179523.selcdn.com/landings-production/1494/fonts/russia-medium.svg*/ format("svg");
+}
+@font-face {
+	font-family: "RussiaRegular";
+	font-style: normal;
+	font-weight: normal;
+	src: url("russia.woff")/*tpa=http://179523.selcdn.com/landings-production/1494/fonts/russia.woff*/ format("woff"), url("russia.ttf")/*tpa=http://179523.selcdn.com/landings-production/1494/fonts/russia.ttf*/ format("truetype"), url("russia.svg")/*tpa=http://179523.selcdn.com/landings-production/1494/fonts/russia.svg*/ format("svg");
+}
+@font-face {
+	font-family: "RussiaBold";
+	font-style: normal;
+	font-weight: normal;
+	src: url("russia-bold.woff")/*tpa=http://179523.selcdn.com/landings-production/1494/fonts/russia-bold.woff*/ format("woff"), url("russia-bold.ttf")/*tpa=http://179523.selcdn.com/landings-production/1494/fonts/russia-bold.ttf*/ format("truetype"), url("russia-bold.svg")/*tpa=http://179523.selcdn.com/landings-production/1494/fonts/russia-bold.svg*/ format("svg");
+}
+@font-face {
+	font-family: "DINCondensedCRegular";
+	font-style: normal;
+	font-weight: normal;
+	src: url("dincondensedc-webfont.eot")/*tpa=http://179523.selcdn.com/landings-production/1494/fonts/dincondensedc-webfont.eot*/ format("embedded-opentype"), url("dincondensedc-webfont.woff")/*tpa=http://179523.selcdn.com/landings-production/1494/fonts/dincondensedc-webfont.woff*/ format("woff"), url("dincondensedc-webfont.ttf")/*tpa=http://179523.selcdn.com/landings-production/1494/fonts/dincondensedc-webfont.ttf*/ format("truetype"), url("dincondensedc-webfont.svg")/*tpa=http://179523.selcdn.com/landings-production/1494/fonts/dincondensedc-webfont.svg*/ format("svg");
+}
+@font-face {
+	font-family: "DINProRegular";
+	font-style: normal;
+	font-weight: normal;
+	src: url("dinpro-regular-webfont.eot")/*tpa=http://179523.selcdn.com/landings-production/1494/fonts/dinpro-regular-webfont.eot*/ format("eot"), url("dinpro-regular-webfont.woff")/*tpa=http://179523.selcdn.com/landings-production/1494/fonts/dinpro-regular-webfont.woff*/ format("woff"), url("dinpro-regular-webfont.ttf")/*tpa=http://179523.selcdn.com/landings-production/1494/fonts/dinpro-regular-webfont.ttf*/ format("truetype"), url("dinpro-regular-webfont.svg")/*tpa=http://179523.selcdn.com/landings-production/1494/fonts/dinpro-regular-webfont.svg*/ format("svg");
+}
+body { font: 15px/18px Arial,Tahoma,sans-serif; color: rgb(85, 85, 85); background: url("main_bg-russia1-new.jpg")/*tpa=http://179523.selcdn.com/landings-production/1494/img/main_bg-russia1-new.jpg*/ no-repeat scroll 50% -90px transparent; }
+body a { color: rgb(21, 92, 142); text-decoration: none; }
+input, textarea, select { font: 13px/15px Arial,Tahoma,sans-serif; }
+h1, h2, h3, h4, h5, h6 { text-align: left;font-family: "RussiaRegular"; font-weight: normal; margin: 0px; padding: 0px; color: rgb(196, 0, 0); text-transform: uppercase; }
+h1, h1 a { width: auto; font-size: 38px; line-height: 38px; }
+h2 { font-size: 22px; line-height: 24px;text-align: left;}
+#triggers { display: none; }
+#overlay { display: none; width: 100%; height: 100%; position: absolute; top: 0px; left: 0px; z-index: 7000; background: url("overlay_pattern.png")/*tpa=http://179523.selcdn.com/landings-production/1494/img/overlay_pattern.png*/ repeat scroll 0px 0px transparent; }
+#container { width: 1020px; margin: 0px auto 10px; position: relative; }
+#container div.wrapper { overflow: hidden; }
+#promo { position: relative; border-radius: 4px; background-clip: padding-box; }
+#promo.thin { position: relative; border-radius: 4px 4px 0px 0px; background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.3); }
+#promo.thin div.wrap { height: 160px; background: url("lined_bg.png")/*tpa=http://179523.selcdn.com/landings-production/1494/img/lined_bg.png*/ repeat scroll 0px 0px padding-box transparent; border-radius: 4px 4px 0px 0px; }
+#promo a.logo { width: 300px; height: 42px; display: block; top: 31px; left: 0px; position: absolute; z-index: 10; background: url("standart-russia1.png")/*tpa=http://179523.selcdn.com/landings-production/1494/img/standart-russia1.png*/ no-repeat scroll 0px 0px transparent; }
+#promo nav { height: 40px; position: absolute; top: 31px; right: 0px; z-index: 10; padding: 0px 26px 0px 13px;background: rgb(196, 196, 196); background: linear-gradient(rgb(235, 235, 235), rgb(196, 196, 196)) repeat scroll 0% 0% transparent; border-top: 1px solid rgb(255, 255, 255); border-bottom: 1px solid rgb(124, 134, 142); }
+#promo nav ul.menu { float: left; }
+#promo nav ul.menu li { float: left; }
+#promo nav ul.menu li a { display: block; width: auto; padding: 0px 8px; color: rgb(51, 51, 51); text-shadow: 0px 1px 0px rgb(238, 238, 238); font-size: 14px; line-height: 40px; font-family: "RussiaBold"; text-transform: uppercase; text-align: center; }
+#promo nav ul.menu li a:hover { color: rgb(168, 28, 26); }
+#promo nav ul.menu li a sup { color: rgb(168, 28, 26); }
+#promo div.search { width: 165px; height: 22px; border-radius: 5px; background-clip: padding-box; padding: 5px 0px; margin-left: 13px; border-bottom: 1px solid rgb(255, 255, 255); position: relative; float: right; }
+#promo div.search input { width: 115px; height: 21px; padding: 3px 33px 3px 15px; border: 1px solid rgb(207, 208, 210); background: linear-gradient(rgb(254, 254, 254), rgb(222, 222, 222)) repeat scroll 0% 0% padding-box transparent; border-radius: 5px; font-size: 10px; font-family: Tahoma; text-transform: uppercase; }
+#promo div.search input:focus { background-color: rgb(254, 254, 254); }
+#promo div.search a.go { width: 16px; height: 16px; display: block; position: absolute; top: 12px; right: 9px; background: url("search.png")/*tpa=http://179523.selcdn.com/landings-production/1494/img/search.png*/ no-repeat scroll 0px 0px transparent; }
+#promo div.title { position: absolute; z-index: 12; overflow: hidden; top: 100px; left: 23px; }
+#promo div.title h1 a { font-family: "RussiaRegular"; }
+#promo div.title h1 a:hover { text-decoration: underline; }
+#main { overflow: hidden; padding: 23px; }
+#main div.content { vertical-align: top; float: left; width: 666px; }
+#main aside { vertical-align: top; float: right; width: 240px; margin-left: 20px; }
+footer { background-color: rgb(237, 237, 237); overflow: hidden; }
+footer div.wrap { padding: 0px 23px; }
+footer div.wrapper { padding-bottom: 20px; }
+footer div.bottom_menu {background: rgb(196, 196, 196); background: linear-gradient(rgb(235, 235, 235), rgb(196, 196, 196)) repeat scroll 0% 0% transparent; border-top: 1px solid rgb(255, 255, 255); border-bottom: 1px solid rgb(124, 134, 142); width: 100%; height: 40px; position: relative; margin-bottom: 40px; }
+footer div.bottom_menu ul { margin-left: 0px; }
+footer div.bottom_menu ul li { display: inline-block; vertical-align: top; margin-left: -0.36em; }
+footer div.bottom_menu ul li:first-child { margin-left: 0px; }
+footer div.bottom_menu ul li a { display: block; width: auto; padding: 0px 26px; text-align: center; color: rgb(51, 51, 51); text-shadow: 0px 1px 0px rgb(238, 238, 238); font-size: 14px; line-height: 40px; font-family: "RussiaBold"; }
+footer div.bottom_menu ul li a:hover { color: rgb(168, 28, 26); }
+footer div.bottom_menu ul li a sup { color: rgb(168, 28, 26); }
+footer div.bottom_menu ul li.border a { background: url("footer_menu.png")/*tpa=http://179523.selcdn.com/landings-production/1494/img/footer_menu.png*/ no-repeat scroll 100% 50% transparent; padding-right: 28px; }
+footer div.bottom_menu ul.content a:hover { color: rgb(168, 28, 26); }
+footer div.bottom_menu ul.about { width: auto; height: 40px; background: linear-gradient(rgb(220, 220, 220), rgb(178, 178, 178)) repeat scroll 0% 0% transparent; border-top: 1px solid rgb(255, 255, 255); border-bottom: 1px solid rgb(124, 134, 142); position: absolute; top: -1px; right: 0px; }
+footer div.bottom_menu ul.about a { text-transform: uppercase; }
+footer div.bottom_menu ul.about a:hover { color: rgb(168, 28, 26); }
+footer div.copy { color: rgb(135, 137, 139); font-size: 11px; line-height: 13px;}
+footer div.counters { float: right; width: 100px; }
+.b-share-wrap .b-share-counter::after { display: block; content: ""; border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid rgb(255, 255, 255); height: 0px; position: absolute; right: 17px; width: 0px; top: 23px; }
+div.search { position: relative; }
+.au-list { display: none; position: absolute; top: 50px; left: -83px; background: none repeat scroll 0% 0% rgb(255, 255, 255); width: 150%; z-index: 1000; box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2); min-height: 50px; padding: 0px; border-radius: 4px; }
+.au-list::before { content: ""; height: 5px; width: 7px; position: absolute; top: -5px; right: 15px; background: url("auto-arrow.png")/*tpa=http://179523.selcdn.com/landings-production/1494/img/auto-arrow.png*/ no-repeat scroll 0px 0px transparent; }
+div.inner_content a { text-decoration: underline; }
+body.theme_light, body.theme_light .bg-main { background-color: rgb(238, 239, 241); }
+body.theme_light h1, body.theme_light h1 a { color: rgb(86, 106, 139); }
+body.theme_light #main { background-color: rgb(255, 255, 255); }
+#panel { display: none; width: 978px; border-radius: 4px; background-clip: padding-box; background-color: rgb(180, 180, 180); background-image: url("lined_bg-dark.png")/*tpa=http://179523.selcdn.com/landings-production/1494/img/lined_bg-dark.png*/; background-repeat: repeat; background-position: 0px 0px; border: 1px solid rgb(205, 205, 205); position: absolute; top: 90px; left: 50%; z-index: 7001; margin-left: -510px; padding: 20px; color: rgb(51, 51, 51); text-shadow: 0px 1px 0px rgb(222, 222, 222); }
+div.sections { position: absolute; height: 17px; left: 201px; top: 111px; }
+div.sections ul li { display: block; height: 17px; padding: 0px 23px; background: url("news-separator-top.gif")/*tpa=http://179523.selcdn.com/landings-production/1494/img/news-separator-top.gif*/ no-repeat scroll left 2px transparent; float: left; }
+div.sections ul li:first-child { background: url("news-arrow-top.gif")/*tpa=http://179523.selcdn.com/landings-production/1494/img/news-arrow-top.gif*/ no-repeat scroll left 2px transparent; }
+div.sections ul li a { font-family: Tahoma; color: rgb(51, 51, 51); text-transform: uppercase; }
+div.sections ul li a.active { color: rgb(45, 85, 175); }
+div#main { border-top: 1px solid rgb(255, 255, 255); padding-top: 0px; padding-bottom: 0px; }
+div#main div.content { width: 704px; border-right: 1px solid rgb(255, 255, 255); box-shadow: 2px 0px 2px rgb(177, 177, 177); }
+div.inner_content { margin-right: 25px;text-align: justify;}
+div.video-slider-container { margin: 23px 0px; }
+div.video-slider-container div.video-slider-title { height: 30px; width: 239px; background: linear-gradient(rgb(235, 235, 235), rgb(194, 194, 194)) repeat scroll 0% 0% transparent; border-left: 1px solid rgb(196, 196, 196); border-right: 1px solid rgb(196, 196, 196); border-top: 1px solid rgb(196, 196, 196); font-family: "RussiaRegular"; text-transform: uppercase; font-size: 14px; text-shadow: 0px 1px 0px rgb(255, 255, 255); color: rgb(51, 51, 51); }
+div.video-slider-container div.video-slider-title div { height: 21px; width: 221px; border-top: 1px solid rgb(255, 255, 255); padding-left: 18px; padding-top: 8px; }
+div.video-slider-container div.video-slider-title sup { color: rgb(168, 28, 26); }
+div.video-slider-container div.video-controll { width: 241px; height: 39px; cursor: pointer; }
+div.video-slider-container div.video-controll-prev { background: url("news-vieo-controlls.jpg")/*tpa=http://179523.selcdn.com/landings-production/1494/img/news-vieo-controlls.jpg*/ no-repeat scroll left top transparent; }
+div.video-slider-container div.video-slider-holder { width: 241px; position: relative; height: 724px; overflow: hidden; }
+div.video-slider-container div.video-slider-holder ul { display: block; width: 241px; position: relative; top: 0px; }
+div.video-slider-container div.video-slider-holder ul li { width: 241px; height: 181px; }
+div.video-slider-container div.video-slider-holder ul li a { display: block; width: 241px; height: 181px; position: relative; }
+div.video-slider-container div.video-slider-holder ul li a div.video-article-big { background: url("video-article-big.png")/*tpa=http://179523.selcdn.com/landings-production/1494/img/video-article-big.png*/ no-repeat scroll left top transparent; width: 66px; height: 66px; position: absolute; top: 35px; left: 50%; margin-left: -33px; opacity: 0; }
+div.video-slider-container div.video-slider-holder ul li a span.overlay { background: url("video-items-item.png")/*tpa=http://179523.selcdn.com/landings-production/1494/img/video-items-item.png*/ repeat scroll 0px 0px transparent; }
+div.video-slider-container div.video-slider-holder ul li a span.clone { background: none repeat scroll 0% 0% rgb(196, 0, 0); opacity: 0; }
+div.video-slider-container div.video-slider-holder ul li a span.overlay, div.video-slider-container div.video-slider-holder ul li a span.clone { display: block; width: 241px; min-height: 23px; padding: 10px; left: 0px; bottom: 0px; overflow: hidden; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 12px; line-height: 13px; }
+div.inner_content p { color: rgb(51, 51, 51); line-height: 18px; margin-bottom: 18px;text-align: justify;}
+div.inner_content p.date { color: rgb(150, 150, 150); margin-bottom: 12px;padding-top: 15px;}
+h2.theme { font-family: "Arial"; color: rgb(2, 52, 176); text-transform: none ! important; margin-bottom: 11px; }
+body.site_russiak { background: url("culture-bg-repeat.jpg")/*tpa=http://179523.selcdn.com/landings-production/1494/img/culture-bg-repeat.jpg*/ repeat-y center top #B9B9B9; }
+#promo.thin div.wrap { background: none repeat scroll 0% 0% transparent; }
+body.site_russiak #promo a.logo { background-image: url("standart-russiak.png")/*tpa=http://179523.selcdn.com/landings-production/1494/img/standart-russiak.png*/; }
+body.site_russiak #promo div.wrap { background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.3); }
+body.site_russiak div.culture-bg-upper { position: absolute; top: 10px; width: 100%; height: 586px; background: url("culture-bg-upper.png")/*tpa=http://179523.selcdn.com/landings-production/1494/img/culture-bg-upper.png*/ no-repeat scroll center top transparent; z-index: -2; }
+#channel_hover::after { width: 8px; height: 8px; content: ""; display: block; position: absolute; background: url("icons.png")/*tpa=http://179523.selcdn.com/landings-production/1494/img/icons.png*/ no-repeat scroll 0px -68px transparent; top: -8px; left: 10px; }
+.ui-helper-clearfix::before, .ui-helper-clearfix::after { content: ""; display: table; }
+.ui-helper-clearfix::after { clear: both; }
+.ui-helper-clearfix {  }
+.ui-widget { font-family: Verdana,Arial,sans-serif; font-size: 1.1em; }
+.ui-widget-content { background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(34, 34, 34); }
+.ui-widget :active { outline: medium none; }
+.ui-datepicker { width: 241px; }
+.b-share-popup, x:nth-child(1) { border: 0px none; padding: 1px ! important; }
+
+.b-share-popup_down .b-share-popup__tail, x:nth-child(1) { top: -9px; background-image: url("b-share-popup_down__tail.png")/*tpa=http://179523.selcdn.com/landings-production/1494/img/b-share-popup_down__tail.png*/; }
+.b-share-popup_up .b-share-popup__tail, x:nth-child(1) { bottom: -9px; background-image: url("b-share-popup_up__tail.png")/*tpa=http://179523.selcdn.com/landings-production/1494/img/b-share-popup_up__tail.png*/; }
+
+.b-share-form-button::-moz-focus-inner { border: medium none; }
+.b-share_theme_counter .b-share__link::after { position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; content: ""; background-image: url("urn:scrapbook:download:error:http://bloggerzlive.com/diabenot/boyarskiy-diabenot/undefined")/*tpa=http://179523.selcdn.com/landings-production/1494/undefined*/; }
+.fb_reset { background: none repeat scroll 0% 0% transparent; border: 0px none; border-spacing: 0px; color: rgb(0, 0, 0); cursor: auto; direction: ltr; font-family: "lucida grande",tahoma,verdana,arial,sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 1; margin: 0px; overflow: visible; padding: 0px; text-align: left; text-decoration: none; text-indent: 0px; text-shadow: none; text-transform: none; visibility: visible; white-space: normal; word-spacing: normal; }
+.fb_reset > div { overflow: hidden; }
+.comments_title { font-family: "Arial Narrow",Tahoma,Arial,Helvetica,sans-serif; font-size: 22px; font-weight: normal; line-height: 34px; display: inline; }
+.comments_title span { padding: 0px 0px 0px 5px; font-size: 14px; line-height: 16px; color: rgb(129, 129, 129); vertical-align: 13px; }
+.comment { border-radius: 5px; background-color: rgba(181, 212, 248, 0.2); margin-bottom: 25px; border: 1px solid rgb(220, 187, 187); }
+
+.comment_date { font-size: 11px; color: rgb(133, 133, 133); }
+.comment_txt { font-size: 12px; margin: 10px 1px 20px; }
+
+
+.text1{text-align: center;}
+.text2{color: rgb(0, 92, 216);}
+.text3{background-color: rgb(255, 255, 232);}
+.text4{text-align: right; font-style: italic; font-size: 10px; color: rgb(160, 160, 160);}
+.text5{padding: 35px 0 0px;margin-bottom: 1px !important;}
+
+.img1{width: 550px;}
+.img2{width: 650px;}
+
+.comment_body{margin:0 14px;}
+
+
+body{
+    overflow-x: hidden;
+}
+.wrap-content{
+    text-align: justify;
+}
+.wrap-content a{
+    text-decoration: underline;
+    color:rgb(255, 24, 24);
+}
+.wrap-content a:hover{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1020px){
+    #promo div.title {
+        top: 113px;
+        left: 23px;
+    }
+    div.sections {
+        left: 201px;
+        top: 123px;
+    }
+    #container {
+        width: 96%;
+    }
+    body.site_russiak #promo div.wrap{
+        padding-top: 1px;
+    }
+    #promo a.logo {
+        position: static;
+        margin: 10px auto;
+    }
+    #promo nav {
+        height: auto;
+        position: static;
+    }
+    #promo nav:after{
+        content: " ";
+        clear: both;
+        display: block;
+    }
+    #promo nav ul.menu li a {
+        padding: 13px 8px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+    #main {
+        padding: 0 20px;
+    }
+    div#main div.content {
+        width: auto;
+        border: none;
+        float: none;
+        display: block;
+        box-shadow:none;
+    }
+    div.inner_content{
+        margin-right: 1px;
+    }
+    .img2 {
+        width: 100%;
+    }
+    .text-none{
+        display: none;
+    }
+    footer div.bottom_menu{
+        display: none;
+    }
+    footer div.wrap {
+        padding: 20px;
+    }
+    img{
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 750px){
+    #promo div.search{display: none;}
+    #promo nav ul.menu li {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+    }
+    #promo nav ul.menu {
+        float: none;
+        text-align: center;
+    }
+    #promo div.title{display: none;}
+    div.sections{display: none;}
+    #promo.thin div.wrap {
+        height: auto;
+    }
+    #promo nav ul.menu {
+        padding: 10px 0;
+    }
+    #promo nav ul.menu li a {
+        padding: 3px 8px;
+    }
+}
+
+@media screen and (max-width: 479px){
+    div.inner_content p{
+        text-align: left;
+    }
+    div.inner_content{
+        text-align: left;
+    }
+    .text5 {
+        padding: 35px 0 10px;
+    }
+    .wrap-content{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 319px){
+    #main {
+        padding: 0 10px;
+    }
+    body.site_russiak #promo a.logo {
+        background-size: 230px;
+        width: 230px;
+        height: 32px;
+    }
+    .comments_title {
+        font-size: 18px;
+        line-height: 19px;
+    }
+    .comment_date{
+        display: block;
+    }
+    body{
+        min-width: 230px;
+        overflow-x: visible;
+    }
+}

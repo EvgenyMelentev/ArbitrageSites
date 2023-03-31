@@ -1,0 +1,165 @@
+/* Popup */
+.comeback_popup {
+	position: absolute;
+	z-index: 300;
+	top: 5%;
+	left: 50%;
+	width: 670px;
+	margin-left: -335px;
+	background-color: #FFF;
+}
+.comeback_popup_exit {
+    position: absolute;
+    right: 15px;
+    top: 6px;
+    cursor: pointer;
+    color: #000;
+    font-size: 48px;
+    line-height: 48px;
+}
+.comeback_popup__container {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.comeback_popup__container:after {
+	content: "";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+}
+.comeback_popup__container img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.comeback_popup__container>div {
+    display: inline-block;
+}
+.comeback_popup__container .order_button {
+    position: relative;
+}
+
+.popup_order_button {	
+	background-color: #ebe73b;	
+	padding: 22px 34px 24px;
+	font-size: 25px;
+	font-weight: 800;	
+	border-radius: 30px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+	border: none;
+	text-decoration: none;
+	display: inline-block;
+	margin: 16px auto 0;
+	position: relative;
+}
+.comeback_popup__container .order_button:after, .comeback_popup__container .order_button:before {
+	content: "";
+	position: absolute;
+	width: 60px;
+	height: 40px;
+	top: 50%;
+	margin-top: -11px;
+	background: url("arrow.png")/*tpa=http://novosty-blog.ru/love-amulet.ru/kp_ispoved_millionershi/images/arrow.png*/ no-repeat center center;
+}
+.comeback_popup__container .order_button:after {
+	right: 0;
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+}
+.comeback_popup__container .order_button:before {
+	left: 0;
+}
+.popup_order_button:hover {
+    
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#57e219+0,44d413+47,3fd012+100 */
+	background: rgb(87,226,25); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(87,226,25,1) 0%, rgba(68,212,19,1) 47%, rgba(63,208,18,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(87,226,25,1) 0%,rgba(68,212,19,1) 47%,rgba(63,208,18,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(87,226,25,1) 0%,rgba(68,212,19,1) 47%,rgba(63,208,18,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57e219', endColorstr='#3fd012',GradientType=0 ); /* IE6-9 */
+}
+.popup_order_button:active {
+	background: #31a40e;
+}
+.hide_block {
+    top: 25px;
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    z-index: 150;
+}
+.desktop_hide {
+    display: none !important;
+}
+/* Adaptive */
+@media only screen and (max-width: 900px) {
+		
+}
+
+@media only screen and (max-width: 767px) {
+    .comeback_popup {
+		width: 320px;
+		top: 5%;
+		margin-left: -160px;
+	}
+    .comeback_popup__container .order_button {
+        width: 91.25%;
+        margin: 0 auto;
+    }
+	.popup_order_button {
+		font-size: 14px;
+		padding: 10px;
+	}
+	.comeback_popup__container .order_button:after,
+	.comeback_popup__container .order_button:before {
+		width: 35px;
+		background-size: contain;
+	}
+	.comeback_popup_exit {
+		line-height: 30px;
+	}
+	.mob_hide {
+	    display: none !important;
+	}
+	.desktop_hide {
+	    display: block !important;
+	}
+	.comeback_popup__container {
+	    padding-top: 30px;
+	    padding-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+
+}
+/* Модальное окно */
+.modal_mouse_out {
+    z-index: 200;
+    overflow: auto;
+    /* font-family: Arial, Helvetica, sans-serif; 
+    color: #000;*/
+    font-size: 14px;
+    text-align: justify;
+    background: rgba(0, 130, 204, 0.8);
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.modal_mouse_pop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 191;
+    cursor: pointer;
+}
+.hide_forever{
+    display: none !important;
+}

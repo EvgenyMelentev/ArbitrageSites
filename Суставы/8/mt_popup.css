@@ -1,0 +1,952 @@
+.cf:after, .clearfix:after {
+	clear: both; }
+
+.cf:after, .cf:before, .clearfix:after, .clearfix:before {
+	content: " ";
+	display: table; }
+
+#mt_popup {
+	opacity: 0;
+	visibility: hidden;
+	background-color: #fff;
+	z-index: 10003;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	height: auto;
+	top: 20px;
+	left: 50%;
+	position: fixed;
+	width: 400px;
+	margin-left: -200px; }
+body.ui-mobile #mt_popup {
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100vw;
+    max-width: 400px; }
+#mt_popup .mt_popup_close {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    z-index: 11;
+    background-color: #fff;
+    border: 2px solid #e2e2e2;
+    border-radius: 50%; }
+#mt_popup .mt_popup_close:after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	top: 6px;
+	left: 6px;
+	width: 10px;
+	height: 10px;
+	background-position: 50% 50%;
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon-close.svg?v=6a3b11f42016641add75ec572c6171c3");
+	background-repeat: no-repeat; }
+#mt_popup .mt_popup_close:before {
+	content: '';
+	display: inline-block;
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon-close.svg?v=6a3b11f42016641add75ec572c6171c3");
+	height: 0;
+	width: 0;
+	opacity: 0; }
+#mt_popup .mt_popup_close:hover {
+	border-color: #4365de; }
+#mt_popup .mt_popup_close:hover:after {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon-close-hover.svg?v=966a60b9a31b5fc10385beadda355daf"); }
+#mt_popup .mt_popup_confirm {
+    padding: 2em; }
+#mt_popup .mt_popup_confirm p {
+	clear: both;
+	line-height: 1em;
+	font-size: 1em; }
+#mt_popup .mt_popup_confirm hr {
+	display: block;
+	clear: both;
+	height: 0px;
+	border-width: 1px 0 0 0;
+	margin: 1em 0 2em 0; }
+#mt_popup .mt_popup_confirm .hbtn {
+	margin-right: 0.5em; }
+#mt_popup form {
+    margin: 0; }
+#mt_popup p.error {
+    color: #ec513b;
+    font-size: 12px; }
+
+#mt_popup_fill {
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+	height: 100%;
+	z-index: 10002;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	visibility: hidden;
+	opacity: 0; }
+
+#mt_popup.show, #mt_popup_fill.show {
+	opacity: 1;
+	visibility: visible;
+	border-radius: 7px;
+	-webkit-transition: all 0.3s ease-in-out 0ms;
+	-moz-transition: all 0.3s ease-in-out 0ms;
+	-ms-transition: all 0.3s ease-in-out 0ms;
+	-o-transition: all 0.3s ease-in-out 0ms;
+	transition: all 0.3s ease-in-out 0ms; }
+#mt_popup.show.payment-popup, #mt_popup_fill.show.payment-popup {
+    transition: none; }
+
+#mt_popup_fill.show {
+	border-radius: 0; }
+
+#mt_popup.big-annotate-popup, #mt_popup.fulllist_p2o_popup {
+	width: 620px;
+	margin-left: -310px; }
+
+#mt_popup.help-popup {
+	background: #fff;
+	width: 300px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px; }
+#mt_popup.help-popup .help-popup-inside {
+    padding: 15px 20px 20px 20px; }
+#mt_popup.help-popup .help-popup-inside p {
+	line-height: 20px;
+	margin-bottom: 15px; }
+#mt_popup.help-popup .help-popup-inside .hbtn {
+	cursor: pointer; }
+#mt_popup.help-popup:after {
+    display: block;
+    content: " ";
+    width: 10px;
+    height: 20px;
+    background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg-corners.png?v=6baf427c713feb7bf557ecbb8335e1f2") no-repeat -30px -10px;
+    position: absolute;
+    top: 20px;
+    right: -10px; }
+
+#mt_popup.alldiscount {
+	width: 302px;
+	height: 462px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid white; }
+
+.cloned-element {
+	position: absolute;
+	z-index: 100003;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box; }
+.cloned-element * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box; }
+.cloned-element .errors_container {
+    margin: 0px; }
+
+#quickPost.cloned-element .m-item-wrapper {
+	padding: 25px 0px 25px;
+	margin-bottom: 20px; }
+
+.modal_window_cont {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 10001; }
+.modal_window_cont .modal_window {
+    position: relative;
+    width: 600px;
+    margin-left: -300px;
+    height: 250px;
+    margin-top: 125px;
+    background: #fff;
+    border: 5px solid #eaebeb;
+    padding: 24px;
+    z-index: 10001; }
+.modal_window_cont .modal_window.recaptcha {
+	width: 370px;
+	height: 180px;
+	margin-top: -90px;
+	margin-left: -185px; }
+.modal_window_cont .modal_window .delete {
+	position: absolute;
+	right: 1%;
+	top: 1%;
+	font-size: 0.85em;
+	padding: 3px 0 3px 17px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/images/kill.gif?v=c927dfb11962c4703cdaadbbab1ca11b") left center no-repeat; }
+.modal_window_cont .modal_window_back {
+    position: fixed;
+    z-index: 10000;
+    left: 0px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    min-width: 960px;
+    background: black;
+    opacity: 0.5; }
+
+.mt_popup_cancel {
+	font-size: 14px;
+	border: none;
+	font-weight: 400; }
+.mt_popup_cancel:active, .mt_popup_cancel:focus {
+    border: none;
+    box-shadow: none; }
+
+.btn-blue {
+	background: #1280c0;
+	color: #fff;
+	padding: 9px 12px 11px 12px;
+	border-radius: 2px;
+	border: none;
+	box-shadow: none;
+	font-size: 14px;
+	font-weight: 400; }
+
+.cf:after, .clearfix:after {
+	clear: both; }
+
+.cf:after, .cf:before, .clearfix:after, .clearfix:before {
+	content: " ";
+	display: table; }
+
+.main-login-form, #content .main-login-form, #login_block_ajax, .popupdialog {
+	margin: 0 auto;
+	font-family: 'Open sans';
+	font-size: 13px;
+	position: relative;
+	width: 100%;
+	background-color: #fff;
+	clear: both;
+	/*background: $bg0;
+	  background-color: $bg0;
+	  padding:0.5em;
+	  border:1px solid $border-color;
+	  font-size: $base-font-size * 1.1;
+	  color: $color1;
+	  width: auto;
+	  -webkit-box-shadow: inset 0px 0px 2px $border-color;
+	  -moz-box-shadow: inset 0px 0px 2px $border-color;
+	  box-shadow: inset 0px 0px 2px $border-color;
+	  border-radius: 1px;
+	  -moz-border-radius: 1px;
+	  -webkit-border-radius: 1px;*/ }
+.main-login-form, .main-login-form *, .main-login-form *:before, .main-login-form *:after, #content .main-login-form, #content .main-login-form *, #content .main-login-form *:before, #content .main-login-form *:after, #login_block_ajax, #login_block_ajax *, #login_block_ajax *:before, #login_block_ajax *:after, .popupdialog, .popupdialog *, .popupdialog *:before, .popupdialog *:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; }
+.main-login-form *, #content .main-login-form *, #login_block_ajax *, .popupdialog * {
+    font-family: Tahoma,Verdana,Arial,"Liberation Sans",sans-serif; }
+.main-login-form a:not(.nbtn), #content .main-login-form a:not(.nbtn), #login_block_ajax a:not(.nbtn), .popupdialog a:not(.nbtn) {
+    color: #0099CC;
+    background-color: transparent;
+    font-weight: normal; }
+.main-login-form a:not(.nbtn).label:hover, #content .main-login-form a:not(.nbtn).label:hover, #login_block_ajax a:not(.nbtn).label:hover, .popupdialog a:not(.nbtn).label:hover {
+	text-decoration: underline; }
+.main-login-form .loadingLayer, #content .main-login-form .loadingLayer, #login_block_ajax .loadingLayer, .popupdialog .loadingLayer {
+    background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/images/loader-dots.gif?v=12d4c449a15fca82e3efdf8ea57d2bf7") 50% 50% no-repeat #f7f7f7;
+    position: absolute;
+    z-index: 10004;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.7); }
+.main-login-form .right, #content .main-login-form .right, #login_block_ajax .right, .popupdialog .right {
+    float: right; }
+.main-login-form .clearing, #content .main-login-form .clearing, #login_block_ajax .clearing, .popupdialog .clearing {
+    clear: both; }
+.main-login-form .small, #content .main-login-form .small, #login_block_ajax .small, .popupdialog .small {
+    font-size: 12px; }
+.main-login-form .hbtn, #content .main-login-form .hbtn, #login_block_ajax .hbtn, .popupdialog .hbtn {
+    height: auto; }
+.main-login-form .wideButton, #content .main-login-form .wideButton, #login_block_ajax .wideButton, .popupdialog .wideButton {
+    width: 100%;
+    height: auto;
+    background-color: #ddd;
+    color: #fff;
+    border: none !important;
+    padding: 10px;
+    font-weight: normal;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px; }
+.main-login-form .wideButton:hover, #content .main-login-form .wideButton:hover, #login_block_ajax .wideButton:hover, .popupdialog .wideButton:hover {
+	background-color: #ddd;
+	cursor: pointer; }
+.main-login-form .wideButton.active, #content .main-login-form .wideButton.active, #login_block_ajax .wideButton.active, .popupdialog .wideButton.active {
+	background-color: #18a4f4; }
+.main-login-form .wideButton.active:hover, #content .main-login-form .wideButton.active:hover, #login_block_ajax .wideButton.active:hover, .popupdialog .wideButton.active:hover {
+	background-color: #1598e3; }
+.main-login-form .margin-bottom, #content .main-login-form .margin-bottom, #login_block_ajax .margin-bottom, .popupdialog .margin-bottom {
+    margin-bottom: 10px !important; }
+.main-login-form button, #content .main-login-form button, #login_block_ajax button, .popupdialog button {
+    text-transform: capitalize; }
+.main-login-form input.error, .main-login-form select.error, #content .main-login-form input.error, #content .main-login-form select.error, #login_block_ajax input.error, #login_block_ajax select.error, .popupdialog input.error, .popupdialog select.error {
+    border-color: #ff3228; }
+.main-login-form input.error.noMargin, .main-login-form select.error.noMargin, #content .main-login-form input.error.noMargin, #content .main-login-form select.error.noMargin, #login_block_ajax input.error.noMargin, #login_block_ajax select.error.noMargin, .popupdialog input.error.noMargin, .popupdialog select.error.noMargin {
+	margin-bottom: 0px; }
+.main-login-form .errors_container p.error, #content .main-login-form .errors_container p.error, #login_block_ajax .errors_container p.error, .popupdialog .errors_container p.error {
+    padding: 0.5em 0;
+    color: #ff3228;
+    margin-bottom: 10px; }
+.main-login-form .clear, #content .main-login-form .clear, #login_block_ajax .clear, .popupdialog .clear {
+    clear: both; }
+.main-login-form .header, .main-login-form .main, .main-login-form .footer, .main-login-form .fsubhead, #content .main-login-form .header, #content .main-login-form .main, #content .main-login-form .footer, #content .main-login-form .fsubhead, #login_block_ajax .header, #login_block_ajax .main, #login_block_ajax .footer, #login_block_ajax .fsubhead, .popupdialog .header, .popupdialog .main, .popupdialog .footer, .popupdialog .fsubhead {
+    padding: 13px 30px 9px 30px; }
+.main-login-form .main, #content .main-login-form .main, #login_block_ajax .main, .popupdialog .main {
+    background-color: #f9f9f9; }
+.main-login-form .main.text, #content .main-login-form .main.text, #login_block_ajax .main.text, .popupdialog .main.text {
+    padding-top: 20px;
+    padding-bottom: 18px; }
+.main-login-form .main.text label.left, #content .main-login-form .main.text label.left, #login_block_ajax .main.text label.left, .popupdialog .main.text label.left {
+	margin-top: 11px; }
+.main-login-form .main.grey, #content .main-login-form .main.grey, #login_block_ajax .main.grey, .popupdialog .main.grey {
+    background: transparent;
+    padding: 13px 30px 13px 30px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0; }
+.main-login-form .main.grey label.left, #content .main-login-form .main.grey label.left, #login_block_ajax .main.grey label.left, .popupdialog .main.grey label.left {
+	margin-top: 8px; }
+.main-login-form .main.grey label.right, #content .main-login-form .main.grey label.right, #login_block_ajax .main.grey label.right, .popupdialog .main.grey label.right {
+	margin-top: 9px; }
+.main-login-form .main.grey label.right input[type="radio"], #content .main-login-form .main.grey label.right input[type="radio"], #login_block_ajax .main.grey label.right input[type="radio"], .popupdialog .main.grey label.right input[type="radio"] {
+	/*margin: 0px 8px 9px 21px;
+	position: relative;
+	top: 2px;*/
+	display: none; }
+.main-login-form .main.grey label.right input[type="radio"] + span, #content .main-login-form .main.grey label.right input[type="radio"] + span, #login_block_ajax .main.grey label.right input[type="radio"] + span, .popupdialog .main.grey label.right input[type="radio"] + span {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg-input-radio.png?v=bb82931d5aa2808eb459ed402d985fe1") no-repeat;
+	padding-left: 22px;
+	line-height: 14px;
+	height: 14px;
+	display: block; }
+.main-login-form .main.grey label.right input[type="radio"] + span, #content .main-login-form .main.grey label.right input[type="radio"] + span, #login_block_ajax .main.grey label.right input[type="radio"] + span, .popupdialog .main.grey label.right input[type="radio"] + span {
+	background-position: top left; }
+.main-login-form .main.grey label.right input[type="radio"]:checked + span, #content .main-login-form .main.grey label.right input[type="radio"]:checked + span, #login_block_ajax .main.grey label.right input[type="radio"]:checked + span, .popupdialog .main.grey label.right input[type="radio"]:checked + span {
+	background-position: bottom left; }
+.main-login-form .header, .main-login-form .footer, .main-login-form .fsubhead, #content .main-login-form .header, #content .main-login-form .footer, #content .main-login-form .fsubhead, #login_block_ajax .header, #login_block_ajax .footer, #login_block_ajax .fsubhead, .popupdialog .header, .popupdialog .footer, .popupdialog .fsubhead {
+    background-color: #fff; }
+.main-login-form .footer, #content .main-login-form .footer, #login_block_ajax .footer, .popupdialog .footer {
+    border-top: 1px solid #E2E2E2;
+    font-size: 11.7px; }
+.main-login-form .fsubhead, #content .main-login-form .fsubhead, #login_block_ajax .fsubhead, .popupdialog .fsubhead {
+    font-size: 11.7px;
+    border-bottom: 1px solid #E2E2E2;
+    padding-bottom: 26px; }
+.main-login-form .sectionLabel, #content .main-login-form .sectionLabel, #login_block_ajax .sectionLabel, .popupdialog .sectionLabel {
+    padding: 12px 0px 15px 0px;
+    margin: 0; }
+.main-login-form .header, #content .main-login-form .header, #login_block_ajax .header, .popupdialog .header {
+    padding-bottom: 0;
+    height: auto;
+    padding: 2em 2em 0 2em;
+    border-bottom: 1px solid #E2E2E2; }
+.main-login-form .header h3, #content .main-login-form .header h3, #login_block_ajax .header h3, .popupdialog .header h3 {
+	font-family: 'Open Sans Condensed';
+	font-size: 19.5px;
+	margin-bottom: 0.5em;
+	color: #4F4F4F; }
+.main-login-form .header .tab-header, #content .main-login-form .header .tab-header, #login_block_ajax .header .tab-header, .popupdialog .header .tab-header {
+	clear: both; }
+.main-login-form .header .tab-header a, #content .main-login-form .header .tab-header a, #login_block_ajax .header .tab-header a, .popupdialog .header .tab-header a {
+	border-bottom: 2px solid transparent;
+	font-family: 'Arial';
+	font-size: 13px;
+	text-decoration: none;
+	display: block;
+	height: 34px;
+	float: left;
+	margin: 10px 34px 0 0;
+	text-transform: capitalize; }
+.main-login-form .header .tab-header a.active, #content .main-login-form .header .tab-header a.active, #login_block_ajax .header .tab-header a.active, .popupdialog .header .tab-header a.active {
+	border-bottom: 2px solid #3B3B3B;
+	color: #3B3B3B; }
+.main-login-form input, .main-login-form button, #content .main-login-form input, #content .main-login-form button, #login_block_ajax input, #login_block_ajax button, .popupdialog input, .popupdialog button {
+    margin-bottom: 16px; }
+.main-login-form input[name="user[lastname]"], #content .main-login-form input[name="user[lastname]"], #login_block_ajax input[name="user[lastname]"], .popupdialog input[name="user[lastname]"] {
+    margin-bottom: 0; }
+.main-login-form input[type="text"], .main-login-form input[type="password"], .main-login-form input[type="email"], #content .main-login-form input[type="text"], #content .main-login-form input[type="password"], #content .main-login-form input[type="email"], #login_block_ajax input[type="text"], #login_block_ajax input[type="password"], #login_block_ajax input[type="email"], .popupdialog input[type="text"], .popupdialog input[type="password"], .popupdialog input[type="email"] {
+    background: #fff;
+    background-color: #fff;
+    padding: 9px;
+    border: 1px solid #E2E2E2;
+    font-size: 13px;
+    color: #000000;
+    width: auto;
+    margin-bottom: 16px;
+    height: 36px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    /*@include shadow(inset 0px 0px 2px #E2E2E2);*/ }
+.main-login-form input[type="checkbox"], #content .main-login-form input[type="checkbox"], #login_block_ajax input[type="checkbox"], .popupdialog input[type="checkbox"] {
+    border: none;
+    height: auto; }
+.main-login-form input[type="radio"], #content .main-login-form input[type="radio"], #login_block_ajax input[type="radio"], .popupdialog input[type="radio"] {
+    margin: 0px 10px 10px 0px;
+    width: 14px;
+    height: 18px;
+    position: relative;
+    top: 5px; }
+.main-login-form label, .main-login-form .label, .main-login-form .error, #content .main-login-form label, #content .main-login-form .label, #content .main-login-form .error, #login_block_ajax label, #login_block_ajax .label, #login_block_ajax .error, .popupdialog label, .popupdialog .label, .popupdialog .error {
+    font-size: 12px; }
+.main-login-form label, #content .main-login-form label, #login_block_ajax label, .popupdialog label {
+    display: block;
+    margin: 0px 0px 5px 0px;
+    text-align: left;
+    background-color: transparent; }
+.main-login-form label.inline, #content .main-login-form label.inline, #login_block_ajax label.inline, .popupdialog label.inline {
+    margin: 0px;
+    padding: 0px;
+    display: table-cell;
+    height: auto;
+    vertical-align: middle; }
+.main-login-form .sex-picker, #content .main-login-form .sex-picker, #login_block_ajax .sex-picker, .popupdialog .sex-picker {
+    margin-top: 0px; }
+.main-login-form .sex-picker label, #content .main-login-form .sex-picker label, #login_block_ajax .sex-picker label, .popupdialog .sex-picker label {
+    margin: 0px 12px 0px 0px; }
+.main-login-form .sex-picker > label:first-child, #content .main-login-form .sex-picker > label:first-child, #login_block_ajax .sex-picker > label:first-child, .popupdialog .sex-picker > label:first-child {
+    margin: 7px 76px 0px 0px; }
+.main-login-form .date-picker > label, #content .main-login-form .date-picker > label, #login_block_ajax .date-picker > label, .popupdialog .date-picker > label {
+    margin: 0px 8px 0px 0px !important;
+    padding: 11px 0px 0px 0px; }
+.main-login-form label.photoURL_show_false, #content .main-login-form label.photoURL_show_false, #login_block_ajax label.photoURL_show_false, .popupdialog label.photoURL_show_false {
+    line-height: 16px; }
+.main-login-form .social_login label, #content .main-login-form .social_login label, #login_block_ajax .social_login label, .popupdialog .social_login label {
+    margin: 2px 0px 7px 1px; }
+.main-login-form .text-r, #content .main-login-form .text-r, #login_block_ajax .text-r, .popupdialog .text-r {
+    text-align: right; }
+.main-login-form .row, #content .main-login-form .row, #login_block_ajax .row, .popupdialog .row {
+    clear: both;
+    height: auto;
+    margin-bottom: 0px;
+    min-height: 2em; }
+.main-login-form .row:before, .main-login-form .row:after, #content .main-login-form .row:before, #content .main-login-form .row:after, #login_block_ajax .row:before, #login_block_ajax .row:after, .popupdialog .row:before, .popupdialog .row:after {
+	display: block; }
+.main-login-form .col6 .col, #content .main-login-form .col6 .col, #login_block_ajax .col6 .col, .popupdialog .col6 .col {
+    width: 50%;
+    margin: 0px;
+    float: left; }
+.main-login-form .col6 .col:last-child, #content .main-login-form .col6 .col:last-child, #login_block_ajax .col6 .col:last-child, .popupdialog .col6 .col:last-child {
+	float: right; }
+.main-login-form .col6 .col label, #content .main-login-form .col6 .col label, #login_block_ajax .col6 .col label, .popupdialog .col6 .col label {
+	width: 100%; }
+.main-login-form .col6 .col.check input, #content .main-login-form .col6 .col.check input, #login_block_ajax .col6 .col.check input, .popupdialog .col6 .col.check input {
+	margin-right: 1em; }
+.main-login-form .col12.text input, .main-login-form .col12.text label, #content .main-login-form .col12.text input, #content .main-login-form .col12.text label, #login_block_ajax .col12.text input, #login_block_ajax .col12.text label, .popupdialog .col12.text input, .popupdialog .col12.text label {
+    float: none;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; }
+.main-login-form .col12.check, #content .main-login-form .col12.check, #login_block_ajax .col12.check, .popupdialog .col12.check {
+    height: auto; }
+.main-login-form .col12.check input, #content .main-login-form .col12.check input, #login_block_ajax .col12.check input, .popupdialog .col12.check input {
+	width: auto;
+	margin-right: 1em;
+	float: left; }
+.main-login-form .col12.check label, #content .main-login-form .col12.check label, #login_block_ajax .col12.check label, .popupdialog .col12.check label {
+	width: auto; }
+.main-login-form .cf:after, .main-login-form .clearfix:after, #content .main-login-form .cf:after, #content .main-login-form .clearfix:after, #login_block_ajax .cf:after, #login_block_ajax .clearfix:after, .popupdialog .cf:after, .popupdialog .clearfix:after {
+    clear: both; }
+.main-login-form .cf:after, .main-login-form .cf:before, .main-login-form .clearfix:after, .main-login-form .clearfix:before, #content .main-login-form .cf:after, #content .main-login-form .cf:before, #content .main-login-form .clearfix:after, #content .main-login-form .clearfix:before, #login_block_ajax .cf:after, #login_block_ajax .cf:before, #login_block_ajax .clearfix:after, #login_block_ajax .clearfix:before, .popupdialog .cf:after, .popupdialog .cf:before, .popupdialog .clearfix:after, .popupdialog .clearfix:before {
+    content: " ";
+    display: table; }
+.main-login-form .social_login, #content .main-login-form .social_login, #login_block_ajax .social_login, .popupdialog .social_login {
+    box-sizing: content-box;
+    clear: none;
+    margin-right: 0px;
+    height: 50px;
+    padding: 0px; }
+.main-login-form .social_login a, #content .main-login-form .social_login a, #login_block_ajax .social_login a, .popupdialog .social_login a {
+	float: left;
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg-social-buttons.png?v=7531a2f8a911db57ac2f5cfb7aa58363");
+	background-position: 0px 0px;
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+	margin-left: 1px;
+	cursor: pointer;
+	display: block;
+	text-indent: -1000%; }
+.main-login-form .social_login a.Vkontakte, #content .main-login-form .social_login a.Vkontakte, #login_block_ajax .social_login a.Vkontakte, .popupdialog .social_login a.Vkontakte {
+	background-position: 0px 0px; }
+.main-login-form .social_login a.Vkontakte:hover, #content .main-login-form .social_login a.Vkontakte:hover, #login_block_ajax .social_login a.Vkontakte:hover, .popupdialog .social_login a.Vkontakte:hover {
+	background-position: 0px -30px; }
+.main-login-form .social_login a.Facebook, #content .main-login-form .social_login a.Facebook, #login_block_ajax .social_login a.Facebook, .popupdialog .social_login a.Facebook {
+	background-position: -30px 0px; }
+.main-login-form .social_login a.Facebook:hover, #content .main-login-form .social_login a.Facebook:hover, #login_block_ajax .social_login a.Facebook:hover, .popupdialog .social_login a.Facebook:hover {
+	background-position: -30px -30px; }
+.main-login-form .social_login a.Odnoklassniki, #content .main-login-form .social_login a.Odnoklassniki, #login_block_ajax .social_login a.Odnoklassniki, .popupdialog .social_login a.Odnoklassniki {
+	background-position: -60px 0px; }
+.main-login-form .social_login a.Odnoklassniki:hover, #content .main-login-form .social_login a.Odnoklassniki:hover, #login_block_ajax .social_login a.Odnoklassniki:hover, .popupdialog .social_login a.Odnoklassniki:hover {
+	background-position: -60px -30px; }
+.main-login-form .social_login a.Mailru, #content .main-login-form .social_login a.Mailru, #login_block_ajax .social_login a.Mailru, .popupdialog .social_login a.Mailru {
+	background-position: -90px 0px; }
+.main-login-form .social_login a.Mailru:hover, #content .main-login-form .social_login a.Mailru:hover, #login_block_ajax .social_login a.Mailru:hover, .popupdialog .social_login a.Mailru:hover {
+	background-position: -90px -30px; }
+.main-login-form .social_login a.Mirtesen, #content .main-login-form .social_login a.Mirtesen, #login_block_ajax .social_login a.Mirtesen, .popupdialog .social_login a.Mirtesen {
+	background-position: -120px 0px; }
+.main-login-form .social_login a.Mirtesen:hover, #content .main-login-form .social_login a.Mirtesen:hover, #login_block_ajax .social_login a.Mirtesen:hover, .popupdialog .social_login a.Mirtesen:hover {
+	background-position: -120px -30px; }
+.main-login-form .social_login a.Twitter, #content .main-login-form .social_login a.Twitter, #login_block_ajax .social_login a.Twitter, .popupdialog .social_login a.Twitter {
+	background-position: -150px 0px; }
+.main-login-form .social_login a.Twitter:hover, #content .main-login-form .social_login a.Twitter:hover, #login_block_ajax .social_login a.Twitter:hover, .popupdialog .social_login a.Twitter:hover {
+	background-position: -150px -30px; }
+.main-login-form .social_login_colored, #content .main-login-form .social_login_colored, #login_block_ajax .social_login_colored, .popupdialog .social_login_colored {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+    clear: none;
+    margin: 0px -3px;
+    height: auto;
+    padding: 0px; }
+.main-login-form .social_login_colored a, #content .main-login-form .social_login_colored a, #login_block_ajax .social_login_colored a, .popupdialog .social_login_colored a {
+	padding: 10px;
+	display: block;
+	float: left;
+	height: 40px;
+	margin: 0 3px 6px 3px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box; }
+.main-login-form .social_login_colored a span, #content .main-login-form .social_login_colored a span, #login_block_ajax .social_login_colored a span, .popupdialog .social_login_colored a span {
+	float: left;
+	color: #fff;
+	font-size: 12px;
+	line-height: 20px; }
+.main-login-form .social_login_colored a span.icon, #content .main-login-form .social_login_colored a span.icon, #login_block_ajax .social_login_colored a span.icon, .popupdialog .social_login_colored a span.icon {
+	border-bottom: none;
+	display: block;
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/social-white-20x20.png?v=df35694bbfec99d2a3fcea9e9745dd64");
+	width: 20px;
+	height: 20px; }
+.main-login-form .social_login_colored a span.icon.Facebook, #content .main-login-form .social_login_colored a span.icon.Facebook, #login_block_ajax .social_login_colored a span.icon.Facebook, .popupdialog .social_login_colored a span.icon.Facebook {
+	background-position: 0px 0px; }
+.main-login-form .social_login_colored a span.icon.Mailru, #content .main-login-form .social_login_colored a span.icon.Mailru, #login_block_ajax .social_login_colored a span.icon.Mailru, .popupdialog .social_login_colored a span.icon.Mailru {
+	background-position: -20px 0px; }
+.main-login-form .social_login_colored a span.icon.Odnoklassniki, #content .main-login-form .social_login_colored a span.icon.Odnoklassniki, #login_block_ajax .social_login_colored a span.icon.Odnoklassniki, .popupdialog .social_login_colored a span.icon.Odnoklassniki {
+	background-position: -40px 0px; }
+.main-login-form .social_login_colored a span.icon.Vkontakte, #content .main-login-form .social_login_colored a span.icon.Vkontakte, #login_block_ajax .social_login_colored a span.icon.Vkontakte, .popupdialog .social_login_colored a span.icon.Vkontakte {
+	background-position: -60px 0px; }
+.main-login-form .social_login_colored a span.icon.Twitter, #content .main-login-form .social_login_colored a span.icon.Twitter, #login_block_ajax .social_login_colored a span.icon.Twitter, .popupdialog .social_login_colored a span.icon.Twitter {
+	background-position: -80px 0px; }
+.main-login-form .social_login_colored a span.icon.Mirtesen, #content .main-login-form .social_login_colored a span.icon.Mirtesen, #login_block_ajax .social_login_colored a span.icon.Mirtesen, .popupdialog .social_login_colored a span.icon.Mirtesen {
+	background-position: -100px 0px; }
+.main-login-form .social_login_colored a span.label, #content .main-login-form .social_login_colored a span.label, #login_block_ajax .social_login_colored a span.label, .popupdialog .social_login_colored a span.label {
+	border-bottom: none;
+	display: none;
+	margin-left: 5px;
+	background-color: transparent;
+	padding: 0px;
+	font-weight: normal;
+	height: auto; }
+.main-login-form .social_login_colored a.Facebook, #content .main-login-form .social_login_colored a.Facebook, #login_block_ajax .social_login_colored a.Facebook, .popupdialog .social_login_colored a.Facebook {
+	background-color: #3d5293; }
+.main-login-form .social_login_colored a.Facebook:hover, #content .main-login-form .social_login_colored a.Facebook:hover, #login_block_ajax .social_login_colored a.Facebook:hover, .popupdialog .social_login_colored a.Facebook:hover {
+	background-color: #334886; }
+.main-login-form .social_login_colored a.Facebook span.label, #content .main-login-form .social_login_colored a.Facebook span.label, #login_block_ajax .social_login_colored a.Facebook span.label, .popupdialog .social_login_colored a.Facebook span.label {
+	display: block; }
+.main-login-form .social_login_colored a.Facebook.disabled, #content .main-login-form .social_login_colored a.Facebook.disabled, #login_block_ajax .social_login_colored a.Facebook.disabled, .popupdialog .social_login_colored a.Facebook.disabled {
+	pointer-events: none;
+	background-color: #e1e1e1; }
+.main-login-form .social_login_colored a.Mailru, #content .main-login-form .social_login_colored a.Mailru, #login_block_ajax .social_login_colored a.Mailru, .popupdialog .social_login_colored a.Mailru {
+	background-color: #004784; }
+.main-login-form .social_login_colored a.Mailru:hover, #content .main-login-form .social_login_colored a.Mailru:hover, #login_block_ajax .social_login_colored a.Mailru:hover, .popupdialog .social_login_colored a.Mailru:hover {
+	background-color: #003e74; }
+.main-login-form .social_login_colored a.Mailru span.label, #content .main-login-form .social_login_colored a.Mailru span.label, #login_block_ajax .social_login_colored a.Mailru span.label, .popupdialog .social_login_colored a.Mailru span.label {
+	display: block; }
+.main-login-form .social_login_colored a.Mailru.disabled, #content .main-login-form .social_login_colored a.Mailru.disabled, #login_block_ajax .social_login_colored a.Mailru.disabled, .popupdialog .social_login_colored a.Mailru.disabled {
+	pointer-events: none;
+	background-color: #e1e1e1; }
+.main-login-form .social_login_colored a.Odnoklassniki, #content .main-login-form .social_login_colored a.Odnoklassniki, #login_block_ajax .social_login_colored a.Odnoklassniki, .popupdialog .social_login_colored a.Odnoklassniki {
+	background-color: #e67e18; }
+.main-login-form .social_login_colored a.Odnoklassniki:hover, #content .main-login-form .social_login_colored a.Odnoklassniki:hover, #login_block_ajax .social_login_colored a.Odnoklassniki:hover, .popupdialog .social_login_colored a.Odnoklassniki:hover {
+	background-color: #d47212; }
+.main-login-form .social_login_colored a.Odnoklassniki.disabled, #content .main-login-form .social_login_colored a.Odnoklassniki.disabled, #login_block_ajax .social_login_colored a.Odnoklassniki.disabled, .popupdialog .social_login_colored a.Odnoklassniki.disabled {
+	pointer-events: none;
+	background-color: #e1e1e1; }
+.main-login-form .social_login_colored a.Vkontakte, #content .main-login-form .social_login_colored a.Vkontakte, #login_block_ajax .social_login_colored a.Vkontakte, .popupdialog .social_login_colored a.Vkontakte {
+	background-color: #4d739c; }
+.main-login-form .social_login_colored a.Vkontakte:hover, #content .main-login-form .social_login_colored a.Vkontakte:hover, #login_block_ajax .social_login_colored a.Vkontakte:hover, .popupdialog .social_login_colored a.Vkontakte:hover {
+	background-color: #3f648c; }
+.main-login-form .social_login_colored a.Vkontakte.disabled, #content .main-login-form .social_login_colored a.Vkontakte.disabled, #login_block_ajax .social_login_colored a.Vkontakte.disabled, .popupdialog .social_login_colored a.Vkontakte.disabled {
+	pointer-events: none;
+	background-color: #e1e1e1; }
+.main-login-form .social_login_colored a.Twitter, #content .main-login-form .social_login_colored a.Twitter, #login_block_ajax .social_login_colored a.Twitter, .popupdialog .social_login_colored a.Twitter {
+	background-color: #2da9e0; }
+.main-login-form .social_login_colored a.Twitter:hover, #content .main-login-form .social_login_colored a.Twitter:hover, #login_block_ajax .social_login_colored a.Twitter:hover, .popupdialog .social_login_colored a.Twitter:hover {
+	background-color: #269cd0; }
+.main-login-form .social_login_colored a.Twitter.disabled, #content .main-login-form .social_login_colored a.Twitter.disabled, #login_block_ajax .social_login_colored a.Twitter.disabled, .popupdialog .social_login_colored a.Twitter.disabled {
+	pointer-events: none;
+	background-color: #e1e1e1; }
+.main-login-form .social_login_colored a.Mirtesen, #content .main-login-form .social_login_colored a.Mirtesen, #login_block_ajax .social_login_colored a.Mirtesen, .popupdialog .social_login_colored a.Mirtesen {
+	background-color: #ef1b06; }
+.main-login-form .social_login_colored a.Mirtesen:hover, #content .main-login-form .social_login_colored a.Mirtesen:hover, #login_block_ajax .social_login_colored a.Mirtesen:hover, .popupdialog .social_login_colored a.Mirtesen:hover {
+	background-color: #d81906; }
+.main-login-form .social_login_colored a.Mirtesen.disabled, #content .main-login-form .social_login_colored a.Mirtesen.disabled, #login_block_ajax .social_login_colored a.Mirtesen.disabled, .popupdialog .social_login_colored a.Mirtesen.disabled {
+	pointer-events: none;
+	background-color: #e1e1e1; }
+@media only screen and (max-width: 480px) {
+    .main-login-form .social_buttons, #content .main-login-form .social_buttons, #login_block_ajax .social_buttons, .popupdialog .social_buttons {
+		display: none; } }
+.main-login-form .social_buttons, #content .main-login-form .social_buttons, #login_block_ajax .social_buttons, .popupdialog .social_buttons {
+    float: left;
+    margin-right: 0px; }
+.main-login-form .social_buttons div, #content .main-login-form .social_buttons div, #login_block_ajax .social_buttons div, .popupdialog .social_buttons div {
+    float: left;
+    background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg-social-buttons-big.png?v=9926ed080db4d895c4d0c947be9f9291");
+    background-position: 0px 0px;
+    width: 40px;
+    height: 40px;
+    margin-right: -1px;
+    cursor: pointer; }
+.main-login-form #fast_auth_form .fast_login_mt, #content .main-login-form #fast_auth_form .fast_login_mt, #login_block_ajax #fast_auth_form .fast_login_mt, .popupdialog #fast_auth_form .fast_login_mt {
+    float: left;
+    background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg-social-buttons.png?v=7531a2f8a911db57ac2f5cfb7aa58363");
+    background-position: -120px 0px;
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+    cursor: pointer;
+    display: block;
+    text-indent: -1000%; }
+.main-login-form #fast_auth_form .fast_login_mt :hover, #content .main-login-form #fast_auth_form .fast_login_mt :hover, #login_block_ajax #fast_auth_form .fast_login_mt :hover, .popupdialog #fast_auth_form .fast_login_mt :hover {
+    background-position: -120px -30px; }
+.main-login-form #fast_auth_form .fast_login_mt img, #content .main-login-form #fast_auth_form .fast_login_mt img, #login_block_ajax #fast_auth_form .fast_login_mt img, .popupdialog #fast_auth_form .fast_login_mt img {
+    display: none; }
+.main-login-form #fast_auth_form .item, #content .main-login-form #fast_auth_form .item, #login_block_ajax #fast_auth_form .item, .popupdialog #fast_auth_form .item {
+    float: left; }
+.main-login-form .authentication_alert .warning, #content .main-login-form .authentication_alert .warning, #login_block_ajax .authentication_alert .warning, .popupdialog .authentication_alert .warning {
+    padding: 20px 30px;
+    background: #eeeeee; }
+.main-login-form .authentication_alert li span, #content .main-login-form .authentication_alert li span, #login_block_ajax .authentication_alert li span, .popupdialog .authentication_alert li span {
+    border-bottom: 1px solid #b5b5b5;
+    padding: 0px 0px 18px 0px;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 12px; }
+.main-login-form .social_buttons div.vk, #content .main-login-form .social_buttons div.vk, #login_block_ajax .social_buttons div.vk, .popupdialog .social_buttons div.vk {
+    background-position: 0px 0px; }
+.main-login-form .social_buttons div.vk:hover, .main-login-form .social_buttons div.vk.active, #content .main-login-form .social_buttons div.vk:hover, #content .main-login-form .social_buttons div.vk.active, #login_block_ajax .social_buttons div.vk:hover, #login_block_ajax .social_buttons div.vk.active, .popupdialog .social_buttons div.vk:hover, .popupdialog .social_buttons div.vk.active {
+	background-position: 0px -40px; }
+.main-login-form .social_buttons div.fb, #content .main-login-form .social_buttons div.fb, #login_block_ajax .social_buttons div.fb, .popupdialog .social_buttons div.fb {
+    background-position: -40px 0px; }
+.main-login-form .social_buttons div.fb:hover, .main-login-form .social_buttons div.fb.active, #content .main-login-form .social_buttons div.fb:hover, #content .main-login-form .social_buttons div.fb.active, #login_block_ajax .social_buttons div.fb:hover, #login_block_ajax .social_buttons div.fb.active, .popupdialog .social_buttons div.fb:hover, .popupdialog .social_buttons div.fb.active {
+	background-position: -40px -40px; }
+.main-login-form .social_buttons div.ok, #content .main-login-form .social_buttons div.ok, #login_block_ajax .social_buttons div.ok, .popupdialog .social_buttons div.ok {
+    background-position: -80px 0px; }
+.main-login-form .social_buttons div.ok:hover, .main-login-form .social_buttons div.ok.active, #content .main-login-form .social_buttons div.ok:hover, #content .main-login-form .social_buttons div.ok.active, #login_block_ajax .social_buttons div.ok:hover, #login_block_ajax .social_buttons div.ok.active, .popupdialog .social_buttons div.ok:hover, .popupdialog .social_buttons div.ok.active {
+	background-position: -80px -40px; }
+.main-login-form .social_buttons div.mr, #content .main-login-form .social_buttons div.mr, #login_block_ajax .social_buttons div.mr, .popupdialog .social_buttons div.mr {
+    background-position: -120px 0px; }
+.main-login-form .social_buttons div.mr:hover, .main-login-form .social_buttons div.mr.active, #content .main-login-form .social_buttons div.mr:hover, #content .main-login-form .social_buttons div.mr.active, #login_block_ajax .social_buttons div.mr:hover, #login_block_ajax .social_buttons div.mr.active, .popupdialog .social_buttons div.mr:hover, .popupdialog .social_buttons div.mr.active {
+	background-position: -120px -40px; }
+.main-login-form .social_buttons div.mt, #content .main-login-form .social_buttons div.mt, #login_block_ajax .social_buttons div.mt, .popupdialog .social_buttons div.mt {
+    background-position: -160px 0px; }
+.main-login-form .social_buttons div.mt:hover, .main-login-form .social_buttons div.mt.active, #content .main-login-form .social_buttons div.mt:hover, #content .main-login-form .social_buttons div.mt.active, #login_block_ajax .social_buttons div.mt:hover, #login_block_ajax .social_buttons div.mt.active, .popupdialog .social_buttons div.mt:hover, .popupdialog .social_buttons div.mt.active {
+	background-position: -160px -40px; }
+.main-login-form .social_buttons div.tw, #content .main-login-form .social_buttons div.tw, #login_block_ajax .social_buttons div.tw, .popupdialog .social_buttons div.tw {
+    background-position: -200px 0px; }
+.main-login-form .social_buttons div.tw:hover, .main-login-form .social_buttons div.tw.active, #content .main-login-form .social_buttons div.tw:hover, #content .main-login-form .social_buttons div.tw.active, #login_block_ajax .social_buttons div.tw:hover, #login_block_ajax .social_buttons div.tw.active, .popupdialog .social_buttons div.tw:hover, .popupdialog .social_buttons div.tw.active {
+	background-position: -200px -40px; }
+.main-login-form .social_buttons div.gp, #content .main-login-form .social_buttons div.gp, #login_block_ajax .social_buttons div.gp, .popupdialog .social_buttons div.gp {
+    background-position: -240px 0px; }
+.main-login-form .social_buttons div.gp:hover, .main-login-form .social_buttons div.gp.active, #content .main-login-form .social_buttons div.gp:hover, #content .main-login-form .social_buttons div.gp.active, #login_block_ajax .social_buttons div.gp:hover, #login_block_ajax .social_buttons div.gp.active, .popupdialog .social_buttons div.gp:hover, .popupdialog .social_buttons div.gp.active {
+	background-position: -240px -40px; }
+.main-login-form .social_buttons div.pi, #content .main-login-form .social_buttons div.pi, #login_block_ajax .social_buttons div.pi, .popupdialog .social_buttons div.pi {
+    background-position: -280px 0px; }
+.main-login-form .social_buttons div.pi:hover, .main-login-form .social_buttons div.pi.active, #content .main-login-form .social_buttons div.pi:hover, #content .main-login-form .social_buttons div.pi.active, #login_block_ajax .social_buttons div.pi:hover, #login_block_ajax .social_buttons div.pi.active, .popupdialog .social_buttons div.pi:hover, .popupdialog .social_buttons div.pi.active {
+	background-position: -280px -40px; }
+.main-login-form .social_buttons div.rd, #content .main-login-form .social_buttons div.rd, #login_block_ajax .social_buttons div.rd, .popupdialog .social_buttons div.rd {
+    background-position: -320px 0px; }
+.main-login-form .social_buttons div.rd:hover, .main-login-form .social_buttons div.rd.active, #content .main-login-form .social_buttons div.rd:hover, #content .main-login-form .social_buttons div.rd.active, #login_block_ajax .social_buttons div.rd:hover, #login_block_ajax .social_buttons div.rd.active, .popupdialog .social_buttons div.rd:hover, .popupdialog .social_buttons div.rd.active {
+	background-position: -320px -40px; }
+.main-login-form .social_buttons div.lj, #content .main-login-form .social_buttons div.lj, #login_block_ajax .social_buttons div.lj, .popupdialog .social_buttons div.lj {
+    background-position: -360px 0px; }
+.main-login-form .social_buttons div.lj:hover, .main-login-form .social_buttons div.lj.active, #content .main-login-form .social_buttons div.lj:hover, #content .main-login-form .social_buttons div.lj.active, #login_block_ajax .social_buttons div.lj:hover, #login_block_ajax .social_buttons div.lj.active, .popupdialog .social_buttons div.lj:hover, .popupdialog .social_buttons div.lj.active {
+	background-position: -360px -40px; }
+.main-login-form .content-item-likeblock .m-item-repost-counter, .main-login-form .m-item-repost-counter, #content .main-login-form .content-item-likeblock .m-item-repost-counter, #content .main-login-form .m-item-repost-counter, #login_block_ajax .content-item-likeblock .m-item-repost-counter, #login_block_ajax .m-item-repost-counter, .popupdialog .content-item-likeblock .m-item-repost-counter, .popupdialog .m-item-repost-counter {
+    background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon-repost.png?v=1c3b09bdb793fb91f0e8bd1cc2fbd67e") 7px 16px no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 14px;
+    padding: 3px 0px 3px 26px;
+    border: 1px solid transparent;
+    min-height: 22px;
+    border-radius: 2px;
+    font-family: Arial, sans-serif;
+    float: right;
+    height: 40px;
+    width: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ababab;
+    text-decoration: none;
+    line-height: 32px; }
+.main-login-form .content-item-likeblock .m-item-repost-counter span, .main-login-form .m-item-repost-counter span, #content .main-login-form .content-item-likeblock .m-item-repost-counter span, #content .main-login-form .m-item-repost-counter span, #login_block_ajax .content-item-likeblock .m-item-repost-counter span, #login_block_ajax .m-item-repost-counter span, .popupdialog .content-item-likeblock .m-item-repost-counter span, .popupdialog .m-item-repost-counter span {
+	padding: 0px 8px 0px 5px; }
+.main-login-form .content-item-likeblock .m-item-repost-counter:hover, .main-login-form .m-item-repost-counter:hover, #content .main-login-form .content-item-likeblock .m-item-repost-counter:hover, #content .main-login-form .m-item-repost-counter:hover, #login_block_ajax .content-item-likeblock .m-item-repost-counter:hover, #login_block_ajax .m-item-repost-counter:hover, .popupdialog .content-item-likeblock .m-item-repost-counter:hover, .popupdialog .m-item-repost-counter:hover {
+    text-decoration: none; }
+.main-login-form .social_login, #content .main-login-form .social_login, #login_block_ajax .social_login, .popupdialog .social_login {
+    padding: 10px 0px 0px 0px; }
+
+#login_block_ajax {
+	max-width: 423px; }
+#login_block_ajax .mt_popup_ok {
+    display: none; }
+#login_block_ajax .main-login-form a.label, #login_block_ajax .main-login-form label a {
+    text-decoration: none; }
+
+#login_block_ajax_read_more {
+	display: block;
+	border: 1px solid #e9e9e9;
+	margin: 20px 0px; }
+#login_block_ajax_read_more.readmore .main-login-form .main {
+    /*display:none;*/ }
+
+#login_block_ajax_read_more .main-login-form .header {
+	padding: 25px 30px 0px 30px; }
+#login_block_ajax_read_more .main-login-form .header h3 {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: normal; }
+#login_block_ajax_read_more .main-login-form .header .tab-header a {
+    font-size: 14px;
+    height: 35px;
+    margin: 9px 24px 0 0; }
+
+#login_block_ajax_read_more .main-login-form .main {
+	background: #fff; }
+
+#login_block_ajax_read_more .main-login-form .fsubhead {
+	border-bottom: none;
+	padding-bottom: 30px; }
+
+#login_block_ajax_read_more .main-login-form .check input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 6px;
+	margin-right: 10px; }
+
+#login_block_ajax_read_more .main-login-form .row {
+	margin-left: 0;
+	margin-right: 0; }
+#login_block_ajax_read_more .main-login-form .row.with-margin {
+    margin-top: 13px;
+    margin-bottom: 15px; }
+
+#login_block_ajax_read_more .main-login-form .sectionLabel {
+	padding: 12px 0px 16px 0px; }
+#login_block_ajax_read_more .main-login-form .sectionLabel a {
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 1px dotted #0099CC; }
+#login_block_ajax_read_more .main-login-form .sectionLabel a:hover {
+	text-decoration: none; }
+
+#login_block_ajax_read_more .main-login-form input {
+	height: 35px;
+	margin-bottom: 4px; }
+
+#login_block_ajax_read_more .main-login-form .col.text-r {
+	padding-top: 7px; }
+
+#login_block_ajax_read_more.readmore .main-login-form .sectionLabel {
+	padding: 12px 0px 15px 0px; }
+
+#login_block_ajax_read_more.readmore .main-login-form .fsubhead {
+	padding: 13px 30px 0px 30px; }
+
+#login_block_ajax_read_more.readmore .main-login-form .social_login_colored {
+	padding: 0px 0px 30px 30px; }
+
+#login_block_ajax_read_more.readmore .main-login-form .main {
+	padding: 0px 30px 13px 30px; }
+
+.suggest-form .header, .suggest-form .mt_popup_reg-login-body {
+	padding: 2em; }
+
+.suggest-form .no-top-padding {
+	padding-top: 0em; }
+
+.suggest-form .row {
+	min-height: inherit; }
+
+.suggest-form .row .row {
+	width: auto;
+	margin-left: -0.625em;
+	margin-right: -0.625em;
+	margin-top: 0;
+	margin-bottom: 0;
+	max-width: none; }
+
+.suggest-form .row.collapse {
+	padding-left: 0;
+	padding-right: 0; }
+
+.suggest-form .large-6 {
+	position: relative;
+	width: 50%; }
+
+.suggest-form .column, .suggest-form .columns {
+	float: left;
+	padding-left: 0.625em;
+	padding-right: 0.625em; }
+
+.suggest-form [class*="column"] + [class*="column"]:last-child {
+	float: right; }
+
+.suggest-form input[type="text"] {
+	width: 100%;
+	margin-bottom: 0px; }
+
+.suggest-form label.inline input[type="radio"], .suggest-form input[type="radio"] {
+	margin: 0px 4px 0px 20px;
+	width: 14px;
+	height: 14px;
+	position: relative;
+	top: 0px;
+	float: left; }
+
+.suggest-form select, .suggest-form .date-picker select {
+	width: 100%;
+	padding: 8px 4px;
+	margin-bottom: 20px;
+	border: 1px solid #cecece; }
+
+.suggest-form .date-picker select {
+	width: 49px;
+	float: left;
+	margin-right: 3px;
+	margin-bottom: 0px;
+	margin-top: 3px; }
+
+.suggest-form .date-picker select.day {
+	width: 50px; }
+
+.suggest-form .date-picker select.mounth {
+	width: 49px; }
+
+.suggest-form .date-picker select.year {
+	margin-right: 0;
+	width: 64px; }
+
+.suggest-form .date-picker select:last-child {
+	margin-right: 0px;
+	width: 65px; }
+
+.suggest-form .date-picker > label {
+	padding: 15px 0px 0px 0px; }
+
+.suggest-form p.text {
+	padding-bottom: 2em; }
+
+.suggest-form .poll_add_photo {
+	display: block; }
+
+.suggest-form .save-button {
+	margin: 0; }
+
+.suggest-form #suggestUserPhoto {
+	width: 100%; }
+
+.suggest-form #suggestForm {
+	margin: 0; }
+
+.mt-10 {
+	margin-top: 10px !important; }
+
+.find-friends label {
+	cursor: pointer;
+	float: none;
+	display: inline-block;
+	width: auto;
+	margin: 0;
+	padding: 0; }
+
+.find-friends .hbtn {
+	cursor: pointer;
+	width: auto; }
+
+.find-friends .header {
+	padding: 28px 37px 8px 37px; }
+
+.find-friends .fsubhead {
+	padding: 10px 36px 7px 36px; }
+
+.find-friends input[type="checkbox"] {
+	position: relative;
+	width: 18px;
+	height: 18px;
+	top: -1px;
+	margin: 0px 13px 0px 0px;
+	display: block;
+	float: left; }
+
+.find-friends .users-list li {
+	border-bottom: 1px solid #d2d2d2;
+	display: block;
+	margin: 0;
+	padding: 19px 36px 0px 36px;
+	height: 56px;
+	font-size: 12px; }
+.find-friends .users-list li label {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    display: inline-block; }
+.find-friends .users-list li input[type="checkbox"] {
+    top: 0px; }
+
+.find-friends .user-avatar {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top: -7px;
+	margin: 0px 10px 0px 0px;
+	display: block;
+	float: left; }
+
+.find-friends .user-name {
+	float: left;
+	max-width: 280px;
+	overflow: hidden;
+	text-overflow: ellipsis; }
+
+.find-friends .footer {
+	border: none;
+	padding: 24px 36px 8px 36px; }
+

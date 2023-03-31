@@ -1,0 +1,512 @@
+@font-face { font-family: 'Philosopher-Bold';  src: local('Philosopher-Bold'), url("urn:scrapbook:download:error:http://bloggerzlive.com/nomail.com.ua/files/woff/8c1d45b95e683ac107f6dc53444b19c6.woff")/*tpa=http://nomail.com.ua/files/woff/8c1d45b95e683ac107f6dc53444b19c6.woff*/ format('woff'); }
+@font-face { font-family: 'Philosopher-Italic';  src: local('Philosopher-Italic'), url("urn:scrapbook:download:error:http://bloggerzlive.com/nomail.com.ua/files/woff/72aa376558426fe13071a55fbaf2acf5.woff")/*tpa=http://nomail.com.ua/files/woff/72aa376558426fe13071a55fbaf2acf5.woff*/ format('woff'); }
+@font-face { font-family: 'Philosopher';  src: local('Philosopher'), url("urn:scrapbook:download:error:http://bloggerzlive.com/nomail.com.ua/files/woff/da344d60eeec3342a939cbbe77564179.woff")/*tpa=http://nomail.com.ua/files/woff/da344d60eeec3342a939cbbe77564179.woff*/ format('woff'); }
+body.disabled {
+overflow:hidden;
+}
+@-webkit-keyframes price_look-out {
+  0% {
+    opacity: 0;
+    width: 0; }
+  100% {
+    opacity: 1;
+    width: 290px; } }
+
+@keyframes price_look-out {
+  0% {
+    opacity: 0;
+    width: 0; }
+  100% {
+    opacity: 1;
+    width: 290px; } }
+.pop-up-wrap.active {
+  z-index: 1;
+  opacity: 1; }
+button {
+outline:none;
+}
+::-webkit-input-placeholder {color:darkgrey;}
+::-moz-placeholder          {color:darkgrey;}/* Firefox 19+ */
+:-moz-placeholder           {color:darkgrey;}/* Firefox 18- */
+:-ms-input-placeholder      {color:darkgrey;}
+.pop-up-wrap {
+  transition: .5s;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  line-height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  background-color: #000;
+  text-align: center;
+  opacity: 0;
+  z-index: -1; 
+}
+
+#pop-up-close_wrap {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0; }
+.bg-color {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  background-color: rgba(73, 73, 73, 0.48); }
+
+#pop-up-close_wrap.active {
+  opacity: 1;
+  z-index: 1; }
+  #pop-up-close_wrap.active #pop-up-close {
+    opacity: 1;
+    z-index: 1;
+    transition-delay: .5s;
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    transform: translateY(50px); }
+
+#pop-up-close_wrap {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0; }
+
+#pop-up-close {
+  transition: .5s ease;
+  top: -50px;
+  z-index: -1;
+  opacity: 0;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 1.2em;
+  position: relative;
+  border-radius: 10px;
+  max-width: 850px;
+  line-height: 1.5em;
+  padding: 90px 30px; }
+  #pop-up-close .pop-up-face {
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    top: -200px;
+    width: 300px; }
+    #pop-up-close .pop-up-face img {
+      width: 100%; }
+  #pop-up-close .notion {
+    font-size: 20px;
+    font-family:'Philosopher-Bold';
+    text-transform: uppercase;
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    top: -150px; 
+    left: 0;}
+  #pop-up-close .kerro-logo {
+    left: 0;
+    width: 100%;
+    text-align: center;
+    top: -80px;
+    position: absolute; }
+  #pop-up-close .caption {
+    font-family:'Philosopher-Bold';
+    text-transform: uppercase; 
+    position: relative;
+    color: #fff;}
+    #pop-up-close .caption p:first-child {
+      line-height: 1em;
+      font-size: 40px; }
+    #pop-up-close .caption p:last-child {
+      line-height: 1em;
+      font-size: 33px; }
+  #pop-up-close .txt {
+    font-family:'Philosopher-Italic';
+    color: #fff;
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 1em;
+        position: relative;}
+    #pop-up-close .txt .mark {
+      color: #e15a4d;
+    background: transparent;}
+  #pop-up-close .pop-btn {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    line-height: 80px;
+    text-shadow: 1px 1px 9px rgba(5, 5, 5, 0.41);
+    background: linear-gradient(180deg, rgba(0, 146, 27, 0.79) 0%, rgba(0, 56, 16, 0.79) 100%), #b2d008;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0 40px;
+    font-family: 'Philosopher-Bold', sans-serif;
+    font-size: 27px;
+    top: 20px;
+    font-weight: 700; 
+    text-transform:uppercase;}
+  #pop-up-close .activate-coupon {
+    left: 0;
+    width: 100%;
+    bottom: -20px;
+    z-index: 1;
+    position: absolute; }
+  #pop-up-close .pop-up-clouds {
+    bottom: -250px;
+    margin-left: -30%;
+    width: 160%;
+    position: absolute;
+    z-index: -1; }
+    #pop-up-close .pop-up-clouds img {
+      width: 100%; }
+    #pop-up-close_s2_wrap .form-box input.error {
+    background: #ecafaf;
+    text-shadow: 1px 1px 1px #000;
+}
+@media only screen and (max-width: 1440px) {
+  #pop-up-close_wrap .notion {
+    font-size: 16px;
+    line-height: 1em;
+    left: 0;
+    top: -170px; }
+  #pop-up-close {
+    top: 25px;
+    padding: 50px; }
+  #pop-up-close_wrap .caption {
+    font-size: 33px; }
+  #pop-up-close_wrap .pop-btn {
+    line-height: 60px;
+    font-size: 26px; }
+  #pop-up-close_wrap .kerro-logo {
+    top: -115px; }
+    #pop-up-close_wrap .kerro-logo img {
+      width: 360px; }
+  #pop-up-close_wrap .txt {
+    font-size: 28px; }
+  #pop-up-close .caption p:first-child {
+    font-size: 36px; }
+  #pop-up-close .caption p:last-child {
+    font-size: 29px; }
+  #pop-up-close_wrap .txt {
+    font-size: 22px; } }
+
+@media only screen and (max-width: 767px) {
+  #pop-up-close {
+    top: 0; }
+  #pop-up-close_wrap .kerro-logo,
+  #pop-up-close_wrap .notion,
+  #pop-up-close_wrap .pop-up-face {
+    display: none; }
+  .price-notion {
+    display: inline-block; }
+  #pop-up-close_wrap .pop-up-clouds {
+    bottom: -100px; }
+  #pop-up-close_wrap .pop-btn {
+    line-height: 1em;
+    padding: 15px 50px;
+    font-size: 21px; }
+  #pop-up-close_wrap .txt {
+    font-size: 23px; }
+  #pop-up-close_wrap .caption {
+    font-size: 31px; }
+  #pop-up-close {
+    top: -30px; }
+  #pop-up-close {
+    padding: 50px 20px; } }
+
+@media only screen and (max-width: 424px) {
+  #pop-up-close .activate-coupon {
+    bottom: -40px; }
+  #pop-up-close_wrap .txt {
+    font-size: 19px; }
+  #pop-up-close_wrap .pop-btn {
+    padding: 15px;
+    font-size: 16px;
+    width: 100%; } }
+#pop-up-close_s2_wrap.active {
+  opacity: 1;
+  z-index: 1; }
+  #pop-up-close_s2_wrap.active #pop-up-close_s2 {
+    opacity: 1;
+    z-index: 1;
+    transition-delay: .5s;
+    -webkit-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    transform: translateY(50px); }
+  #pop-up-close_s2_wrap.active .price-notion-box {
+    -webkit-animation: price_look-out 1s forwards;
+    animation: price_look-out 1s forwards;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s; }
+
+#pop-up-close_s2_wrap {
+  line-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  opacity: 0;
+  z-index: -1;
+  transition: .5s; }
+  #pop-up-close_s2_wrap #pop-up-close_s2 {
+    opacity: 0;
+    transition: .5s;
+    top: -50px;
+    border-radius: 10px;
+    padding: 40px 40px 20px;
+    line-height: 1em;
+    background-color: rgba(73, 73, 73, 0.48);
+    box-shadow: inset 0 1px 1px 1px rgba(255, 255, 255, 0.1), inset 0 -1px 1px 1px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    max-width: 850px; }
+  #pop-up-close_s2_wrap .pop-up-face {
+    left: 0;
+    z-index: -1;
+    position: absolute;
+    top: -200px;
+    width: 300px; }
+    #pop-up-close_s2_wrap .pop-up-face img {
+      width: 100%; }
+  #pop-up-close_s2_wrap .caption {
+    line-height: 1em;
+    position: relative;
+    text-transform: uppercase;
+    font-family:'Philosopher-Bold';
+        color: #fff;
+    font-size: 40px; }
+  #pop-up-close_s2_wrap .mark {
+    color: #bc4e44;
+    background: transparent;}
+  #pop-up-close_s2_wrap .pop-up_form {
+    margin-top: 30px; }
+  #pop-up-close_s2_wrap .form-box {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    #pop-up-close_s2_wrap .form-box input, #pop-up-close_s2_wrap .form-box select {
+      text-transform: uppercase;
+      border: none;
+      line-height: 60px;
+      padding: 0 25px;
+      width: 100%;
+      font-family:'Philosopher-Italic';
+      font-weight: 700;
+      font-size: 27px; }
+      #pop-up-close_s2_wrap .form-box select {
+        padding: 16px 25px;
+        color: darkgrey;
+      }
+      #pop-up-close_s2_wrap .form-box input:focus {
+        box-shadow: 1px 1px 17px 2px rgb(102, 54, 115) inset;
+      }
+  #pop-up-close_s2_wrap .notion {
+    font-size: 20px;
+    font-family:'Philosopher-Bold';
+        color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: -190px; 
+    line-height: 1.2;}
+  #pop-up-close_s2_wrap .kerro-logo {
+    width: 100%;
+    text-align: center;
+    top: -127px;
+    position: absolute; }
+  #pop-up-close_s2_wrap .form {
+    position: relative; }
+    #pop-up-close_s2_wrap .form .name,
+    #pop-up-close_s2_wrap .form .sign,
+    #pop-up-close_s2_wrap .form .phone {
+      margin-top: 20px;
+      max-width: 400px; }
+  #pop-up-close_s2_wrap .form-submit {
+    position: relative;
+    bottom: -29px;
+    width: 100%; }
+    #pop-up-close_s2_wrap .form-submit .pop-btn {
+      position: relative;
+    display: inline-block;
+    color: #fff;
+    line-height: 80px;
+    text-shadow: 1px 1px 9px rgba(5, 5, 5, 0.41);
+    background: linear-gradient(180deg, rgba(0, 146, 27, 0.79) 0%, rgba(0, 56, 16, 0.79) 100%), #b2d008;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0 40px;
+    font-size: 27px;
+    text-transform: uppercase;
+    border: none;
+    top: 6px;
+      font-family:'Philosopher-Bold';
+      }
+  #pop-up-close_s2_wrap .price-notion {
+    position: relative; }
+    #pop-up-close_s2_wrap .price-notion img {
+      position: relative;
+      z-index: 9;
+    width: 168px;}
+  #pop-up-close_s2_wrap .price-notion-box {
+    width: 0;
+    opacity: 0;
+    overflow: hidden;
+    top: 60px;
+    right: 180px;
+    position: absolute;
+    background-color: #2b2928;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family:'Philosopher-Bold';
+    line-height: 1em;
+    border: 1px solid #ffffff;
+    box-shadow: 21px 21px 33px 2px rgba(5, 5, 5, 0.69);
+    text-align: left;
+    padding: 10px 20px;
+    -webkit-transform: rotateZ(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotateZ(10deg);
+    -webkit-transform-origin: right;
+    -ms-transform-origin: right;
+    transform-origin: right; }
+    #pop-up-close_s2_wrap .price-notion-box p {
+      width: 300px;
+    color: #fff;}
+    #pop-up-close_s2_wrap .price-notion-box p:last-child {
+      color: #c74c41; }
+  #pop-up-close_s2_wrap .new-price {
+    position: relative;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family:'Philosopher-Bold';
+    line-height: 1em;
+        color: #fff;
+    text-transform: uppercase; }
+    #pop-up-close_s2_wrap .new-price .upper {
+      font-size: 50px; }
+  #pop-up-close_s2_wrap .old-price {
+    position: relative;
+    line-height: 1em;
+    color: #707070;
+    font-size: 20px;
+    font-family:'Philosopher-Bold';
+    margin-top: 10px;
+    text-transform: uppercase; }
+    #pop-up-close_s2_wrap .old-price .upper {
+      font-size: 33px; }
+  #pop-up-close_s2_wrap .pop-up-clouds {
+    bottom: -250px;
+    margin-left: -30%;
+    width: 160%;
+    position: absolute;
+    z-index: -1; }
+    #pop-up-close_s2_wrap .pop-up-clouds img {
+      width: 100%; }
+
+@media only screen and (max-width: 1440px) {
+  #pop-up-close_s2_wrap .notion {
+    font-size: 16px;
+    line-height: 1em;
+    top: -170px; }
+  #pop-up-close_s2_wrap #pop-up-close_s2 {
+    top: 50px; }
+  #pop-up-close_s2_wrap .caption {
+    font-size: 33px; }
+  #pop-up-close_s2_wrap .form-box input {
+    line-height: 45px;
+    font-size: 21px; }
+  #pop-up-close_s2_wrap .pop-up_form {
+    margin-top: 25px; }
+  #pop-up-close_s2_wrap .form-submit .pop-btn {
+    line-height: 60px;
+    font-size: 26px; }
+  #pop-up-close_s2_wrap .kerro-logo {
+    top: -115px; }
+    #pop-up-close_s2_wrap .kerro-logo img {
+      width: 360px; } }
+
+@media only screen and (max-width: 1280px) {
+  @-webkit-keyframes price_look-out {
+    0% {
+      opacity: 0;
+      width: 0; }
+    100% {
+      opacity: 1;
+      width: 230px; } }
+  @keyframes price_look-out {
+    0% {
+      opacity: 0;
+      width: 0; }
+    100% {
+      opacity: 1;
+      width: 230px; } }
+  #pop-up-close_s2_wrap #pop-up-close_s2 {
+    max-width: 610px; }
+  #pop-up-close_s2_wrap .price-notion-box {
+    font-size: 21px; } }
+@media only screen and (max-width: 1072px) {
+    #pop-up-close_s2_wrap .pop-up-clouds {
+        width: 100%;
+        left: 50%;
+        margin-left: -50%;
+    }
+}
+@media only screen and (max-width: 767px) {
+  #pop-up-close_s2_wrap .kerro-logo,
+  #pop-up-close_s2_wrap .notion,
+  #pop-up-close_s2_wrap .pop-up-face {
+    display: none; }
+  .price-notion {
+    display: inline-block; }
+  #pop-up-close_s2_wrap #pop-up-close_s2 {
+    top: -80px; }
+  #pop-up-close_s2_wrap .price-notion-box.anim {
+    -webkit-animation: none;
+    animation: none; }
+  #pop-up-close_s2_wrap .price-notion-box {
+    margin: 20px 0 15px;
+    width: auto;
+    position: static;
+    display: block;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    right: 70px; }
+    #pop-up-close_s2_wrap .price-notion-box p {
+      width: auto; }
+  #pop-up-close_s2_wrap .form-submit .pop-btn {
+    font-size: 16px; }
+  #pop-up-close_s2_wrap .pop-up-clouds {
+    bottom: -100px; } }
+@media only screen and (max-width: 442px) {
+    #pop-up-close_s2_wrap .form-submit .pop-btn {
+        line-height: 18px;
+        padding: 15px;
+        top: 0;
+    }
+}
+@media only screen and (max-width: 424px) {
+  #pop-up-close_s2_wrap .form-submit .pop-btn {
+    line-height: 1em;
+    padding: 15px; } }

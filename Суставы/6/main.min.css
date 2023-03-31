@@ -1,0 +1,161 @@
+/* Code tidied up by ScrapBook */
+.wrapper{
+  min-width: 480px;
+  overflow: hidden;
+}
+* { margin: 0px; padding: 0px; list-style-type: none; box-sizing: border-box; }
+:-moz-placeholder { color: rgb(102, 102, 102); opacity: 1; }
+*::-moz-placeholder { color: rgb(102, 102, 102); opacity: 1; }
+body input:focus:required:invalid, body textarea:focus:required:invalid { color: rgb(102, 102, 102); }
+body input:required:valid, body textarea:required:valid { color: rgb(102, 102, 102); }
+body { font-family: Roboto; color: rgb(0, 0, 0); font-weight: 100;line-height: 1.6; }
+.official { background: rgba(0, 0, 0, 0) url("logo.png") no-repeat scroll 7% 50%; padding: 42px 15px; font-weight: 100; }
+.official p { padding-left: 85px; text-transform: uppercase; }
+.official p.top { font-size: 10px; color: rgb(133, 135, 135); padding-bottom: 5px; }
+.official p.bottom { color: rgb(39, 39, 39); font-size: 12px; }
+.left_aside { z-index: 20; position: fixed; top: 0px; left: 0px; width: 300px; height: 100%; box-shadow: 4px 0px 8px 0px rgba(0, 0, 0, 0.15); display: flex; -moz-box-orient: vertical; -moz-box-direction: normal; flex-direction: column; background: rgb(255, 255, 255) none repeat scroll 0% 0%; -moz-box-pack: justify; justify-content: space-between; }
+.left_aside .menu li { font-size: 16px; padding: 17px 0px 17px 55px; border-top: 1px solid rgb(190, 201, 217); background: rgba(0, 0, 0, 0) url("arr.png") no-repeat scroll 7% 50%; cursor: pointer; }
+.left_aside .menu li:hover { background: rgb(3, 33, 83) url("arr.png") no-repeat scroll 7% 50%; color: rgb(255, 255, 255); }
+.left_aside .menu2 { margin-bottom: 40px; }
+.left_aside .menu2 li { background: rgb(3, 33, 83) url("email.png") no-repeat scroll 7% 50%; color: rgb(255, 255, 255); padding: 10px 10px 10px 60px; font-size: 14px; width: 260px; margin: auto auto 5px; cursor: pointer; }
+.left_aside .footer { border-top: 1px solid rgb(208, 208, 208); width: 260px; font-size: 12px; color: rgb(118, 118, 118); padding: 5px 0px; margin: auto; background: rgba(0, 0, 0, 0) url("page.jpg") no-repeat scroll right center; font-family: "OpenSans"; font-weight: 400; }
+.right_aside { position: fixed; top: 0px; right: 0px; width: 300px; height: 100%; background: rgb(3, 33, 83) none repeat scroll 0% 0%; display: flex; -moz-box-orient: vertical; -moz-box-direction: normal; flex-direction: column; -moz-box-pack: justify; justify-content: space-between; color: rgba(255, 255, 255, 0.85); }
+.right_aside .search { height: 48px; background: rgb(37, 60, 102) url("lupa.jpg") no-repeat scroll right top; cursor: pointer; }
+.right_aside .blog { font-weight: 100; font-size: 26px; text-align: center; margin-bottom: 10px; margin-top: 45px; }
+.right_aside .ministr { display: block; margin: auto; }
+.right_aside .name { font-size: 16px; padding: 30px 10px 0px 45px; font-weight: 100; }
+.right_aside .job { font-size: 12px; padding: 15px 30px 0px 45px; }
+.right_aside .visit { text-decoration: none; color: rgba(11, 38, 83, 0.85); background: rgba(255, 255, 255, 0.85) none repeat scroll 0% 0%; font-size: 14px; padding: 7px 15px; font-family: OpenSans; font-weight: bold; margin: 15px 0px 0px 45px; display: block; width: 205px; text-align: center; }
+.right_aside .visit:hover { background: rgba(255, 255, 255, 0.75) none repeat scroll 0% 0%; }
+.right_aside .calendar { display: flex; -moz-box-pack: justify; justify-content: space-between; margin-bottom: 15px; }
+.right_aside .calendar .date { font-size: 18px; width: 50px; margin-left: 55px; }
+.right_aside .calendar .date span { font-size: 16px; margin-top: -3px; display: block; }
+.right_aside .calendar .what { width: 173px; font-family: OpenSans; font-size: 14px; margin-right: 10px; }
+.right_aside .footer { height: 80px; background: rgb(37, 60, 102) url("soc.jpg") no-repeat scroll center center; display: block; }
+.middle { width: 100%; padding: 0px 300px; }
+.middle .official { display: none; }
+.middle .header { background: rgb(229, 234, 238) none repeat scroll 0% 0%; display: flex; -moz-box-pack: justify; justify-content: space-between; }
+.middle .header .nav { display: flex; justify-content: space-around; }
+.middle .header .nav li a { color: rgb(1, 1, 1); font-family: OpenSans; font-size: 12px; font-weight: 300; line-height: 18px; text-decoration: none; padding: 16px 15px; display: block; }
+.middle .header .nav li:first-child a { padding-left: 40px; }
+.middle .header .nav li:last-child a { text-decoration: underline; color: rgb(57, 67, 29); }
+.middle .header .nav2 { display: flex; -moz-box-pack: end; justify-content: flex-end; }
+.middle .header .nav2 li:first-child { border-left: 1px solid rgb(255, 255, 255); }
+.middle .header .nav2 li:first-child a { background: rgba(0, 0, 0, 0) url("eye.png") no-repeat scroll center center; display: block; height: 100%; width: 45px; }
+.middle .header .nav2 li:nth-child(2) { border-left: 1px solid rgb(255, 255, 255); }
+.middle .header .nav2 li:nth-child(2) a { background: rgba(0, 0, 0, 0) url("mob.png") no-repeat scroll center center; display: block; height: 100%; width: 45px; }
+.middle .header .nav2 li:nth-child(3) a { background: rgb(3, 33, 83) url("ru.jpg") no-repeat scroll center center; display: block; height: 100%; width: 65px; }
+.middle .wrap { padding: 0px 200px 0px 50px; }
+.middle .wrap h2 { color: rgb(11, 38, 83); font-size: 28px; font-weight: 400; line-height: 24px; padding: 40px 0px 25px; }
+.middle .wrap .date { font-size: 12px; font-weight: 400; line-height: 24px; color: rgb(255, 255, 255); padding: 0px 5px; background: rgb(11, 38, 83) none repeat scroll 0% 0%; width: 86px; text-align: center; }
+.middle .wrap h3 { color: rgb(1, 1, 1); font-family: OpenSans; font-size: 18px; font-weight: 700; line-height: 24px; padding: 5px 30px 20px 0px; }
+.middle .wrap .text { font-family: OpenSans; font-size: 14px; font-weight: 400; line-height: 26px; padding-bottom: 27px; }
+.middle .wrap .text span { font-weight: bold; }
+.middle .wrap .text.pdr { padding-right: 10px; }
+.middle .wrap .text.pdr2 { padding-right: 120px; }
+.middle .wrap .img { margin-bottom: 30px; }
+.middle .wrap .img img { width: 100%; }
+.middle .wrap .bold { background: rgba(11, 38, 83, 0.15) none repeat scroll 0% 0%; margin-bottom: 30px; padding: 20px 50px 20px 20px; font-family: OpenSans; font-size: 16px; line-height: 24px; font-weight: 400; }
+.middle .wrap .bold span { font-weight: bold; }
+.middle .wrap .forma { background: rgb(11, 38, 83) none repeat scroll 0% 0%; padding: 50px 0px; margin-bottom: 55px; }
+.middle .wrap .forma .order_form { width: 440px; margin: auto; }
+.middle .wrap .forma .order_form input { width: 100%; padding: 21px 0px 21px 83px; border: medium none; outline: medium none; margin-bottom: 24px; color: rgb(218, 222, 229); font-family: OpenSans; font-size: 16px; font-weight: 400; line-height: 18px; text-transform: uppercase; }
+.middle .wrap .forma .order_form input::-moz-placeholder { color: rgb(218, 222, 229); }
+.middle .wrap .forma .order_form input:-moz-placeholder { color: rgb(218, 222, 229); }
+.middle .wrap .forma .order_form input[type="text"] { background: rgba(255, 255, 255, 0.08) url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustavitin/apteki-sustavitin-2/img/name.png") no-repeat scroll left top; }
+.middle .wrap .forma .order_form input[type="tel"] { background: rgba(255, 255, 255, 0.08) url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustavitin/apteki-sustavitin-2/img/tel.png") no-repeat scroll left top; }
+.middle .wrap .forma .order_form .order_button { border: medium none; outline: medium none; background: rgb(218, 222, 229) url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustavitin/apteki-sustavitin-2/css/case.png") no-repeat scroll right top; color: rgb(11, 38, 83); font-family: OpenSans; font-size: 18px; font-weight: 700; line-height: 18px; padding: 20px 77px 20px 18px; cursor: pointer; transition: all 0.5s ease 0s; margin-top: 20px; }
+.middle .wrap .forma .order_form .order_button:hover { background: rgb(255, 255, 255) url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustavitin/apteki-sustavitin-2/css/case.png") no-repeat scroll right top; }
+.middle .wrap .go_to { display: block; text-decoration: none; width: 440px; margin: 20px auto 48px; background: rgb(11, 38, 83) url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustavitin/apteki-sustavitin-2/img/arrow.png") no-repeat scroll right top; color: rgb(255, 255, 255); font-family: OpenSans; font-size: 18px; font-weight: 700; line-height: 18px; text-transform: uppercase; padding: 20px 70px 20px 25px; transition: all 0.5s ease 0s; }
+.middle .wrap .go_to:hover { background: rgb(181, 196, 222) url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustavitin/apteki-sustavitin-2/img/arrow.png") no-repeat scroll right top; color: rgb(11, 38, 83); }
+.middle .wrap .share { background: rgba(0, 0, 0, 0) url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustavitin/apteki-sustavitin-2/img/social.jpg") no-repeat scroll 0% 38%; padding-bottom: 30px; cursor: pointer; width: 310px; }
+.middle .wrap .share .sharee { font-size: 21px; font-family: OpenSans; font-weight: 700; padding: 10px 0px 70px 5px; }
+.middle .wrap .share .small { font-size: 14px; font-family: OpenSans; font-weight: 400; padding-left: 5px; }
+@media all and (max-width: 1490px) {
+  .middle .wrap { padding: 0px 20px; }
+}
+@media all and (max-width: 1250px) {
+  .left_aside, .right_aside { display: none; }
+  .middle { padding: 0px; }
+  .middle .official { display: block; padding: 22px 15px; background-position: 2% 50%; }
+  .middle .header .nav li:first-child a { padding-left: 20px; }
+}
+@media all and (max-width: 560px) {
+  #form{
+    width: 100% !important;
+  }
+  table img{
+    width: 100px;
+  }
+    .border-red{
+      padding: 10px;
+    }
+  .Genrik91_k2XdOzZlq1 > p,
+  .border-red{
+    font-size: 24px;
+  }
+  .vote-block-head span{
+    display: block;
+  }
+  .vk-comment-text {
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: normal;
+}
+table,
+.vk-comment-text{
+  color: #000 !important;
+}
+  table,
+  center img{
+    max-width: 100% !important
+  }
+  .middle .wrap{
+    box-sizing: border-box !important;
+  }
+  .vk-comment-name {
+    font-size: 20px !important;
+}
+.vk-comment-load,
+  .vk-comment{
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .middle .official p { font-size: 15px; }
+  .middle .header { height: 60px; display: flex; -moz-box-pack: end; justify-content: flex-end; }
+  .middle .header .nav { display: none; }
+  .middle .wrap h2 { padding: 20px 0px 25px; font-size: 32px; }
+  .middle .wrap .date { font-size: 16px; width: 96px; }
+  .middle .wrap h3 { font-size: 20px; }
+  .middle .wrap .text { font-size: 17px; line-height: 23px; }
+  .middle .wrap .text.pdr, .middle .wrap .text.pdr2 { padding-right: 0px; }
+}
+.form_title { padding: 0px !important; margin-bottom: 15px; color: rgb(255, 255, 255) !important; text-align: center; }
+
+
+table { max-width: 800px; margin: 0px auto; box-shadow: 2px 3px 8px 0px rgba(105, 105, 105, 0.39); }
+th, td { border-color: rgb(189, 189, 189); }
+.tg { border-collapse: collapse; border-spacing: 0px; }
+.tg td { font-family: Arial,sans-serif; font-size: 14px; padding: 10px 5px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; }
+.tg th { font-family: Arial,sans-serif; font-size: 14px; font-weight: normal; padding: 10px 5px; border-style: solid; border-width: 1px; overflow: hidden; word-break: normal; }
+.tbg1 { background: rgb(180, 237, 255) none repeat scroll 0% 0%; }
+.tbg2 { background: rgb(235, 250, 255) none repeat scroll 0% 0%; }
+
+p {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.head { font: bold 24px/100% "RussiaLight",sans-serif; }
+
+.vk-container { font-family: tahoma,arial,verdana,sans-serif,Lucida Sans; font-size: 15px; color: black; text-decoration: none; }
+.vk-header { background: rgb(218, 226, 232) none repeat scroll 0% 0%; padding: 4px 4px 4px 6px; margin-bottom: 10px; }
+.vk-logo { background: transparent none no-repeat scroll 0% 0%; width: 16px; height: 16px; float: right; margin-top: -1px; }
+.vk-header-text { padding: 2px 3px 1px; line-height: 100%; color: rgb(69, 104, 142); font-weight: bold; }
+.vk-avatar img { float: left; margin-right: 10px; }
+.vk-comment, .vk-comment-load { margin-bottom: 15px; position: relative; border-bottom: 1px solid rgb(218, 225, 232); padding-bottom: 15px; }
+.vk-comment:last-child { border-bottom: 0px none; }
+.vk-comment-name { color: rgb(43, 88, 122); font-weight: bold; font-size: 12px; }
+.vk-comment-text { margin-left: 60px; }
+.vk-comment-date { margin-left: 60px; color: rgb(153, 153, 153); }

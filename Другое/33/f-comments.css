@@ -1,0 +1,235 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.entry-comments-wrap {
+position: relative;
+}
+.entry-comments-wrap .row-cont,
+.entry-comments-wrap .row-cont:before,
+.entry-comments-wrap .row-cont:after {
+background-color: #fffbf5;
+}
+.entry-comments-wrap .row-shadow,
+.entry-comments-wrap .row-shadow:before,
+.entry-comments-wrap .row-shadow:after {
+height: 3px;
+background: #fffbf5 url("urn:scrapbook:download:error:http://bloggerzlive.com/abbg/vogueAdel/img/x-fold-axis-bgs.png")/*tpa=http://tvblogi.org/vogueAdel/img/x-fold-axis-bgs.png*/ 0 0 repeat-x;
+}
+.entry-comments-wrap:before {
+content: '';
+position: absolute; top: 0; left: 0;
+width: 100%; height: 4px;
+}
+.entry-comments {
+padding: 40px 0;
+font: 15px/24px "PTSerif-Regular", serif;
+}
+.entry-comments .comment-text {
+overflow: hidden;
+}
+.entry-comments .comment-text iframe,
+.entry-comments .comment-text object,
+.entry-comments .comment-text img,
+.entry-comments .comment-text ul {
+margin-bottom: 20px;
+}
+.entry-comments .comment-text img {
+max-width: 100%;
+}
+.entry-comments .comment-text a {
+color: #202472; text-decoration: none;
+}
+.entry-comments .comment-text a:hover {
+color: #202472; text-decoration: underline;
+}
+
+.entry-comments a:hover {
+color: #202472;
+}
+.entry-comments h2 {
+float: left;
+width: 450px;
+margin-bottom: 0;
+font: 14px/24px "CirceWeb-Regular", sans-serif; -webkit-font-smoothing: antialiased;
+}
+.entry-comments h2 strong {
+display: block;
+margin-bottom: 10px;
+font: 14px/20px "CirceWeb-ExtraBold", sans-serif; text-transform: uppercase; letter-spacing: 1px;
+}
+.entry-comments .g-line {
+margin-bottom: 20px;
+width: 100%; height: 1px;
+background-color: #e5af48;
+}
+.entry-comments .header {
+position: relative;
+margin-bottom: 16px;
+}
+.entry-comments .w-icon-comment {
+position: absolute; right: 0; bottom: -6px;
+font: 14px/24px "CirceWeb-Regular", sans-serif; color: #262626;
+}
+.entry-comments .w-icon-comment:hover {
+color: #262626;
+}
+.entry-comments .w-icon-comment:hover span {
+text-decoration: underline;
+}
+.entry-comments .w-icon-comment:before {
+top: 3px;
+color: #cad0d5; font-size: 20px;
+}
+.entry-comments .comment {
+position: relative;
+padding-bottom: 30px;
+}
+.entry-comments .comment .author-image {
+position: absolute; top: 5px; left: 0; z-index: 10;
+height: 52px;
+}
+.entry-comments .author-image img {
+background: rgba(0,0,0,.03);
+-webkit-border-radius: 50%; border-radius: 50%;
+}
+
+.entry-comments .comment .entry-data {
+position: relative;
+padding: 0 50px 0 66px;
+min-height: 50px;
+}
+
+.entry-comments .comment-form { padding-left: 66px; }
+.entry-comments .comment-it,
+.entry-comments .comment-toggle {
+position: absolute; bottom: 25px; z-index: 10;
+font: 12px/18px "CirceWeb-Regular", sans-serif;
+}
+.entry-comments .comment-it {
+display: none;
+left: 66px; width: 100px;
+color: #c89534;
+}
+.entry-comments .comment-it:hover {
+color: #c89534; text-decoration: underline;
+}
+
+.entry-comments .comment-rating {
+position: absolute; top: 0; right: -2px; z-index: 10;
+width: 22px;
+padding: 25px 0;
+color: #b2b2b2; text-align: center; font-weight: bold; font-size: 12px;  -webkit-font-smoothing: antialiased;
+}
+.entry-comments .comment-rating:hover {
+color: #262626;
+}
+.entry-comments .comment-rating a {
+color: #b2b2b2;
+}
+.entry-comments .comment-rating .up,
+.entry-comments .comment-rating .down {
+display: none;
+position: absolute; right: 0;
+width: 22px; height: 22px;
+background: url("sprite.png")/*tpa=http://tvblogi.org/vogueAdel/img/sprite.png*/ -260px -250px;
+text-align: left; text-indent: -999em;
+}
+.entry-comments .comment:hover .up,
+.entry-comments .comment:hover .down,
+.entry-comments .comment:hover .comment-it,
+.entry-comments .comment:hover .comment-toggle {
+display: block;
+}
+.entry-comments .comment-rating .up {
+top: 0;
+}
+.entry-comments .comment-rating .up:hover {
+background-position: -260px -220px;
+}
+.entry-comments .comment-rating .down {
+bottom: 0;
+background-position: -290px -250px;
+}
+.entry-comments .comment-rating .down:hover {
+background-position: -290px -220px;
+}
+
+.entry-comments .comment-toggle {
+display: none;
+right: 50px; width: 100px;
+cursor: pointer; text-align: right;
+}
+.entry-comments .comment-toggle:hover{
+color: #f00; text-decoration: underline;
+}
+.entry-comments .comment-form .comment-form-textfield {
+margin-bottom: 16px; padding: 0px 0 0 2px;
+}
+.entry-comments .entry-comment-form {
+position: relative;
+margin-top: -20px; padding-top: 20px;
+}
+.entry-comments .entry-comment-form .author-image {
+top: 18px;
+}
+.entry-comments .comment-form textarea {
+position: relative; top: -2px;
+display: block;
+padding: 5px 10px;
+width: 530px; height: 7em;
+border: 0; border: 1px solid #c0c0c0;
+-webkit-box-shadow:inset 0 2px 2px rgba(192, 192, 192, 0.4);
+-moz-box-shadow:inset 0 2px 2px rgba(192, 192, 192, 0.4);
+box-shadow:inset 0 2px 2px rgba(192, 192, 192, 0.4);
+font: 14px/24px "Arial", sans-serif;
+}
+.entry-comments .comment-form button {
+float: right;
+}
+.entry-comments .comment-sublevel {
+margin-left: 70px;
+}
+.entry-comments .comment-meta {
+margin-bottom: 4px;
+font: 15px/24px "CirceWeb-Regular", sans-serif;
+}
+.entry-comments .comment-meta .time {
+margin-left: 6px;
+color: #b2b2b2;
+}
+.entry-comments .comment-meta a {
+<<<<<<< HEAD
+color: #000; font: normal 15px "CirceWeb-ExtraBold", sans-serif; -webkit-font-smoothing: antialiased;
+=======
+color: #000; font: 15px "CirceWeb-ExtraBold", sans-serif;
+>>>>>>> 429d6cccbcdeda9f96aab27f3b71d4596f07dd62
+}
+.entry-comments .comment-meta .link-to-comment {
+color: #b2b2b2; font-weight: normal; display: none;
+font: 15px/24px "CirceWeb-Regular", sans-serif;
+}
+.entry-comments .comment:hover .comment-meta .link-to-comment {
+display: inline-block;
+}
+
+.entry-comments .conversation-rules {
+color: #b2b2b2; font-size: 12px; line-height: 16px;
+}
+.entry-comments .conversation-rules a {
+color: #b2b2b2; text-decoration: underline;
+}
+.entry-comments .conversation-rules a:hover {
+color: #003cff;
+}
+.entry-comments .negative,
+.entry-comments .negative a {
+color: #b2b2b2;
+}
+.entry-comments .comment-removed .entry-data,
+.entry-comments .comment-removed .entry-data a,
+.entry-comments .comment-removed .comment-meta .time,
+.app-comments-loading .comment.removed .entry-data,
+.app-comments-loading .comment.removed .entry-data a,
+.app-comments-loading .comment.removed .comment-meta .time {
+color: #f00;
+}

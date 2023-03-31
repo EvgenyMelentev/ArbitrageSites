@@ -1,0 +1,21 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "Roboto";
+  font-weight: 100;
+  src: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustavitin/apteki-sustavitin-2/fonts/RobotoCondensedLight.eot"), url("RobotoCondensedLight.ttf"), url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustavitin/apteki-sustavitin-2/fonts/RobotoCondensedLight.woff"), url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustavitin/apteki-sustavitin-2/fonts/RobotoCondensedLight.woff2");
+}
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustavitin/apteki-sustavitin-2/fonts/RobotoCondensedRegular.eot"), url("RobotoCondensedRegular.ttf"), url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustavitin/apteki-sustavitin-2/fonts/RobotoCondensedRegular.woff"), url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustavitin/apteki-sustavitin-2/fonts/RobotoCondensedRegular.woff2");
+}
+@font-face {
+  font-family: "OpenSans";
+  font-weight: 400;
+  src: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustavitin/apteki-sustavitin-2/fonts/OpenSansRegular.eot"), url("OpenSansRegular.ttf"), url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustavitin/apteki-sustavitin-2/fonts/OpenSansRegular.woff");
+}
+@font-face {
+  font-family: "OpenSans";
+  font-weight: 700;
+  src: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustavitin/apteki-sustavitin-2/fonts/OpenSansBold.eot"), url("OpenSansBold.ttf"), url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustavitin/apteki-sustavitin-2/fonts/OpenSansBold.woff");
+}

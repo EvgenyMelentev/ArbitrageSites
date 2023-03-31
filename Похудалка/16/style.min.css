@@ -1,0 +1,640 @@
+
+html {
+ overflow-x: hidden;
+ }
+body {
+ margin: 0px;
+ padding: 0px;
+ color: rgb(59, 59, 59);
+ font: 15px Arial;
+ background: url("bg_body.jpg")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/bg_body.jpg*/ repeat scroll 0% 0% transparent;
+ position: relative;
+ }
+h1, h2, h3, h4 {
+ padding: 0px;
+ margin: 0px;
+ font-weight: normal;
+ }
+ul {
+ margin: 0px;
+ padding: 0px;
+ list-style: none outside none;
+ }
+a {
+ color: #0070E1;
+ text-decoration: none;
+ }
+a:hover {
+ text-decoration: underline;
+ }
+img {
+ border: medium none;
+ vertical-align: bottom;
+ }
+input, textarea {
+ outline: medium none;
+ resize: none;
+ }
+#grad_top {
+ background: url("bg_grad_top.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/bg_grad_top.png*/ repeat-x scroll center top transparent;
+ }
+#grad_bot {
+ background: url("bg_grad_bot.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/bg_grad_bot.png*/ repeat-x scroll center bottom transparent;
+ padding-top: 29px;
+ }
+#wrapper {
+ width: 1010px;
+ margin: 0px auto;
+ background: url("wrapper_bg.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/wrapper_bg.png*/ repeat-y scroll 0% 0% transparent;
+ position: relative;
+ box-shadow: 0px 0px 38px rgb(0, 0, 0);
+ padding: 15px 0px;
+ }
+#wrapper_top {
+ background: url("wrapper_top.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/wrapper_top.png*/ no-repeat scroll 0% 0% transparent;
+ width: 1016px;
+ height: 74px;
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ margin: -3px 0px 0px -3px;
+ }
+#wrapper_bot {
+ background: url("wrapper_bot.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/wrapper_bot.png*/ no-repeat scroll 0% 0% transparent;
+ width: 1016px;
+ height: 74px;
+ position: absolute;
+ bottom: 0px;
+ left: 0px;
+ margin: 0px 0px -3px -3px;
+ }
+#container {
+ width: 974px;
+ margin: 0px auto;
+ position: relative;
+ z-index: 1;
+ }
+#header {
+ width: 974px;
+ height: 331px;
+ background: url("header.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/header.png*/ no-repeat scroll center top transparent;
+ position: relative;
+ }
+#menu {
+ background: url("menu_bg.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/menu_bg.png*/ no-repeat scroll 0% 0% transparent;
+ width: 974px;
+ height: 53px;
+ position: absolute;
+ left: 0px;
+ bottom: 0px;
+ }
+#menu ul {
+ line-height: 53px;
+ padding-left: 20px;
+ }
+#menu ul li {
+ float: left;
+ margin-right: 7px;
+ }
+#menu ul li a {
+ display: inline-block;
+ line-height: 32px;
+ padding: 0px 17px;
+ font-size: 13px;
+ color: rgb(44, 39, 35);
+ text-shadow: 1px 1px 0px rgb(201, 186, 171);
+ text-decoration: none;
+ border-radius: 10px;
+ }
+#menu ul li a:hover, #menu ul li.current-menu-item a {
+ background: url("urn:scrapbook:download:error:http://bloggerzlive.com/onetwoslim/eu/lv/housewife/img/menu_item_act.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/menu_item_act.png*/ repeat-x scroll 0% 0% transparent;
+ color: rgb(255, 255, 255);
+ text-shadow: 1px 1px 0px rgb(44, 39, 35);
+ }
+#search {
+ background: url("search_bg.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/search_bg.png*/ no-repeat scroll 0% 0% transparent;
+ width: 211px;
+ height: 33px;
+ position: absolute;
+ top: 9px;
+ right: 15px;
+ }
+#search input[type="text"] {
+ font: italic 12px/33px Arial;
+ background: none repeat scroll 0% 0% transparent;
+ border: medium none;
+ height: 33px;
+ padding: 0px 10px;
+ color: rgb(221, 209, 198);
+ width: 170px;
+ }
+#search input[type="image"] {
+ position: absolute;
+ top: 11px;
+ right: 12px;
+ }
+#main {
+ overflow: hidden;
+ margin-top: 9px;
+ padding-bottom: 17px;
+ }
+#content {
+ float: left;
+ margin: 0 10px 0 230px;
+ }
+.post {
+ margin-bottom: 15px;
+ box-shadow: 0px 1px 2px rgb(131, 121, 102);
+ border-radius: 10px;
+ }
+.post_title {
+ background: url("post_title_bg.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/post_title_bg.png*/ repeat-x scroll 0% 0% transparent;
+ height: 41px;
+ line-height: 41px;
+ border-radius: 10px 10px 0px 0px;
+ padding-left: 16px;
+ text-shadow: 1px 1px 0px rgb(255, 255, 255);
+ color: rgb(66, 59, 54);
+ }
+.post_title h1, h2, h3 {
+ display: inline;
+ }
+.post_title a {
+ color: rgb(153, 153, 153);
+ text-decoration: underline;
+ font-size: 14px;
+ }
+.post_title a:hover {
+ text-decoration: none;
+ }
+.post_title h1, h2, h3 a {
+ color: #3B3B3B;
+ font-size: 24px;
+ font-weight: bold;
+
+ }
+.post_body {
+ background: none repeat scroll 0% 0% rgb(255, 255, 255);
+ border-radius: 0px 0px 10px 10px;
+ overflow: hidden;
+ padding: 13px 16px;
+ }
+.post_body img {
+ }
+.post_body p {
+ margin: 0px 0px 10px;
+ }
+#col_left {
+ float: left;
+ width: 211px;
+ margin-left: -976px;
+ }
+.side_block {
+ margin-bottom: 10px;
+ border-radius: 10px;
+ box-shadow: 0px 1px 2px rgb(131, 121, 102);
+ padding: 0px;
+ }
+.side_block_title1, .side_block_title2 {
+ height: 51px;
+ text-align: center;
+ line-height: 45px;
+ color: rgb(255, 255, 255);
+ font-size: 13px;
+ text-shadow: 1px 1px 0px rgb(36, 34, 31);
+ background: url("side_title1.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/side_title1.png*/ no-repeat scroll 0% 0% transparent;
+ }
+.side_block_title2 {
+ background: url("urn:scrapbook:download:error:http://liwebloggerz.com/dietdrink/domohozyajka/img/side_title2.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/side_title2.png*/ no-repeat scroll 0% 0% transparent;
+ }
+.side_block_body {
+ background: url("side_block_bg.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/side_block_bg.png*/ repeat-x scroll center bottom rgb(255, 255, 255);
+ border-radius: 10px;
+ margin-top: -6px;
+ padding: 10px 0px 16px;
+ position: relative;
+ z-index: 2;
+ }
+.category {
+ padding: 0px 14px;
+ }
+.category li {
+ background: url("a1.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/a1.png*/ no-repeat scroll left center transparent;
+ padding-left: 20px;
+ line-height: 25px;
+ }
+.category li a {
+ font-size: 13px;
+ color: rgb(67, 60, 55);
+ }
+#tabs {
+ height: 51px;
+ overflow: hidden;
+ position: relative;
+ z-index: 1;
+ }
+#tabs li {
+ float: left;
+ background: url("urn:scrapbook:download:error:http://liwebloggerz.com/dietdrink/domohozyajka/img/tabs_bg.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/tabs_bg.png*/ repeat-x scroll 0% 0% transparent;
+ height: 51px;
+ line-height: 45px;
+ text-align: center;
+ width: 105px;
+ cursor: pointer;
+ font-size: 13px;
+ color: rgb(183, 166, 166);
+ }
+#tabs li span {
+ border-bottom: 1px dashed rgb(183, 166, 166);
+ }
+#tabs li.active, #tabs li:hover {
+ background: url("urn:scrapbook:download:error:http://liwebloggerz.com/dietdrink/domohozyajka/img/tabs_act_bg.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/tabs_act_bg.png*/ repeat-x scroll 0% 0% transparent;
+ color: rgb(255, 255, 255);
+ }
+#tabs li.active span, #tabs li:hover span {
+ border: medium none;
+ }
+#tabs li.tab_left {
+ border-radius: 10px 0px 0px;
+ }
+#tabs li.tab_right {
+ border-radius: 0px 10px 0px 0px;
+ width: 106px;
+ }
+.box {
+ display: none;
+ }
+.visible {
+ display: block;
+ }
+#wp-calendar {
+ margin-left: 1px;
+ width: 209px;
+ border-collapse: collapse;
+ margin-bottom: -3px;
+ }
+#wp-calendar caption {
+ text-shadow: 0px 1px 1px rgb(195, 195, 195);
+ font-size: 14px;
+ color: rgb(51, 51, 51);
+ margin-bottom: 10px;
+ }
+#wp-calendar thead th {
+ background: none repeat scroll 0% 0% rgb(242, 242, 242);
+ color: rgb(136, 126, 126);
+ font-size: 8px;
+ height: 20px;
+ }
+#wp-calendar tbody td {
+ border-width: 1px;
+ border-style: solid;
+ border-color: rgb(187, 187, 187);
+ height: 28px;
+ text-align: center;
+ width: 28px;
+ background: url("urn:scrapbook:download:error:http://liwebloggerz.com/dietdrink/domohozyajka/img/day_bg.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/day_bg.png*/ repeat-x scroll 0% 0% transparent;
+ color: rgb(28, 26, 26);
+ text-shadow: 0px 1px 1px rgb(195, 195, 195);
+ }
+#wp-calendar tbody td a {
+ background: url("urn:scrapbook:download:error:http://liwebloggerz.com/dietdrink/domohozyajka/img/day_bg_in.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/day_bg_in.png*/ repeat-x scroll 0% 0% transparent;
+ display: block;
+ line-height: 27px;
+ color: rgb(28, 26, 26);
+ font-weight: 700;
+ text-shadow: 0px 1px 1px rgb(195, 195, 195);
+ height: 26px;
+ }
+#wp-calendar tfoot {
+ display: none;
+ }
+#wp-calendar .pad {
+ background: url("urn:scrapbook:download:error:http://liwebloggerz.com/dietdrink/domohozyajka/img/day_empty.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/day_empty.png*/ repeat-x scroll 0% 0% transparent;
+ }
+#col_right {
+ float: left;
+ width: 211px;
+ margin-left: -217px;
+ }
+.subscribe {
+ padding-left: 7px;
+ width: 197px;
+ }
+.subscribe > span {
+ display: block;
+ padding-left: 42px;
+ background: url("urn:scrapbook:download:error:http://liwebloggerz.com/dietdrink/domohozyajka/img/subscribe_icon.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/subscribe_icon.png*/ no-repeat scroll 6px 0px transparent;
+ color: rgb(121, 108, 108);
+ font-size: 11px;
+ min-height: 29px;
+ margin-bottom: 12px;
+ }
+.subscribe_form {
+ position: relative;
+ }
+.subscribe_form input[type="text"] {
+ font: 12px/35px Arial;
+ background: url("urn:scrapbook:download:error:http://liwebloggerz.com/dietdrink/domohozyajka/img/subscribe_input.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/subscribe_input.png*/ no-repeat scroll 0% 0% transparent;
+ width: 113px;
+ height: 35px;
+ border: medium none;
+ padding: 0px 74px 0px 10px;
+ color: rgb(136, 136, 136);
+ }
+.subscribe_form input[type="submit"] {
+ font: 12px Arial;
+ position: absolute;
+ top: 0px;
+ right: 0px;
+ background: url("urn:scrapbook:download:error:http://liwebloggerz.com/dietdrink/domohozyajka/img/subscribe_button.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/subscribe_button.png*/ no-repeat scroll 0% 0% transparent;
+ width: 64px;
+ height: 35px;
+ color: rgb(255, 255, 255);
+ border: medium none;
+ cursor: pointer;
+ }
+.soc {
+ padding-left: 7px;
+ color: rgb(121, 108, 108);
+ font-size: 11px;
+ }
+.soc ul {
+ overflow: hidden;
+ margin-right: -20px;
+ }
+.soc ul li {
+ float: left;
+ margin-right: 20px;
+ }
+.latest {
+ }
+.latest li {
+ overflow: hidden;
+ padding: 1px;
+ margin-bottom: 20px;
+ }
+.latest li img {
+ box-shadow: 0px 1px 1px rgb(0, 0, 0);
+ border-radius: 10px;
+ margin-bottom: 10px;
+ }
+.latest li a {
+ color: rgb(66, 59, 54);
+ font-weight: bold;
+
+ }
+.info {
+ background: url("urn:scrapbook:download:error:http://liwebloggerz.com/dietdrink/domohozyajka/img/info_bg.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/info_bg.png*/ repeat-x scroll 0% 0% transparent;
+ margin: 10px -16px -13px;
+ border-radius: 0px 0px 10px 10px;
+ line-height: 35px;
+ padding-left: 16px;
+ color: rgb(132, 132, 132);
+ text-shadow: 1px 1px 0px rgb(255, 255, 255);
+ }
+.info ul {
+ overflow: hidden;
+ }
+.info ul li {
+ float: left;
+ margin-right: 28px;
+ }
+.rel_posts, .comments {
+ margin-bottom: 20px;
+ }
+.rel_posts > span, .comments > span, .add_comment_form > span {
+ color: rgb(73, 66, 59);
+ font-size: 20px;
+ margin-bottom: 12px;
+ display: block;
+ }
+.rel_posts ul {
+ overflow: hidden;
+ padding: 0px 0px 1px 1px;
+ margin-right: -28px;
+ }
+.rel_posts ul li {
+ float: left;
+ margin-right: 18px;
+ position: relative;
+ background: none repeat scroll 0% 0% rgb(255, 255, 255);
+ padding: 9px 8px;
+ border-radius: 10px;
+ box-shadow: 0px 1px 1px rgb(0, 0, 0);
+ }
+.rel_posts ul li img {
+ border-radius: 7px;
+ }
+.rel_posts ul li a {
+ display: block;
+ position: absolute;
+ left: 8px;
+ right: 8px;
+ bottom: 9px;
+ text-align: center;
+ color: rgb(255, 255, 255);
+ font-size: 11px;
+ background: url("urn:scrapbook:download:error:http://liwebloggerz.com/dietdrink/domohozyajka/img/rel_post_title.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/rel_post_title.png*/ repeat scroll 0% 0% transparent;
+ padding: 5px 3px;
+ border-radius: 0px 0px 7px 7px;
+ }
+.add_comment_form textarea {
+ font: 12px Arial;
+ background: url("urn:scrapbook:download:error:http://liwebloggerz.com/dietdrink/domohozyajka/img/comment_textarea.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/comment_textarea.png*/ no-repeat scroll 0% 0% transparent;
+ width: 494px;
+ height: 114px;
+ border: medium none;
+ padding: 10px;
+ color: rgb(98, 98, 98);
+ }
+.add_comment_form ul {
+ overflow: hidden;
+ margin-right: -18px;
+ }
+.add_comment_form ul li {
+ float: left;
+ margin: 0px 18px 14px 0px;
+ }
+.add_comment_form input[type="text"] {
+ font: 12px/45px Arial;
+ color: rgb(98, 98, 98);
+ background: url("urn:scrapbook:download:error:http://liwebloggerz.com/dietdrink/domohozyajka/img/comment_input.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/comment_input.png*/ no-repeat scroll 0% 0% transparent;
+ width: 139px;
+ height: 45px;
+ padding: 0px 10px;
+ border: medium none;
+ }
+.button {
+ text-align: right;
+ }
+.button input[type="submit"] {
+ font: 12px Arial;
+ color: rgb(255, 255, 255);
+ background: url("urn:scrapbook:download:error:http://liwebloggerz.com/dietdrink/domohozyajka/img/button.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/button.png*/ no-repeat scroll 0% 0% transparent;
+ width: 185px;
+ height: 43px;
+ cursor: pointer;
+ border: medium none;
+ }
+#footer {
+ width: 1010px;
+ margin: 0px auto;
+ height: 106px;
+ position: relative;
+ }
+#copy {
+ position: absolute;
+ background: url("urn:scrapbook:download:error:http://liwebloggerz.com/dietdrink/domohozyajka/img/copy.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/copy.png*/ no-repeat scroll left top transparent;
+ top: 24px;
+ left: 32px;
+ padding: 35px 0px 0px 40px;
+ color: rgb(220, 210, 200);
+ text-shadow: 1px 1px 0px rgb(52, 36, 21);
+ }
+#counter {
+ position: absolute;
+ top: 40px;
+ right: 24px;
+ }
+.koldsu {
+ margin: 10px;
+ padding: 5px;
+ border: 1px solid rgb(153, 153, 153);
+ border-radius: 10px;
+ box-shadow: 2px 2px 3px rgb(153, 153, 153);
+ background-position: 20px 50%;
+ background-repeat: no-repeat;
+ }
+.koldsu {
+ background-color: rgb(255, 255, 255);
+ }
+ }
+h1 {
+ font-size: 14px;
+ }
+.recentcomments a {
+ display: inline ! important;
+ padding: 0px ! important;
+ margin: 0px ! important;
+ }
+cufon {
+ text-indent: 0px ! important;
+ }
+@media screen, projection {
+
+cufon {
+ display: inline-block ! important;
+ position: relative ! important;
+ vertical-align: middle ! important;
+ font-size: 1px ! important;
+ line-height: 1px ! important;
+ }
+cufon cufontext {
+ display: inline-block ! important;
+ width: 0px ! important;
+ height: 0px ! important;
+ overflow: hidden ! important;
+ text-indent: -10000in ! important;
+ }
+cufon canvas {
+ position: relative ! important;
+ }
+ 
+ .vk-container {
+ font-family: tahoma,arial,verdana,sans-serif,Lucida Sans;
+ font-size: 11px;
+ line-height: 17px;
+ color: black;
+ text-decoration: none;
+ }
+.vk-header {
+color: #949696;
+text-align: center;
+ border-bottom: 1px solid #DAE1E8;
+ padding: 4px 4px 4px 6px;
+ margin-bottom: 10px;
+ }
+.vk-logo {
+ background: url("urn:scrapbook:download:error:http://liwebloggerz.com/dietdrink/domohozyajka/img/vk-logo.gif")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/vk-logo.gif*/ no-repeat scroll 0% 0% transparent;
+ width: 16px;
+ height: 16px;
+ float: right;
+ margin-top: -1px;
+ }
+.vk-header-text {
+ padding: 2px 3px 1px;
+ line-height: 100%;
+ color: rgb(69, 104, 142);
+ font-weight: bold;
+ }
+.vk-avatar img {
+ float: left;
+ margin-right: 10px;
+ }
+.vk-comment, .vk-comment-load {
+ margin-bottom: 15px;
+ position: relative;
+ border-bottom: 1px solid rgb(218, 225, 232);
+ padding-bottom: 15px;
+ }
+.vk-comment:last-child {
+ border-bottom: 0px none;
+ }
+.vk-comment-name {
+ color: rgb(43, 88, 122);
+ }
+.vk-comment-text {
+ margin-left: 60px;
+ }
+.vk-comment-date {
+ margin-left: 60px;
+ color: rgb(153, 153, 153);
+ }
+.vk-comment-like {
+ position: absolute;
+ right: -5px;
+ bottom: 10px;
+ background: url("like_001_001.png")/*tpa=http://bloggerspot.info/5599/domohozyajka/img/like_001_001.png*/ no-repeat scroll left center transparent;
+ width: 30px;
+ height: 16px;
+ display: inline-block;
+ }
+.vk-comment-like:hover {
+ opacity: 0.5;
+ cursor: pointer;
+ }
+.vk-comment-like-count {
+ padding-left: 14px;
+ font-weight: bold;
+ color: rgb(114, 149, 178);
+ font-size: 10px;
+ }
+.vk-comment-answer {
+ color: rgb(43, 88, 122);
+ }
+.vk-comment-answer:hover {
+ opacity: 0.5;
+ cursor: pointer;
+ }
+
+ .button{
+ background-color: #D7C8BA;
+ border-radius: 5px;
+ margin: 15px;
+ text-align:center;
+ padding:10px 20px;
+ color:#000000;
+ font-weight:bold;
+ font-size:23px;
+}
+
+.button:hover{
+ background-color: #98826E;
+}
+
+.breadcrumbs {
+color: #cccccc;
+font-size: 12px;
+}
+ 
+

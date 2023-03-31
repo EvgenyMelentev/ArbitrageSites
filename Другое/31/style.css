@@ -1,0 +1,32 @@
+* {font-family:arial;font-size:11px;font-weight:bold;}
+a {text-decoration:none;color: #7c0505;}
+a:hover {text-decoration:underline;}
+html {background-color:#0d0d0d;width:100%;font:tahoma;}
+body {width:1024px;margin:auto; background:#0d0d0d;}
+#header {width:1024px;height:490px;display:block;background:url("header.jpg")/*tpa=http://novosti-blog.ru/abbelt/images/header.jpg*/ no-repeat;}
+#authorization {margin:auto;width:290px;height:13px;padding: 423px 0 0 0;text-align:center;}
+#breadcrumbs {width:312px;height:13px;background:url("arrow.gif")/*tpa=http://novosti-blog.ru/abbelt/images/arrow.gif*/ no-repeat left;padding:0 0 0 13px;margin:13px 0 0 33px;}
+.page_numbers {width:50px;height:17px;float:left;padding:5px 0 0 33px;}
+.button_top {width:176px;height:23px;float:left;padding:5px 0 0 735px;}
+#posts {width:963px;padding:1px 0 0 33px;}
+.post_header {background:url("post_header.jpg")/*tpa=http://novosti-blog.ru/abbelt/images/post_header.jpg*/ no-repeat;width:963px;height:83px;}
+#breadcrumbs_postheader {width:150px;height:13px;background:url("arrow.gif")/*tpa=http://novosti-blog.ru/abbelt/images/arrow.gif*/ no-repeat left bottom;padding:12px 0 0 13px;margin-left:13px;float:left;}
+#header_options {float:left;width:109px;height:31px;padding:3px 0 0 670px;}
+.profil {width:140px;background:url("profil.jpg")/*tpa=http://novosti-blog.ru/abbelt/images/profil.jpg*/ no-repeat left top;margin:12px 4px 0 13px;padding-left:20px;float:left;}
+.like {margin:15px 0 0 13px;float:left;}
+.post_body {background:url("post_body_bg.jpg")/*tpa=http://novosti-blog.ru/abbelt/images/post_body_bg.jpg*/ repeat-y;width:963px;}
+.left {float:left;width:155px;padding:10px;}
+.avatar {width:70px;height:70px;padding:5px 0 0 10px;}
+.status {padding:5px 0 0 10px;}
+.flow {padding:5px 0 0 10px;}
+.discription {padding:5px 0 0 10px;}
+.right {float:left;width:765px;padding:10px;font-size:13px;}
+.right a {font-size:13px;}
+.mes_button a {display:block;width:398px;height:101px;background:url("7-1.jpg")/*tpa=http://novosti-blog.ru/abbelt/images/photos/7.jpg*/ no-repeat top;}
+.mes_button a:hover {display:block;width:398px;height:101px;background:url("7-1.jpg")/*tpa=http://novosti-blog.ru/abbelt/images/photos/7.jpg*/ no-repeat bottom; text-decoration:none;}
+.post_footer {background:url("post_footer.jpg")/*tpa=http://novosti-blog.ru/abbelt/images/post_footer.jpg*/ no-repeat;width:963px;height:30px;}
+.privat {float:left;width:43px;height:16px;padding:9px 0 0 5px;}
+.move_to_top {float:left;width:18px;height:16px;padding:9px 0 0 129px;}
+.citata {float:left;width:114px;height:19px;padding:6px 0 0 650px;}
+#footer {width:963px;height:100px;background:url("footer_bg.jpg")/*tpa=http://novosti-blog.ru/abbelt/images/footer_bg.jpg*/ bottom;margin:0 0 0 33px;}
+#menu_footer {text-align:center;padding-top:33px;}

@@ -1,0 +1,393 @@
+body {
+background: url("bg.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+		margin: 8px auto;
+		
+font-family: roboto,sans-serif;
+line-height: 1.4;
+color: #222;
+    min-width: 230px;
+}
+.content {
+background-color: #F7E8EF;
+max-width: 1022px;
+width:100%;
+margin:0 auto;
+}
+
+p {text-align: justify;}
+
+.header {
+width:100% ;
+
+}
+.text-header {
+width:100%;
+}
+.right-bar {
+width:260px;
+float: right;
+}
+.right-bar p {text-align: center}
+.text-content {
+float: left;
+width:70%;
+padding:0px 10px 10px 10px;
+}
+.span-header {
+margin-top:-23px;
+margin-left:30px;
+color: #696969;
+}
+.span-header2 {
+margin-top:10px;
+color: #696969;
+font-size:23px;
+}
+.img-text {
+    width: 460px;
+border: double 3px #C380AC;
+}
+.imgtext2 {
+border-right: 2px solid #C380AC;
+padding: 2px 10px;
+margin: 5px auto;
+background-color: #EBD3E1;
+text-align: center;
+display: block;
+border-left: 2px solid #C380AC;
+width: 85%;
+}
+.text-h2 {
+background-color: #854BB2;
+
+color:#FCFCFC;
+line-height: 1.2;
+margin-top: -5px;
+margin-bottom: 5px;
+}
+.text-h2-2 {
+background-color: #854BB2;
+color:#FCFCFC;
+line-height: 1.2;
+margin-bottom: -15px;
+}
+.snoska {
+width:100%;
+padding:0px;
+background-color: #EBD3E1;
+}
+.snoska img {
+float:left;
+margin-right:10px;
+}
+.span-right {
+float:right;
+margin-right:5px;
+color:#2D2D2D;
+text-align: right;
+}
+.hr {
+background-color: #CCC;
+height: 2px;
+margin:5px;
+} 
+.h2-coment {
+padding-left:35px;
+}
+.coment-autor {
+width:100%;
+padding-left:40px;
+margin-bottom:-10px;
+
+}
+.coment-autor  span{
+}
+.coment-text {
+max-width:640px;
+background-color: #F7F2F5;
+margin-left:80px;
+padding:5px;
+border-radius:5px;
+}
+.futer {
+max-width: 1022px;
+width:100%;
+overflow: hidden;    padding-bottom: 40px;
+
+}
+.futer img{
+margin-bottom:-5px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.photo {
+    float: left;
+}
+.area {
+    margin-left: 75px;
+}
+.name {
+    background: none repeat scroll 0 0 rgb(250, 250, 250);
+    border: 1px solid #b4b4b4;
+    padding: 0 11px;
+}
+
+.name span {
+    color: rgb(185, 0, 0);
+    display: block;
+    line-height: 20px;
+}
+
+.item .time {
+    background: no-repeat scroll 0 50% transparent;
+    color: rgb(170, 170, 170);
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 0 0 0 20px;
+}
+
+.name span em {
+    color: rgb(158, 148, 148);
+    font-size: 12px;
+}
+.comment {
+    background: none repeat scroll 0 0 transparent;
+    border-color: #b4b4b4;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    padding: 5px 0 6px 11px;
+}
+
+.comment p {
+    font-size: 13px;
+    margin: 0;
+    padding: 5px;
+}
+
+.comment img {
+    display: block;
+    margin-top: 15px;
+	
+}
+
+
+
+
+
+
+
+.comment1 {
+ width: 100%;
+ position: relative;
+ float: left;
+ height: auto;
+ margin-top: 15px;
+ }
+.comment1 img {
+ position: relative;
+ float: left;
+ width: 64px;
+/* height: 66px;*/
+ margin-right: 16px;
+ border: 0px none;
+ }
+
+.phcom-form {
+background: rgba(53, 49, 49, 0.06) none repeat scroll 0% 0%;
+ padding: 15px;
+ border-radius: 8px;
+ }
+input.phcom-name-email {
+ width: 35%;
+ height: 23px;
+ font-size: 13px;
+ font-family: Helvetica;
+ padding: 7px 10px;
+ border-radius: 5px;
+ border: 1px solid rgb(241, 241, 241);
+ }
+ .styled-outline {
+ outline: 0px none ! important;
+ border: 1px solid rgb(204, 204, 204) ! important;
+ border-radius: 6px ! important;
+ transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s ! important;
+ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset ! important;
+ max-width: 99%;
+ padding: 7px;
+ }
+.styled-outline:focus {
+ outline: 0px none ! important;
+ border-color: rgba(79, 190, 226, 0.8) ! important;
+ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 6px rgba(79, 190, 226, 0.6) ! important;
+ }
+ button.leave-phcom-button {
+ background: transparent linear-gradient(to bottom, white 0%, rgb(229, 229, 229) 100%) repeat scroll 0% 0%;
+ border: 1px solid rgb(199, 199, 199);
+ height: 36px;
+ width: 184px;
+ cursor: pointer;
+ box-shadow: 0px 1px 1px white inset, 0px 1px 0px white;
+ border-radius: 5px;
+ color: rgb(112, 112, 112);
+ text-shadow: 1px 1px 0px white;
+ font-size: 12px;
+ }
+button.leave-phcom-button:hover {
+ box-shadow: 0px 1px 1px rgb(221, 221, 221) inset;
+ background: rgb(233, 233, 233) none repeat scroll 0% 0%;
+ }
+.leave-phcom-button a {
+ text-decoration: none;
+ color: grey;
+ }
+
+
+
+#blink2 {
+    -webkit-animation: blink2 1s linear infinite;
+    animation: blink2 1s linear infinite;
+}
+@-webkit-keyframes blink2 {
+    100% { color: rgba(34, 34, 34, 0); }
+}
+@keyframes blink2 {
+    100% { color: rgba(34, 34, 34, 0); }
+}
+
+.img1{margin-left:-65px; float:left; margin-top:125px;}
+.img2{width:100%;}
+.img3{margin-right:-75px; float:right; margin-top:100px;}
+.img4{width:300px; min-width:200px; border: double 3px #C380AC;}
+.img5{width:430px; min-width:200px; border: double 3px #C380AC;}
+.img6{width:365px; max-width:371px; min-width:200px;}
+.img7{width:65px; border-radius:8px;}
+.comment1 img.img8{width:184px;}
+.img9{margin-top:-8px;}
+
+.text1{font-size: 24px;}
+.text2{margin-top: 15px; margin-bottom: 15px;}
+
+.a-button{margin: 20px 0 15px;display: block;}
+.a-button img{max-width: 100%;}
+.for-button a{display: inline-block;}
+.for-button{margin-bottom: 1px;}
+.snoska p{padding: 2px 8px;margin: 14px 0;}
+
+.for-480{display: none;}
+
+
+@media screen and (max-width: 1200px){
+    .img1{display: none;}
+    .img3{display: none;}
+}
+
+
+
+@media screen and (max-width: 1000px){
+    .right-bar{display: none;}
+    .text-content {
+        float: none;
+        width: auto;
+    }
+    .comment1{
+        float: none;
+    }
+}
+
+
+
+
+@media screen and (max-width: 767px){
+    .futer{display: none;}
+    .styled-outline {
+        max-width: 97%;
+        padding: 7px;
+    }
+    input.phcom-name-email {
+        width: 97%;
+        padding: 7px;
+        margin-bottom: 10px;
+    }
+    .text2 {
+        margin-top: 1px;
+    }
+    p {text-align: left;}
+}
+
+
+@media screen and (max-width: 510px){
+    .img-text {
+        width: 96%;
+    }
+    .img5 {
+        width: 96%;
+    }
+    .img6 {
+        width: 90%;
+    }
+    .snoska img {
+        float: none;
+        margin: 10px auto;
+        display: block;
+    }
+    .h2-coment {
+        padding-left: 5px;
+    }
+    .h2-coment h2{
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    .styled-outline,input.phcom-name-email {
+        width: 94%;
+    }
+}
+
+@media screen and (max-width: 479px){
+    .img2{display: none;}
+    .for-480{display: block;width: 100%;}
+}
+
+
+@media screen and (max-width: 319px){
+    .text1 {
+        font-size: 20px;
+    }
+    .img4 {
+        width: 200px;
+    }
+    .text-h2,.text-h2-2 {
+        font-size: 18px;
+        padding: 5px 2px;
+    }
+    .photo {
+        float: none;
+    }
+    .area {
+        margin-left: 1px;
+    }
+    .name {
+        font-size: 14px;
+        padding: 0 7px;
+    }
+    .comment {
+        padding: 5px 0 6px 3px;
+    }
+    .styled-outline, input.phcom-name-email {
+        width: 92%;
+    }
+}

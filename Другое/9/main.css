@@ -1,0 +1,299 @@
+.clearfix {
+    *zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: "";
+}
+.clearfix:after {
+    clear: both;
+}
+.blocked{
+    display: none;
+}
+.desktop{
+    display: block;
+}
+.wrapper{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    max-width: 1000px;
+    font-family: "Myriad Pro Regular";
+    margin: 0 auto;
+
+}
+header img{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: block;
+}
+h1{
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+    margin: 15px 0 25px;
+    font-family: "Myriad Pro Regular";
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 0 25px;
+    font-family: "Myriad Pro Regular";
+}
+h4{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 10px;
+    font-family: "Myriad Pro Regular";
+}
+.content_link{
+    font-family: "Myriad Pro Regular";
+    padding: 0 10px;
+    color: #dc2f07;
+}
+.text{
+    font-size: 18px;
+    font-family: "Myriad Pro Regular";
+    line-height: 22px;
+    margin: 20px 0;
+}
+.container img{
+    margin: 0 auto 40px;
+
+}
+.content{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.twitter__container{
+    border-top: 1px solid;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 50px;
+}
+.line__index{
+    width: 20%;
+    font-weight: bold;
+    max-width: 100px;
+}
+.line__author{
+    width: 80%;
+    max-width: 140px;
+}
+.line{
+    display: block;
+    margin: 10px 0;
+
+}
+.line_border{
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+.twit{
+    width: 60%;
+    float: left;
+}
+.rating{
+    width: 30%;
+    float: right;
+}
+.comment{
+    background: #f5f5f5;
+    width: 100%;
+    font-family: "Myriad Pro Regular";
+
+}
+.comment__title{
+    font-size: 30px;
+}
+.comment__inner{
+    max-width: 700px;
+    margin: 0 auto;
+    width: 100%;
+    font-weight: bold;
+}
+.comment__head{
+    padding: 25px 0 20px;
+    border-bottom: 1px solid;
+    margin-top: 20px;
+
+}
+.comment__edit{
+    float: right;
+    width: 25px;
+}
+.comment__inner i{
+    color: #cccccc;
+}
+.commentary{
+    margin: 15px 0;
+}
+.commentary__img{
+    float: left;
+    margin: 0 45px;
+}
+.commentary__info{
+    width: 100%;
+    float: right;
+    max-width: 500px;
+    min-width: 100px;
+    background: #ffffff;
+    padding: 10px 10px 10px 20px;
+    position: relative;
+    font-weight: normal!important;
+}
+.commentary__info:before{
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #ffffff transparent transparent;
+}
+
+.container img{
+    display: block;
+}
+.comment{
+    font-family: "Myriad Pro Regular";
+    font-size: 18px;
+    line-height: 22px;
+
+}
+p a{
+    font-family: "Myriad Pro Regular";
+
+}
+
+
+footer{
+    display: block;
+    margin: 0 auto;
+    background: #262626;
+    text-align: center;
+}
+footer img{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 1360px){
+    footer img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1260px){
+    header img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1000px){
+    header{
+        /*width: 100%;*/
+    }
+    .container img{
+        width: 100%;
+        /*padding: 0 5px;*/
+    }
+    footer img{
+        width: 100%;
+    }
+    .add_comment{
+        width: 100%;
+    }
+    .commentary__info{
+        /*float: none;*/
+    }
+    .commentary__img{
+        position: relative;
+        z-index: 1;
+    }
+    .twitter__container{
+        max-width: none;
+        width: 60%;
+    }
+    .text{
+        padding: 0 10px;
+    }
+    .commentary__info{
+        font-size: 18px;
+    }
+    .rating, .twit{
+        float: none;
+        display: block;
+        margin: 10px auto;
+        width: 100%;
+        max-width: 320px;
+    }
+    .twitter__container{
+        width: 100%;
+        text-align: center;
+    }
+    .line{
+        font-size: 18px;
+        font-family: "Myriad Pro Regular";
+
+    }
+}
+@media screen and (max-width: 768px) {
+    .commentary__info{
+        width: 65%;
+        float: left;
+    }
+
+    .commentary__img{
+        margin: 0 15px;
+    }
+    .commentary__info{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 575px) {
+    .commentary__info{
+        /*width: 50%;*/
+        float: left;
+    }
+}
+@media screen and (max-width: 480px) {
+    .desktop{
+        display: none;
+    }
+    .blocked{
+        display: block;
+        width: auto;
+        border-bottom: 3px solid #262626;
+    }
+    .commentary__info {
+        width: 60%;
+    }
+    .comment__title{
+        font-size: 22px;
+    }
+    .add_comment{
+        display: none;
+    }
+}
+@media screen and (max-width: 370px){
+    .commentary__img{
+        float: none;
+        text-align: center;
+        margin: 15px auto;
+        display: block;
+    }
+    .commentary__info{
+        width: 94%;
+        float: none;
+        padding: 0 3%;
+    }
+    .blocked{
+        width: 100%;
+    }
+
+}

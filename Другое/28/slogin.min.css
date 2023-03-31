@@ -1,0 +1,287 @@
+div.slogin-clear {
+    clear: both;
+}
+
+.jlslogin #form-login-remember label {
+    float: none;
+    cursor: pointer;
+}
+
+.jlslogin #modlgn-remember {
+    display: inline-block;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: auto;
+}
+
+.jlslogin .button {
+    background: #00A8E6;
+    border: none;
+    display: inline-block;
+    letter-spacing: normal;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 0 12px;
+    color: #FFF;
+}
+
+.jlslogin #modlgn-passwd.inputbox,
+.jlslogin #modlgn-username.inputbox {
+    background: #FFF;
+    border: 1px solid #DDD;
+    color: #444;
+    height: 30px;
+    width: 100%;
+}
+
+.jlslogin #modlgn-username.inputbox {
+    padding: 0 0 0 5px;
+}
+
+.jlslogin .ul-jlslogin {
+    list-style: none;
+    padding: 5px 0 10px;
+    margin: 0
+}
+
+.jlslogin #modlgn-passwd.inputbox {
+    padding: 0 0 0 5px
+}
+
+.jlslogin .login-greeting {
+    padding: 0 0 5px
+}
+
+.jlslogin #login-form {
+    padding: 10px 0 0
+}
+
+.jlslogin .userdata #form-login-password label,
+.jlslogin .userdata #form-login-username label {
+    display: block;
+    float: left;
+    margin-right: 10px;
+    width: 20%
+}
+
+.jlslogin .slogin-compact span {
+    height: 49px;
+    width: 49px;
+    display: block;
+    border-radius: 1px;
+    line-height: 49px
+}
+
+.jlslogin .slogin-compact a,
+.jlslogin .slogin-compact a:hover {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    float: left
+}
+
+.jlslogin .slogin-compact a {
+    display: block;
+    margin: 5px 5px 0 0
+}
+
+.jlslogin .slogin-compact a:hover {
+    background: #f4f3f2
+}
+
+.slogin-default span {
+    height: 30px;
+    float: left;
+    display: inline-block
+}
+
+.slogin-default a,
+.slogin-default a:hover {
+    text-decoration: none;
+    float: left
+}
+
+.slogin-default a {
+    display: block;
+    padding: 0;
+    margin: 7px 4px 0 0;
+    text-decoration: none;
+    width: 130px;
+    line-height: 30px;
+    opacity: .8
+}
+
+.slogin-ico {
+    width: 30px
+}
+
+.text-socbtn {
+    padding-left: 4px;
+    color: #fff;
+    font-size: 13px
+}
+
+.linkgoogleslogin {
+    background-color: #DC4E41
+}
+
+.linkodnoklassnikislogin {
+    background-color: #f6851f
+}
+
+.linkvkontakteslogin {
+    background-color: #4e7299
+}
+
+.linkfacebookslogin {
+    background-color: #3a5795
+}
+
+.linkmailslogin {
+    background-color: #356ca4
+}
+
+.linktwitterslogin {
+    background-color: #00aeef
+}
+
+.linkyandexslogin {
+    background-color: #ff0303
+}
+
+.linklinkedinslogin {
+    background-color: #0077B5
+}
+
+.linkliveslogin {
+    background-color: #0072C6;
+}
+
+.linkuloginslogin {
+    background-color: #00a105;
+}
+
+.linkyahooslogin {
+    background-color: #409;
+}
+
+.linkwordpressslogin {
+    background-color: #474442;
+}
+
+.linkinstagramslogin {
+    background-color: #125688;
+}
+
+.jlslogin .slogin-default a:hover {
+    opacity: 1;
+}
+
+.slogin-buttons .facebookslogin,
+.slogin-buttons .googleslogin,
+.slogin-buttons .mailslogin,
+.slogin-buttons .odnoklassnikislogin,
+.slogin-buttons .twitterslogin,
+.slogin-buttons .vkontakteslogin {
+    opacity: .8;
+    background-repeat: no-repeat;
+}
+
+.slogin-buttons .googleslogin {
+    background-color: #DC4E41;
+}
+
+.slogin-buttons .odnoklassnikislogin {
+    background-color: #f6851f;
+}
+
+.slogin-buttons .vkontakteslogin {
+    background-color: #4e7299;
+}
+
+.slogin-buttons .facebookslogin {
+    background-color: #3a5795;
+}
+
+.slogin-buttons .mailslogin {
+    background-color: #356ca4;
+}
+
+.slogin-buttons .twitterslogin {
+    background-color: #00aeef;
+}
+
+.slogin-buttons .yandexslogin {
+    background-repeat: no-repeat;
+    opacity: .7;
+    background-color: #ff0303;
+}
+
+.slogin-buttons .instagramslogin,
+.slogin-buttons .linkedinslogin,
+.slogin-buttons .liveslogin,
+.slogin-buttons .uloginslogin,
+.slogin-buttons .wordpressslogin,
+.slogin-buttons .yahooslogin {
+    background-repeat: no-repeat;
+    opacity: .8;
+}
+
+.slogin-buttons .linkedinslogin {
+    background-color: #0077B5;
+}
+
+.slogin-buttons .liveslogin {
+    background-color: #0072C6;
+}
+
+.slogin-buttons .uloginslogin {
+    width: 49px!important;
+    height: 49px!important;
+    background-color: #00a105;
+}
+
+.slogin-avatar {
+    text-align: center;
+}
+
+.slogin-avatar img {
+    border: 1px solid silver;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+    margin: 0 0 10px;
+}
+
+.facebookslogin:hover,
+.googleslogin:hover,
+.instagramslogin:hover,
+.linkedinslogin:hover,
+.liveslogin:hover,
+.mailslogin:hover,
+.odnoklassnikislogin:hover,
+.slogin-buttons .twitterslogin:hover,
+.uloginslogin:hover,
+.vkontakteslogin:hover,
+.wordpressslogin:hover,
+.yahooslogin:hover,
+.yandexslogin:hover {
+    opacity: 1
+}
+
+.jlslogin input.button {
+    cursor: pointer;
+}
+
+.jlslogin input.button:hover {
+    background: #53b5de;
+}
+
+.jlslogin fieldset {
+    padding: 0;
+    border: 0;
+}

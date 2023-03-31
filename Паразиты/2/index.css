@@ -1,0 +1,117 @@
+/* ::::: http://livestoriez.com/int/real_story/files/css/style.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0px; padding: 0px; border: 0px none; font-size: 100%; vertical-align: baseline; }
+html { overflow-y: scroll; font-size: 100%; }
+hr { background-color: rgb(204, 204, 204); border: 0px none; height: 1px; margin: 24px 24px 1.71429rem; }
+img { border: 0px none; max-width: 100%;}
+mark {  }
+mark.yellow { background: yellow none repeat scroll 0% 0%; padding: 3px; }
+.entry-content img, .comment-content img, .widget img { max-width: 100%; vertical-align: top; margin: 15px 0px; }
+html { font-size: 87.5%; }
+body { font-size: 1rem; }
+.site { height: 100%; padding: 0px; }
+.site-content { margin: 1.71429rem 0px 0px; }
+.entry-content, .mu_register { line-height: 1.71429; }
+.entry-content h1, .comment-content h1, .entry-content h2, .comment-content h2, .entry-content h3, .comment-content h3, .entry-content h4, .comment-content h4, .entry-content h5, .comment-content h5, .entry-content h6, .comment-content h6 { margin: 1.71429rem 0px; line-height: 1.71429; }
+.entry-content h2, .comment-content h2 { font-size: 1.28571rem; line-height: 1.6; }
+.entry-content p, .comment-content p { margin: 0px 0px 1.71429rem; line-height: 1.71429; text-indent: 1.5em; }
+.comment p { margin: 0px; text-indent: 0px; }
+.site-content article { border-bottom: 4px double rgb(237, 237, 237); margin-bottom: 5.14286rem; padding-bottom: 1.71429rem; word-wrap: break-word; hyphens: auto; }
+.comment_content .comment { border-bottom: 1px solid rgb(238, 238, 238); clear: both; overflow: hidden; }
+.comment_content .comment > img { width: 65px; display: block; margin-right: 15px; float: left; }
+.comment_content .comment > div { margin-left: 90px; font-size: 15px; }
+span.rdate { font-size: 14px; float: right; color: rgb(119, 119, 119); }
+.hentry a.button { color: rgb(255, 255, 255) ! important; text-decoration: none; background: rgb(229, 78, 79) none repeat scroll 0% 0%; padding: 15px; }
+.cnn { position: relative; max-width: 100%; overflow: hidden; margin: 10px 0px; }
+.cnn img { width: 100%; }
+.cnn .logo { width: 110px; position: absolute; margin: 5px; top: 0px; right: 0px; }
+.cnn .logo img { width: inherit; height: inherit; }
+.cnn .ticker { position: absolute; width: 1000px; height: 40px; line-height: 38px; background: rgb(202, 32, 38) none repeat scroll 0% 0%; color: white; font-weight: 900; text-align: left; font-size: 22px; left: 0px; bottom: 0px; }
+.cnn .ticker span { line-height: 38px; color: white; overflow: hidden; animation: 10s linear 0s normal none infinite running cnn_ticker; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0px; padding: 0px; border: 0px none; font-size: 100%; vertical-align: baseline; }
+html { overflow-y: scroll; font-size: 100%; }
+hr { background-color: rgb(204, 204, 204); border: 0px none; height: 1px; margin: 24px 24px 1.71429rem; }
+img { border: 0px none; }
+mark {  }
+mark.yellow { background: yellow none repeat scroll 0% 0%; padding: 3px; }
+.entry-content img, .comment-content img, .widget img { max-width: 100%; vertical-align: top; margin: 15px 0px; }
+html { font-size: 87.5%; }
+body { font-size: 1rem; }
+.site { height: 100%; padding: 0px; }
+.site-content { margin: 1.71429rem 0px 0px; }
+.entry-content, .mu_register { line-height: 1.71429; }
+.entry-content h1, .comment-content h1, .entry-content h2, .comment-content h2, .entry-content h3, .comment-content h3, .entry-content h4, .comment-content h4, .entry-content h5, .comment-content h5, .entry-content h6, .comment-content h6 { margin: 1.71429rem 0px; line-height: 1.71429; }
+.entry-content h2, .comment-content h2 { font-size: 1.28571rem; line-height: 1.6; }
+.entry-content p, .comment-content p { margin: 0px 0px 1.71429rem; line-height: 1.71429; text-indent: 1.5em; }
+.comment p { margin: 0px; text-indent: 0px; }
+.site-content article { border-bottom: 4px double rgb(237, 237, 237); margin-bottom: 5.14286rem; padding-bottom: 1.71429rem; word-wrap: break-word; hyphens: auto; }
+.comment_content .comment { border-bottom: 1px solid rgb(238, 238, 238); clear: both; overflow: hidden; }
+.comment_content .comment > div { margin-left: 90px; font-size: 15px; }
+span.rdate { font-size: 14px; float: right; color: rgb(119, 119, 119); }
+.hentry a.button { color: rgb(255, 255, 255) ! important; text-decoration: none; background: rgb(229, 78, 79) none repeat scroll 0% 0%; padding: 15px; }
+.cnn { position: relative; max-width: 100%; overflow: hidden; margin: 10px 0px; }
+.cnn img { width: 100%; }
+.cnn .logo { width: 110px; position: absolute; margin: 5px; top: 0px; right: 0px; }
+.cnn .logo img { width: inherit; height: inherit; }
+.cnn .ticker { position: absolute; width: 1000px; height: 40px; line-height: 38px; background: rgb(202, 32, 38) none repeat scroll 0% 0%; color: white; font-weight: 900; text-align: left; font-size: 22px; left: 0px; bottom: 0px; }
+.cnn .ticker span { line-height: 38px; color: white; overflow: hidden; animation: 10s linear 0s normal none infinite running cnn_ticker; }
+body { background-color: rgb(255, 255, 255); color: rgb(29, 29, 29); font-family: "PT Serif",Georgia,sans-serif; font-size: 100%; margin: 0px; max-width: 100%; padding: 0px; position: relative; width: 100% ! important; }
+blockquote::before, blockquote::after, q::before, q::after { content: none; }
+h1, h2, h3, h4, h5, h6 { clear: both; }
+html { overflow-y: scroll; font-size: 100%; }
+a:focus { outline: thin dotted; }
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio:not([controls]) { display: none; }
+hr { background-color: rgb(204, 204, 204); border: 0px none; height: 1px; margin: 24px 24px 1.71429rem; }
+img { border: 0px none; max-width: 100%;}
+a { color: rgb(87, 101, 173); text-decoration: none; }
+a:hover, .underline { color: rgb(69, 86, 140); text-decoration: underline; }
+a, a:hover { transition: color 0.3s ease 0s; }
+#WP { background: rgb(223, 223, 223) none repeat scroll 0% 0%; color: rgb(255, 255, 255) ! important; font-family: "Tahoma",serif; font-size: 1.4em; font-weight: bold; left: 0.625em; line-height: 75%; padding: 2px 4px; position: fixed; text-align: center; top: 0.625em; z-index: 9999; text-decoration: none; text-shadow: 1px 1px 0px rgb(0, 0, 0); }
+#WP:hover { opacity: 0.5; text-decoration: none; }
+#WP, #WP:hover { transition: opacity 0.25s ease 0s; }
+#WP img { height: 32px; margin: 4px 2px; width: auto; }
+#main { margin: 1.5em auto 3em; width: 72em; }
+#content { margin: 0px auto; padding: 1em 0px 2.5em; position: relative; }
+.site-content { float: none; margin: 0px; padding-bottom: 1em; width: 100%; }
+.site-content article { background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15); float: left; margin: 0.625em; min-height: 36em; padding: 0px; position: relative; width: 22.75em; }
+.site-content article:hover { box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2); }
+.post-nav::after { content: " "; clear: both; position: absolute; }
+.entry-header .entry-title, .entry-content { padding: 0px 1.5em; }
+.entry-content { font-size: 1em; line-height: 1.7em; margin-bottom: 4.75em; text-align: justify; }
+#single #main, #page #main { width: 40em; }
+#single article, #page article { background: transparent none repeat scroll 0% 0%; box-shadow: 0px 0px 0px; float: none; margin: 0px auto; width: 40em; vertical-align: top; }
+#single .entry-title, #single .entry-content, #page .entry-title, #page .entry-content { padding: 0px; }
+#single .entry-title, #page .entry-title { font-size: 3.5em; margin: 0px 0px 0.563em; }
+#single .entry-content, #page .entry-content { font-size: 1.2em; }
+#single .entry-author, #page .entry-author { border-top: 3px solid rgb(204, 204, 204); font-family: "PT Sans Narrow",sans-serif; font-size: 1.25em; }
+#single .entry-author .author-description h6, #page .entry-author .author-description h6 { margin: 0.375em 0px; }
+#single .entry-author .author-description p, #page .entry-author .author-description p { font-size: 0.8em; line-height: 1.2em; }
+#single .entry-date, #page .entry-date { color: rgb(68, 68, 68); font-size: 0.75em; }
+#single .entry-date h6, #page .entry-date h6 { margin: 0.375em 0px; }
+#single .entry-author-side, #page .entry-author-side { border: 0px none; display: block; left: -10em; margin: 0.5em 0px 0px; padding: 0px; position: absolute; text-align: right; width: 7em; }
+#single .entry-author-side .entry-author, #page .entry-author-side .entry-author, #single .entry-author-side .author-avatar, #page .entry-author-side .author-avatar { float: none; width: auto; }
+#single .entry-author-side .entry-date, #page .entry-author-side .entry-date { border-width: 1px 0px 0px; border-style: solid none none; border-color: rgb(221, 221, 221) -moz-use-text-color -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; float: none; margin: 1.75em 0px 0px; min-height: auto; padding: 0.5em 0px; width: auto; }
+.archive-controls .active::after { border-width: 6px; border-style: solid; border-color: rgb(179, 179, 177) transparent transparent; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; bottom: -0.75em; content: " "; height: 0px; left: 50%; margin-left: -3px; position: absolute; width: 0px; }
+.hentry a:link, .hentry a:visited { color: rgb(0, 0, 255); }
+.hentry a:hover { color: rgb(0, 0, 255); }
+#content, .site-content { padding-bottom: 0px ! important; }
+#main { margin-bottom: 0px ! important; }
+@media screen and (max-width: 1000px) {
+	#main, #single article, #page article { width: auto ! important; padding: 10px; }
+	#single .entry-author-side, #page .entry-author-side { display: none; }
+	#WP { display: none; }
+	#main { margin-top: 0px; margin-bottom: 0px; }
+	#content { padding-top: 0px; padding-bottom: 0px; width: auto ! important; }
+	.site-content article { padding: 0px ! important; }
+	.img { margin: 10px auto ! important; display: block; }
+	.site-content { padding-bottom: 0px; }
+	.entry-content { margin-bottom: 15px; }
+	h1 { text-align: center; font-size: 37px ! important; }
+}
+@media screen and (max-width: 770px) {
+	.img { width: 100% ! important; max-width: 95% ! important; }
+	h1 { font-size: 30px ! important; }
+}
+@media screen and (max-width: 479px) {
+}

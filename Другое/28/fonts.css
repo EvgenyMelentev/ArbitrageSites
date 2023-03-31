@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "ProximaNovaBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("ProximaNovaBold.ttf") format("truetype"); }
+@font-face {
+  font-family: "ProximaNovaRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("ProximaNovaRegular.ttf") format("truetype"); }
+@font-face {
+  font-family: "PtSansNarrowBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("PtSansNarrowBold.ttf") format("truetype"); }
+@font-face {
+  font-family: "RobotoBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("RobotoBold.ttf") format("truetype"); }
+@font-face {
+  font-family: "RobotoMedium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("RobotoMedium.ttf") format("truetype"); }
+@font-face {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("RobotoRegular.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSansBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("OpenSansBold.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSansSemibold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("urn:scrapbook:download:error:http://evrhst-a.akamaihd.net/3617/fonts/OpenSansSemibold.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSansRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("OpenSansRegular.ttf") format("truetype"); }
+
+/*# sourceMappingURL=fonts.css.map */

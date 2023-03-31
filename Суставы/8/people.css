@@ -1,0 +1,3919 @@
+/********************************************
+WARNING!
+This CSS file is NOT GLOBAL.
+It is included only on pages that require it.
+********************************************/
+/* For contest page */
+table.own td.col_counter img {
+	width: 27px; }
+
+/* */
+h1.lost_name {
+	line-height: 1em; }
+
+h1.lost_name span {
+	color: #707070;
+	font-size: 0.75em; }
+
+h2 a.add_app {
+	font-size: 0.85em;
+	font-weight: normal;
+	color: #0a5aa0;
+	padding: 2px 0 3px 10px !important;
+	text-transform: capitalize !important;
+	text-decoration: underline;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/profile_a_add.gif?v=0654d5690a71731908f078dc64eb26a4") no-repeat 0 6px !important; }
+
+h2 a.add_app:hover {
+	text-decoration: none; }
+
+h2 a.additional {
+	float: right;
+	font-size: 0.85em;
+	font-weight: normal;
+	color: #0a5aa0;
+	padding-top: 2px;
+	text-transform: none; }
+
+h2 a.search {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/profile_searcg_icon.gif?v=d4efc764ea61499360b3536f352335b9") no-repeat 0 5px !important;
+	padding-left: 11px !important; }
+
+h2 a.lost {
+	font-size: 0.7em; }
+
+h2.spacered {
+	margin-bottom: 5px; }
+
+ul.place_photos {
+	display: block;
+	margin-top: 8px; }
+
+ul.place_photos li {
+	display: inline;
+	margin-right: 5px; }
+
+ul.place_photos li a.all {
+	font-size: 0.85em;
+	white-space: nowrap; }
+
+ul.place_photos li img {
+	border: 1px solid #707070;
+	vertical-align: middle; }
+
+ul.apps li {
+	float: left;
+	width: 146px;
+	margin-right: 20px;
+	padding: 10px 0; }
+
+ul.apps li img {
+	border: none; }
+
+ul.apps a {
+	width: 122px;
+	height: 62px;
+	text-align: center;
+	display: block;
+	overflow: hidden; }
+
+ul.apps a.app_title {
+	height: 1em;
+	padding: 5px 0;
+	overflow: hidden;
+	font-size: 0.85em; }
+
+.center_col div.people_import_links h2 a {
+	padding-left: 10px; }
+
+.banned_person {
+	color: #707070;
+	font-size: 0.85em; }
+
+.butts_line {
+	clear: both;
+	height: 30px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_butts_line_left.gif?v=33e415b8ab3253d17a8ce4888fb647da") no-repeat #f3f3f2;
+	margin-bottom: 8px; }
+
+.butts_line .bg_right {
+	height: 26px;
+	line-height: 20px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_butts_line_right.gif?v=bc616ed2351611794e461d72068c5b30") right no-repeat;
+	overflow: hidden;
+	padding: 5px 10px 0 10px; }
+
+.center_col .people_import_links {
+	width: 420px;
+	margin: 10px auto;
+	padding-left: 60px; }
+
+.gray_headed_block {
+	border: 1px #e3e3e2 solid; }
+
+.profile_place_block div.last {
+	border-bottom-width: 0; }
+
+.gray_headed_block .add_place_link {
+	font-size: 0.85em;
+	padding: 0 !important;
+	background: none; }
+
+.gray_headed_block .block {
+	padding: 5px 5px 0 5px;
+	border-width: 0 1px; }
+
+.gray_headed_block .block span.description {
+	color: #707070;
+	font-size: 0.85em; }
+
+.gray_headed_block .block span.private {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_hidden.gif?v=e0a48c6d64f4fbbe47a2a80dc8e3be8c") left center no-repeat #fff;
+	padding: 2px 0 2px 15px; }
+
+.gray_headed_block .block .nothing {
+	margin: 0;
+	text-align: center;
+	font-size: 1.3em;
+	line-height: 1.5em; }
+
+.gray_headed_block .block .notice {
+	background: #f6f6f7;
+	font-size: inherit;
+	color: #000;
+	padding: 2px;
+	float: left;
+	position: relative; }
+
+.gray_headed_block .block .notice a {
+	cursor: default; }
+
+.gray_headed_block .block .notice a:hover {
+	text-decoration: none; }
+
+.gray_headed_block .block .notice a:hover .helper {
+	display: block; }
+
+.gray_headed_block .block .notice a img {
+	vertical-align: middle; }
+
+.header {
+	height: auto; }
+
+.gray_headed_block .header {
+	border-bottom: 1px #e3e3e2 solid;
+	padding: 0 10px 3px 10px;
+	background: #f6f6f7; }
+
+.gray_headed_block .header span {
+	font-weight: bold;
+	cursor: pointer;
+	padding-left: 15px;
+	background: no-repeat left center; }
+
+.gray_headed_block .header span small {
+	font-weight: normal;
+	font-size: 1em; }
+
+.gray_headed_block .header .side_link {
+	float: right;
+	font-size: 0.85em; }
+
+.gray_headed_block .bc {
+	position: relative;
+	height: 6px; }
+
+.gray_headed_block .bc b {
+	display: block;
+	position: absolute;
+	right: -1px;
+	bottom: -1px;
+	background: #fff url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/c_gray_bordered.gif?v=e9b24d76c8a928e9a2df108808a3d734") left top no-repeat;
+	width: 6px;
+	height: 6px;
+	overflow: hidden; }
+
+.gray_headed_block .bc i {
+	display: block;
+	position: absolute;
+	left: -1px;
+	bottom: -1px;
+	height: 6px;
+	width: 6px;
+	background: #fff url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/c_gray_bordered.gif?v=e9b24d76c8a928e9a2df108808a3d734") right top no-repeat;
+	overflow: hidden; }
+
+.gray_headed_block .helper {
+	display: none;
+	position: absolute;
+	width: 151px;
+	bottom: 1em;
+	top: auto;
+	left: 100%; }
+
+.gray_headed_block .helper .top {
+	display: block;
+	width: 124px;
+	margin-left: 11px;
+	padding: 4px 8px 0 8px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_help_top.gif?v=d3aeb9f625eb0df0ae391941ca26f253") no-repeat;
+	font-size: 0.85em;
+	color: #303030; }
+
+.gray_headed_block .helper .bottom {
+	display: block;
+	width: 151px;
+	margin: 0;
+	padding: 0;
+	height: 17px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_help_bottom.png?v=776e02310bf92c47e15a9f84b858be0e") no-repeat; }
+
+.gray_headed_block .spacer {
+	border-bottom: 1px solid #c5ebff;
+	height: 10px;
+	margin-bottom: 10px; }
+
+.gray_headed_block .tc {
+	position: relative;
+	height: 6px;
+	background: #f6f6f7; }
+
+.gray_headed_block .tc b {
+	display: block;
+	position: absolute;
+	right: -1px;
+	top: -1px;
+	background: #fff url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/c_gray_bordered_shaded.gif?v=ce8be303ef5784a402f3d882946638ee") no-repeat left -12px;
+	width: 6px;
+	height: 6px; }
+
+.gray_headed_block .tc i {
+	display: block;
+	position: absolute;
+	left: -1px;
+	top: -1px;
+	height: 6px;
+	width: 6px;
+	background: #fff url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/c_gray_bordered_shaded.gif?v=ce8be303ef5784a402f3d882946638ee") no-repeat right -12px; }
+
+.hangout .tag_list {
+	clear: both;
+	margin: 0 0 5px 0;
+	padding: 5px 0 0 0; }
+
+.maximized .header span {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_minimize.gif?v=c9151e7e6759fa931cb0370455220adc"); }
+
+.minimized .header span {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_maximize.gif?v=ab8ea2a020b2c1c9376cd57628dc0a77"); }
+
+.minimized .block, .minimized .bc {
+	display: none; }
+
+.invite p {
+	padding: 10px 0 0 0; }
+
+.invite textarea {
+	width: 100%; }
+
+.invite .form_submit {
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 0.85em;
+	color: #707070; }
+
+.invite .form_submit .req {
+	margin: 0 0 0 5px; }
+
+.invite .form_submit .show_text {
+	font-size: 1em;
+	float: right;
+	padding-top: 4px; }
+
+.invite_row {
+	clear: left; }
+
+.invite_row .form_checkbox {
+	margin: 0;
+	padding: 0; }
+
+.invite_row .form_field {
+	float: left;
+	clear: none;
+	width: 48%;
+	margin: 0 2px;
+	padding-bottom: 1px; }
+
+.invite_row .form_field label {
+	width: auto;
+	text-align: left;
+	float: none;
+	display: inline; }
+
+.invite_row .form_field .req {
+	margin-bottom: -3px;
+	float: none;
+	display: inline; }
+
+.invite_row .form_field input {
+	width: 90%; }
+
+.known .submit input {
+	text-align: left; }
+
+.known .submit .msg_delete_submitter {
+	margin-top: 7px !important; }
+
+.losers a {
+	color: #707070; }
+
+.losers a.name {
+	color: #999; }
+
+.losers a.hover {
+	color: #0099cc; }
+
+.lost_item .profile_info {
+	background: none;
+	margin: 0; }
+
+.lost_matcher {
+	position: relative; }
+
+.lost_matcher .content {
+	margin: 0 0 0 78px;
+	padding: 5px 0;
+	line-height: 1.4em; }
+
+.lost_matcher .content .name {
+	font-size: 1.3em; }
+
+.lost_matcher .photo {
+	border: 1px solid #707070;
+	float: left;
+	margin-left: -58px; }
+
+.lost_matcher h2 {
+	margin: 0 0 5px 20px;
+	padding: 0; }
+
+.lost_matcher input.acknowledge {
+	width: auto;
+	border: 0;
+	background: transparent;
+	margin: 0 0 0 15px;
+	padding: 0 0 0 10px;
+	border-left: 1px solid #b0b0b0;
+	color: #0099CC;
+	cursor: pointer;
+	float: left; }
+
+.lost_matcher input.close {
+	position: absolute;
+	right: 6px;
+	top: 6px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/but_close.gif?v=8328634a97544df7306553527136a6a4") no-repeat;
+	width: 12px;
+	height: 12px;
+	overflow: hidden;
+	border: 0;
+	cursor: pointer; }
+
+.lost_matcher input.hover, .lost_matcher input:hover {
+	text-decoration: underline; }
+
+.lost_matcher p {
+	font-size: 0.85em;
+	margin: 0;
+	padding: 0;
+	color: #333; }
+
+.lost_matcher span.links a {
+	float: left; }
+
+.extras_button {
+	display: block;
+	font-weight: bold;
+	padding: 4px 0 4px 24px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_extras_animated.gif?v=0b6888feb98b8e106aeaf185261f0751") no-repeat 2px top; }
+
+.network_list .alert {
+	padding: 1px 0;
+	font-size: 0.75em; }
+
+.network_list .alert p {
+	padding: 2px 2px 2px 20px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/warning_yellow.gif?v=285ed67c9bc854575ba4bf8e8f777ea2") 3px 0 no-repeat;
+	font-size: 1em; }
+
+.network_list .banned a {
+	text-decoration: line-through; }
+
+.network_list .col_counter {
+	text-align: center;
+	white-space: normal;
+	padding: 0 3px; }
+
+.network_list .col_info .name {
+	font-size: 1em; }
+
+.network_list .col_info .created {
+	font-size: 0.85em;
+	color: #707070; }
+
+.network_list .col_photo {
+	width: 24px; }
+
+.network_list .col_butt {
+	text-align: center;
+	padding-top: 4px; }
+
+.network_list .col_butt a.butt_email_green {
+	margin: 4px auto 0 auto; }
+
+.network_list .clean {
+	text-align: center; }
+
+.network_list .col_info {
+	width: auto; }
+
+.network_list .pager {
+	padding: 0; }
+
+.network_list .pager td {
+	padding: 5px 2px;
+	height: 24px;
+	vertical-align: middle;
+	text-align: left;
+	background: #f3f3f2;
+	font-size: 0.85em; }
+
+.network_list .pager td.left {
+	padding-left: 5px; }
+
+.network_list .pager .clean {
+	text-align: center; }
+
+.network_list .pager .col_butt {
+	text-align: center; }
+
+.network_list .pager .network_cell {
+	text-align: center; }
+
+.network_list .problem {
+	width: 45%;
+	padding-left: 0; }
+
+.network_list .pager .problem {
+	padding-left: 5px; }
+
+.network_promo {
+	text-align: center;
+	padding: 0 0 50px 0;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_network_promo_2.png?v=20cbabec35f5fdd9dbb91a58368800ac") 0 0 repeat-x; }
+
+.network_points {
+	width: 100%;
+	margin: 5px 0; }
+
+.network_points thead td.head {
+	background: #f6f6f7;
+	text-align: center; }
+
+.network_points td {
+	font-size: 0.85em;
+	padding: 5px;
+	border-right: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0; }
+
+.network_points td.count {
+	text-align: right;
+	border-right: none;
+	padding-left: 20px; }
+
+.network_points td.label {
+	padding: 5px 0; }
+
+.network_points td.right {
+	border-right: none; }
+
+.network_points td.subline {
+	padding-left: 20px; }
+
+.network_points td.blank {
+	text-align: center; }
+
+.network_points td strong {
+	font-size: 1.2em; }
+
+.network_points tr.last td {
+	border-bottom: none; }
+
+.network_points tr.separated td {
+	border-bottom: 5px solid #f0f0f0; }
+
+.network_points .stats {
+	padding: 5px 0 10px 0; }
+
+.network_points .stats .score {
+	background-color: #ffa016;
+	margin: 0 0 0 20px; }
+
+.network_points .spacer {
+	height: 10px;
+	margin: 0 20px 10px 20px;
+	border-bottom: 1px dashed #ccc; }
+
+.network_center_col {
+	width: 58%; }
+
+.network_right_col {
+	width: 41.90%; }
+
+.network_info {
+	padding: 8px 1% 0 0;
+	width: 48.9%; }
+
+.network_order .prize_details .quantity {
+	width: 30px; }
+
+.network_order .prize_details .score {
+	font-size: 1.3em;
+	font-weight: normal; }
+
+.network_order .prize_details .special_remark {
+	color: #ec513b;
+	font-weight: bold; }
+
+.network_order .delete {
+	font-size: 0.65em;
+	margin-left: 10px;
+	border-left: 1px solid #b0b0b0;
+	background-position: 10px center;
+	padding-left: 25px; }
+
+.network_order .unavailable {
+	width: 256px;
+	margin-left: -10px; }
+
+.network_order .unavailable h2 {
+	margin: 0; }
+
+.network_order .unavailable .block {
+	border: none; }
+
+.network_orders {
+	width: 100%; }
+
+.network_orders thead td {
+	font-weight: bold;
+	font-size: 0.85em;
+	color: #333; }
+
+.network_orders td {
+	padding: 7px 5px;
+	color: #707070; }
+
+.network_orders td.stats {
+	font-size: 0.85em; }
+
+.network_orders td.cost {
+	text-align: center; }
+
+.network_orders td.name {
+	color: #333; }
+
+.network_stat span {
+	font-size: 0.85em;
+	color: #707070; }
+
+.network_stat .stat_people strong, .network_stat .stat_score strong {
+	font-size: 1.5em;
+	font-weight: normal; }
+
+.network_stat .stat_label {
+	width: 20%;
+	padding-left: 20px;
+	float: left; }
+
+.network_stat .stat_people {
+	width: 35%;
+	padding-left: 10px;
+	float: left; }
+
+.network_stat .stat_score {
+	width: 30%;
+	padding-left: 10px;
+	float: left; }
+
+.network_stat .stat_label span {
+	display: block;
+	margin-top: 3px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/net_stat_label.gif?v=2080c4e5c4b0fae410876b1ab4771971") no-repeat;
+	width: 69px;
+	text-align: center;
+	padding: 1px 4px 0 0;
+	height: 16px;
+	color: #fff; }
+
+.network_stat .spacer {
+	height: 15px;
+	border-bottom: 1px dashed #b0b0b0;
+	margin: 0 20px 10px 20px; }
+
+.network_stat p {
+	font-size: 0.85em;
+	line-height: 1.6em;
+	margin: 0;
+	padding-bottom: 5px; }
+
+.network_stat p a {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	white-space: nowrap; }
+
+.network_thermo {
+	margin: 0 0 0 20px; }
+
+.network_thermo h2 {
+	padding: 5px 5px 0 0;
+	text-align: center; }
+
+.network_thermo .block {
+	position: relative;
+	height: 600px; }
+
+.person_breaker div {
+	height: 1px;
+	padding: 0;
+	margin: 0 0;
+	background: #b0b0b0;
+	position: relative; }
+
+.person_message {
+	margin: 10px 2px;
+	padding: 0 0 7px 0;
+	border: 1px solid #fef380;
+	background: #fff url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_person_message.gif?v=0f762e8a9eb1cfe887257d2fd8d4a98f") repeat-x left top;
+	position: relative; }
+
+.person_message a.remark {
+	text-decoration: underline; }
+
+.person_message a.remark:hover {
+	text-decoration: none; }
+
+.person_message .tc {
+	top: -1px;
+	position: relative;
+	left: -1px;
+	height: 8px;
+	width: 100%;
+	padding: 0 1px; }
+
+.person_message .tc b {
+	width: 19px;
+	height: 26px;
+	left: -18px;
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_person_message_corner.png?v=b700a230609754bc27098eccc80e9c66");
+	display: block;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: right top; }
+
+.person_message .form_field, td.col_info .person_message p {
+	padding: 0 15px; }
+
+.person_message .form_field .error {
+	padding: 0;
+	margin: 0;
+	font-size: 0.85em; }
+
+.person_message_own {
+	border-color: #baed4a;
+	background-image: none;
+	background-color: #dfff99; }
+
+.person_message_own textarea {
+	display: block;
+	width: 100%; }
+
+.person_message_own .tc b {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_person_message_edit_corner.png?v=fb29758609d4900a3a2c731770db71f2"); }
+
+.person_presents li {
+	float: left;
+	width: 50px;
+	margin: 10px 10px 0 10px;
+	height: 50px;
+	position: relative; }
+
+.balloon_holder .balloon_item img.transparent {
+	display: none; }
+
+.balloon_holder .balloon_item {
+	display: none;
+	width: 310px;
+	padding: 0 10px 0 7px;
+	position: absolute;
+	bottom: 120%;
+	left: 0;
+	background: #fff;
+	border: solid #d4d4d4;
+	border-width: 0 1px;
+	z-index: 99999; }
+
+.balloon_holder .balloon_item b, .balloon_holder .balloon_item i {
+	display: block;
+	position: absolute;
+	width: 329px;
+	left: -1px;
+	z-index: 999; }
+
+.balloon_holder .balloon_item b {
+	height: 9px;
+	top: -9px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_popup_balloon_bottom.gif?v=5a868bc6d9be8ce19b51da1db33ae884") no-repeat left top; }
+
+.balloon_holder .balloon_item i {
+	height: 34px;
+	bottom: -34px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_popup_balloon_top.gif?v=8df0486bf71ef79ccaf2efe93beec1b8") no-repeat left bottom; }
+
+.balloon_holder .balloon_item span.content {
+	display: block;
+	position: relative;
+	left: 10px;
+	overflow: hidden;
+	height: auto;
+	text-align: left; }
+
+.balloon_holder .balloon_item span.remark {
+	display: inline;
+	margin: 0; }
+
+.balloon_holder .balloon_item .buttons {
+	float: right;
+	text-align: right;
+	margin: 0;
+	white-space: nowrap; }
+
+.balloon_holder .balloon_item .buttons a {
+	font-size: 0.85em; }
+
+.balloon_holder .balloon_item .delete {
+	float: right;
+	background: none;
+	color: #707070;
+	padding: 0; }
+
+.balloon_holder .balloon_item .name {
+	display: block;
+	margin: 0 0 3px 0;
+	font-size: 1.15em; }
+
+.balloon_holder .balloon_item .photo {
+	float: left;
+	margin: 0 0 0 5px; }
+
+.balloon_holder .balloon_item .photo img {
+	display: inline;
+	margin: 0;
+	border: 1px solid #b4b4b4; }
+
+.balloon_holder .balloon_item .reply {
+	font-size: 0.85em; }
+
+.balloon_holder li:hover .balloon_item, .balloon_holder li.active p {
+	display: block; }
+
+.person_presents li.triple-wide {
+	width: 175px;
+	margin-left: 2px;
+	margin-right: 2px; }
+
+.person_presents li.triple-wide p {
+	left: 72%; }
+
+.person_trash {
+	display: block;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_trash.gif?v=3836195a87f0da0aea9e7effece63fb0") no-repeat left center;
+	border: none;
+	font-size: 0.85em;
+	color: #707070;
+	width: auto;
+	margin: 0 auto;
+	padding: 1px 0 2px 18px;
+	text-align: left;
+	text-decoration: underline; }
+
+.person_trash:hover {
+	text-decoration: none; }
+
+.top_people em {
+	font-weight: bold;
+	font-style: normal; }
+
+.top_people a {
+	color: #ff9700;
+	font-weight: bold;
+	margin-left: 5px; }
+
+.top_people a {
+	text-decoration: underline; }
+
+.top_people a:hover {
+	text-decoration: none; }
+
+.top_people td.person_breaker {
+	padding: 0; }
+
+.top_people td.person_breaker div span {
+	position: absolute;
+	bottom: 5px;
+	right: 5px; }
+
+.thermometer {
+	position: absolute;
+	z-index: 1;
+	height: 515px;
+	width: 57px;
+	top: 50px;
+	left: 48%;
+	margin-left: -28px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_thermo_mid.gif?v=4c2e29615edfb060cbabf196e7143a94") repeat-y left top; }
+
+.thermometer .bar {
+	z-index: 10;
+	position: absolute;
+	width: 53px;
+	left: 2px;
+	margin: 0; }
+
+.thermometer .bar div {
+	position: absolute;
+	width: 53px;
+	height: 2px;
+	left: 0; }
+
+.thermometer .bar .bc {
+	bottom: 0; }
+
+.thermometer .bar .tc {
+	top: 0; }
+
+.thermometer .bottom {
+	font-size: 1.3em;
+	position: absolute;
+	height: 5px;
+	width: 57px;
+	bottom: -5px;
+	left: 0;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_thermo_bot.gif?v=985b72fbdad245475bc10fc999291d7a") no-repeat left top; }
+
+.thermometer .clean {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_clean_block_mid.gif?v=b73385e3aef845491ce6cd266ad070b4") repeat-y left top;
+	margin-top: 2px; }
+
+.thermometer .clean .bc {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_clean_block_bot.gif?v=96b4367294e6ccec836f426d5e5f009a") no-repeat left top; }
+
+.thermometer .clean .tc {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_clean_block_top.gif?v=3fe923975e36e32217ef1ab2c11f98ce") no-repeat left top; }
+
+.thermometer .projected {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_projected_block_mid.gif?v=a88536d762b70428584462c3fbfc280b") repeat-y left top; }
+
+.thermometer .projected .bc {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_projected_block_bot.gif?v=049bc90edb505081a20598827bf5ce69") no-repeat left top; }
+
+.thermometer .projected .tc {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_projected_block_top.gif?v=58ba3dfdb490623ab527450c5f8dfb40") no-repeat left top; }
+
+.thermometer .top {
+	position: absolute;
+	height: 5px;
+	width: 57px;
+	top: -5px;
+	left: 0;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_thermo_top.gif?v=255c83610ee617df56b743ef02ac5eab") no-repeat left top; }
+
+.thermometer .marker {
+	position: absolute;
+	width: 1px;
+	height: 1px; }
+
+.thermometer .marker span {
+	vertical-align: middle;
+	position: absolute;
+	z-index: 5;
+	right: 10px;
+	white-space: nowrap;
+	font-size: 0.75em;
+	color: #707070;
+	display: block;
+	margin-top: -0.6em; }
+
+.thermometer .marker .main {
+	font-size: 1.3em;
+	margin-top: -0.7em; }
+
+.thermometer .marker .prize {
+	left: 67px;
+	padding: 0 0 0 10px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_prize_block.gif?v=55539f1b8f7fb1d0f678ca103c65d588") no-repeat left center; }
+
+.thermometer .marker .prize a {
+	vertical-align: middle;
+	padding: 16px 0 0 0;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_network_buy.gif?v=e4ce1256e4213209b9ed2200f3ac2683") no-repeat top center; }
+
+.thermometer .marker .prize img {
+	vertical-align: middle; }
+
+.thermometer .marker .special {
+	color: #fff;
+	z-index: 20;
+	font-size: 0.85em;
+	font-weight: bold;
+	display: block;
+	width: 60px;
+	padding: 0 17px 0 0;
+	height: 29px;
+	line-height: 24px;
+	text-align: center; }
+
+.thermometer .marker .special a {
+	color: #fff;
+	text-decoration: underline; }
+
+.thermometer .marker .special a:hover {
+	text-decoration: none; }
+
+.thermometer .marker .clean {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_network_clean_marker.png?v=10e47e0a5b1c924cfad58f0ff8b710be") no-repeat left top;
+	margin-top: 2px;
+	z-index: 100; }
+
+.thermometer .marker .projected {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_network_projected_marker.png?v=3cf916b3846a902db9655658eff9691f") no-repeat left top;
+	margin-top: -2.1em; }
+
+.network_shop li {
+	float: left;
+	width: 33%;
+	text-align: center;
+	border-left: 1px dashed #b0b0b0;
+	overflow: hidden; }
+
+.network_shop li.left {
+	clear: left;
+	border-left: 0; }
+
+.network_shop h3 {
+	font-size: 0.85em;
+	margin: 0 5px;
+	height: 4em; }
+
+.network_shop p {
+	padding: 5px 8px;
+	background: #e8fac6;
+	margin: 5px 5px 0 5px;
+	text-align: left; }
+
+.network_shop p span {
+	font-size: 0.85em;
+	line-height: 2em; }
+
+.network_shop p.na {
+	background: #f6f6f7; }
+
+.network_shop p .butt_buy {
+	float: right;
+	line-height: 14px;
+	padding: 3px 0;
+	text-align: center;
+	font-size: 0.85em;
+	width: 60px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_butt_xsm.gif?v=9456ec813253d13c43e1cad498fc213e") no-repeat;
+	color: #fff; }
+
+.network_shop p .butt_buy_gray {
+	float: right;
+	padding: 3px 0;
+	cursor: pointer;
+	line-height: 14px;
+	text-align: center;
+	font-size: 0.85em;
+	width: 60px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_butt_xsm_gray.gif?v=6f058959cef4584dffe95232e5797077") no-repeat;
+	color: #707070; }
+
+.network_shop p .unavailable {
+	float: right;
+	width: 60px;
+	font-size: 0.75em;
+	line-height: 1.1em;
+	color: #707070;
+	text-align: center; }
+
+.network_shop .line_spacer {
+	height: 1px;
+	clear: left;
+	margin: 0;
+	padding: 0; }
+
+.openid_confirm {
+	padding: 0 32px;
+	border-left: 1px solid #ddf2fe;
+	border-right: 1px solid #ddf2fe; }
+
+.openid_confirm a.edit_link {
+	float: right;
+	margin-top: -2px; }
+
+.openid_confirm h2.url_type {
+	padding-left: 20px;
+	margin: 0; }
+
+.openid_confirm div.bg {
+	background-color: #fafafa; }
+
+.openid_confirm div.spacer {
+	background-position: bottom;
+	height: 25px;
+	padding-bottom: 5px; }
+
+.openid_confirm div.wrap {
+	padding: 8px 0; }
+
+.openid_confirm input.openid_confirm_button {
+	float: right;
+	width: auto;
+	border: 0;
+	color: #0099cc;
+	font-size: 0.85em;
+	text-decoration: none;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_openid.png?v=2ea4df982096cc4072c30f8cec664f58") no-repeat left center;
+	padding: 2px 10px 0 17px; }
+
+.openid_confirm input.openid_confirm_button:hover {
+	text-decoration: underline; }
+
+.openid_confirm img.confirmed {
+	float: right;
+	margin: 4px 10px 0 0; }
+
+.openid_confirm span.url {
+	font-size: 0.85em;
+	color: #707070;
+	padding-left: 21px; }
+
+.people_import_controls {
+	min-height: 12px;
+	padding: 0 0 0 5px; }
+
+.people_import_controls .butt_delete {
+	width: auto;
+	float: right;
+	border: none;
+	display: block;
+	height: 24px;
+	padding: 0 0 2px 27px;
+	font-size: 0.85em;
+	color: #0099cc; }
+
+.people_import_controls .butt_delete:hover {
+	text-decoration: underline;
+	background-position: 0 -528px; }
+
+.people_import_links a img {
+	vertical-align: middle;
+	margin-right: 60px; }
+
+.people_import_links h2 {
+	padding-top: 18px;
+	margin: 0; }
+
+.people_import_links label {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	float: none;
+	white-space: nowrap; }
+
+.people_import_links label .checker {
+	vertical-align: middle; }
+
+.people_import_links .cancel {
+	margin-left: 5px;
+	font-size: 0.85em; }
+
+.people_import_links .spacer {
+	margin-left: 0;
+	margin-right: 60px; }
+
+.people_import_list_holder .spacer_xsm {
+	height: 3px;
+	margin: 0 5px;
+	background: #ebeaea; }
+
+.people_import_list {
+	width: 100%; }
+
+.people_import_list div.last {
+	border-bottom: none; }
+
+.people_import_list td.error input {
+	background-repeat: repeat-x;
+	background-position: top;
+	border: 1px solid #707070 !important; }
+
+.people_import_list tr.last {
+	border: none; }
+
+.people_import_list .errors_container p {
+	margin-left: 0;
+	padding-left: 0; }
+
+.people_import_list .input input {
+	background-repeat: no-repeat;
+	background-position: -200px;
+	border: 1px solid #fff;
+	width: 90%; }
+
+.people_import_list .input input.visible {
+	background-repeat: repeat-x;
+	background-position: top;
+	border: 1px solid #707070;
+	font-size: 0.85em;
+	height: 16px;
+	color: #707070; }
+
+.people_import_list .input input:focus {
+	background-repeat: repeat-x;
+	background-position: top;
+	border: 1px solid #707070; }
+
+.people_import_list .input input:hover {
+	background-repeat: repeat-x;
+	background-position: top;
+	border: 1px solid #707070; }
+
+.people_import_list .invite_sent {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_photo_sent.gif?v=faed9e01d1e25ea4749ff9c1e1481273"); }
+
+.people_import_list .item {
+	border: solid #f1f1f1;
+	border-width: 1px 0 0 0; }
+
+.people_import_list td {
+	margin: 0 !important; }
+
+.people_import_list .item td {
+	padding: 3px;
+	/* vertical-align: baseline; */
+	min-height: 21px; }
+
+.people_import_list .item td.email {
+	display: block;
+	overflow: hidden;
+	font-size: 0.85em;
+	width: 180px; }
+
+.people_import_list .item .email input {
+	font-size: 1em; }
+
+.people_import_list .item .firstname {
+	width: 23%; }
+
+.people_import_list .item .lastname {
+	width: 23%; }
+
+.people_import_list .item td.submit {
+	width: 20px;
+	text-align: center; }
+
+.people_import_list .item td input {
+	border: none; }
+
+.people_import_list .item .submit .msg_delete_submitter {
+	float: right;
+	margin-top: 2px; }
+
+.people_import_list .item td.user {
+	width: 28px; }
+
+.people_import_list .item .email .user_name {
+	font-weight: bold; }
+
+.people_import_list .item .wrap {
+	float: none; }
+
+.people_import_list .photo img {
+	vertical-align: middle;
+	border: 1px solid #707070;
+	width: 24px;
+	height: 24px; }
+
+.right_col #people_import_list {
+	height: 410px;
+	overflow-y: scroll;
+	margin: 5px 10px; }
+
+.import_list_controls {
+	overflow: hidden; }
+
+.import_list_controls label {
+	margin: 10px 0 0px 15px;
+	padding: 0px; }
+
+.import_list_controls label .toggler {
+	margin-right: 5px;
+	width: auto;
+	vertical-align: text-bottom;
+	border: none; }
+
+.import_list_controls .butt_green_wide {
+	font-weight: bold;
+	margin: 0 0 0 15px;
+	padding-bottom: 5px; }
+
+.invitation_teaser {
+	padding: 5px 10px;
+	overflow: hidden; }
+
+.invitation_teaser_holder {
+	min-height: 360px; }
+
+.invitation_teaser .photo {
+	float: left; }
+
+.invitation_teaser .invitation_user_info {
+	float: left;
+	width: 150px;
+	margin-left: 10px;
+	padding-top: 15px; }
+
+.invitation_teaser .invitation_user_info .name {
+	font-weight: bold; }
+
+.invitation_teaser .invitation_user_info .address {
+	color: #707070;
+	font-size: 0.85em; }
+
+.invitation_teaser .invitation_user_info .phrase {
+	display: inline-block;
+	margin-top: 5px; }
+
+.right_col div.form h2.invitation_teaser_header {
+	margin: 0 5px; }
+
+.people_top_payment {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_stars.gif?v=2fb8ea093dee2918c4b1bc56003d4ae5") repeat left top; }
+
+.people_top_payment h1 {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_stars_header.gif?v=29c042a70ad22915d721f74ad2bd1e14") repeat-x left top;
+	position: relative;
+	line-height: 40px;
+	text-align: center; }
+
+.people_top_payment h1 .bc, .people_top_payment h1 .tc {
+	position: absolute;
+	display: block;
+	height: 7px;
+	width: 100%; }
+
+.people_top_payment h1 .bc b, .people_top_payment h1 .tc b, .people_top_payment h1 .bc i, .people_top_payment h1 .tc i {
+	position: absolute;
+	display: block;
+	height: 7px;
+	width: 7px;
+	background-position: left top;
+	background-repeat: none; }
+
+.people_top_payment h1 .bc {
+	bottom: 0; }
+
+.people_top_payment h1 .bc b {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_stars_header_lb.gif?v=7a42c3a136a3dfd23df0d2276550522e");
+	bottom: 0;
+	left: 0; }
+
+.people_top_payment h1 .bc i {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_stars_header_rb.gif?v=e79d7a3e5895c42f1e2b5fe2cef49921");
+	bottom: 0;
+	right: 0; }
+
+.people_top_payment h1 .tc {
+	top: 0; }
+
+.people_top_payment h1 .tc b {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_stars_header_lt.gif?v=a64122fcd4f1955efbe33b0c4bd0b06f");
+	top: 0;
+	left: 0; }
+
+.people_top_payment h1 .tc i {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_stars_header_rt.gif?v=a3168aab084f9c4b8394f3282e4507a7");
+	top: 0;
+	right: 0; }
+
+.people_top_payment h2 {
+	margin: 20px 15% 0; }
+
+.people_top_payment .description {
+	margin: 10px 15% 0 15%; }
+
+.people_top_payment .remark .operators {
+	display: block;
+	padding: 5px 0 0 0;
+	color: #a0a0a0;
+	width: 50%;
+	margin-left: 50%; }
+
+.profile_badges {
+	clear: left; }
+
+.profile_groups .creator {
+	font-weight: bold; }
+
+.profile_place_block .personal_place .address {
+	font-size: 1em; }
+
+.profile_place_block .place {
+	border-bottom: 1px dotted #cacaca;
+	line-height: 1.3em; }
+
+.profile_place_block .place .holder {
+	padding: 10px 6px 10px 30px;
+	background-position: 6px 10px; }
+
+.profile_place_block .place_relation {
+	font-size: 0.85em; }
+
+.profile_place_block .rated_minus {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_emo-_gr.gif?v=ce5fc4759bafc26fa74e1a188d058a80") left repeat-y; }
+
+.profile_place_block .rated_plus {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_emo+_gr.gif?v=6998c778173def17f8fa8986efa1ad02") left repeat-y; }
+
+.profile_place_block .smiley_block {
+	float: right;
+	text-align: center;
+	width: 72px;
+	font-size: 0.75em;
+	margin: -8px 0 0 0; }
+
+.profile_place_block .smiley_block p {
+	height: 14px;
+	line-height: 12px;
+	color: #fff;
+	margin: 3px 0 -3px 0;
+	font-size: 1em; }
+
+p.emo_good {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_emo+.png?v=d502783e28db68ecd576eab9cbe34458") center no-repeat; }
+
+p.emo_bad {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_emo-.png?v=53e35e391c8928384f74c8f53766748c") center no-repeat; }
+
+.profile_places li {
+	padding: 6px 0;
+	position: relative; }
+
+.profile_places li p {
+	font-size: 0.85em; }
+
+.profile_places span.place_relation {
+	font-size: 0.85em;
+	color: #707070; }
+
+.profile_places span.private {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_hidden.gif?v=e0a48c6d64f4fbbe47a2a80dc8e3be8c") left center no-repeat #fff;
+	padding: 2px 0 2px 15px; }
+
+.right_col .people_import_links {
+	width: 150px;
+	margin: 10px 0 0 0; }
+
+.right_col .people_import_links a img {
+	margin-right: 0; }
+
+.right_col .people_import_links label {
+	white-space: normal; }
+
+.right_col div.people_import_links h2 {
+	padding-top: 18px;
+	margin: 0; }
+
+.right_col div.people_import_links h2 a {
+	padding-left: 10px; }
+
+.unknown .invite_into_group {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_sent.gif?v=be786bcfff6c5938607d635510ddb6f9") no-repeat left top;
+	padding: 0 0 0 20px;
+	font-size: 0.85em;
+	color: #0099cc; }
+
+/* Places */
+.place_line {
+	clear: both;
+	padding: 0 10px;
+	border-top: 1px solid #EBEAEA; }
+
+.place_line_last {
+	border-bottom: 1px solid #EBEAEA; }
+
+.place_line .place_item {
+	margin-right: 200px; }
+
+.place_item {
+	padding: 6px 0;
+	position: relative; }
+
+.place_item p {
+	font-size: 0.85em; }
+
+.place_item span.place_relation {
+	font-size: 0.85em;
+	color: #707070; }
+
+a.place_delete img {
+	margin-bottom: -2px; }
+
+/* Users Portraits */
+#people_list.my_town {
+	padding-top: 5px;
+	margin-right: -8px;
+	max-height: 147px;
+	overflow: hidden; }
+
+#people_list.my_town li {
+	width: 62px; }
+
+#people_list.my_town li .photo, #people_list.my_town li .link {
+	width: 50px;
+	margin: 0 auto; }
+
+#people_list.my_town li .photo img {
+	margin: 0; }
+
+ul.contacts {
+	overflow: hidden; }
+
+ul.contacts li {
+	padding: 4px 10px 4px 20px;
+	overflow: hidden;
+	width: 170px;
+	float: left; }
+
+ul.contacts li.contacts_im_gtalk {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_gtalk.gif?v=280d0b2df2af7d2be18770856e10a0e8") left center no-repeat; }
+
+ul.contacts li.contacts_im_mailru {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_mailru.gif?v=0ef60f5df8eb71fc4240d3e71afb7668") left center no-repeat; }
+
+ul.contacts li.contacts_im_skype {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_skype.gif?v=5aa7d6c44e99fa92bfc146caad7c60c0") left center no-repeat; }
+
+ul.contacts li.contacts_im_icq {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_icq.gif?v=653efb53956878b73f23a467ced7fc98") left center no-repeat; }
+
+ul.contacts li.contacts_im_yaonline {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_yaonline.gif?v=a1cb2144a2b55ae551c9b5089d50e4e5") left center no-repeat; }
+
+ul.contacts li.contacts_phone_mobile {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_mobile.gif?v=b7fdfc736e538b857b26b2d9a3cdee58") left center no-repeat; }
+
+ul.contacts li.contacts_phone_work {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_office_phone.gif?v=7eb88ddcda9b37de28207f77f5032eee") left center no-repeat; }
+
+ul.contacts li.contacts_phone_home {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_home_phone.gif?v=dc49b9942f898a39c774b0fd257e72a7") left center no-repeat; }
+
+ul.contacts li.contacts_text {
+	padding: 5px 10px 5px 1px;
+	overflow: hidden; }
+
+ul.contacts li.email {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_email.gif?v=e436dbffb4af7afb5b83650f5da37129") left center no-repeat !important; }
+
+ul.contacts li.small_note {
+	font-size: 1em;
+	clear: left;
+	float: none;
+	color: #A0A0A0 !important;
+	padding-left: 0;
+	padding-top: 0; }
+
+ul.profile_stats {
+	margin: 2px 12px 0 4px;
+	border-top: 1px solid #ebeaea; }
+
+ul.profile_stats li {
+	padding: 3px 0 5px 0;
+	border-bottom: 1px solid #ebeaea;
+	font-size: 0.85em;
+	color: #707070; }
+
+ul.profile_stats li span {
+	color: #303030;
+	display: block; }
+
+span.online {
+	color: #3d9800; }
+
+ul.profile_stats span.away {
+	color: #ff8a00; }
+
+ul.user_urls {
+	padding-top: 5px; }
+
+ul.user_urls li {
+	float: left;
+	padding: 0;
+	width: 49%;
+	padding: 3px 0; }
+
+ul.user_urls li.thumb {
+	float: left;
+	padding: 0;
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	margin-right: 3px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_user_links.gif?v=42c43c7390e068683e2824f5fd38a09c");
+	padding: 4px 0 0 4px; }
+
+ul.user_urls li.thumb a:hover {
+	text-decoration: none; }
+
+ul.user_urls a {
+	padding: 3px 3px 3px 18px; }
+
+.profile_bar {
+	float: left;
+	width: 200px; }
+
+* + html .profile_bar {
+	position: relative;
+	z-index: 1; }
+
+.profile_bar a.invite_user, .profile_bar a.write_to_user {
+	display: block;
+	margin: 0 5px 2px 4px;
+	font-weight: bold; }
+
+.profile_bar a.edit_link {
+	padding: 4px 0 3px 24px;
+	background-position: 4px top; }
+
+.profile_bar h4 {
+	font-weight: normal;
+	font-size: 0.85em;
+	color: #707070;
+	margin: 7px 0 5px 0; }
+
+.profile_bar p {
+	padding: 6px 0;
+	font-size: 0.85em;
+	color: #707070; }
+
+.profile_bar .photos_with_me {
+	margin: 0 0 12px 4px;
+	font-size: 0.85em; }
+
+.profile_bar .portrait {
+	margin: 3px 0 0 4px;
+	border: 1px solid #707070; }
+
+.profile_bar .user_link .photo {
+	width: 55px;
+	height: 50px; }
+
+.profile_bar .user_link {
+	float: left;
+	clear: left;
+	margin: 5px !important;
+	font-size: 1em;
+	line-height: 1.3em;
+	width: 100%; }
+
+.profile_bar h2 {
+	padding-left: 5px;
+	font-size: 1.5em; }
+
+.profile_bar .sticker h2 {
+	padding-left: 14px; }
+
+.profile_bar .commentForm form {
+	margin-left: 0; }
+
+.profile_bar .commentForm textarea {
+	width: 216px;
+	height: 45px; }
+
+.profile_bar .commentForm {
+	padding-top: 0; }
+
+.profile_bar div.comment_block p {
+	color: #303030;
+	padding: 5px 0 0 0;
+	overflow: hidden; }
+
+.profile_bar div.comment_block .user_photo {
+	float: left;
+	margin: 0 4px 0 0 !important;
+	width: 26px;
+	height: 26px;
+	clear: none !important; }
+
+.profile_bar div.comment_block a.user_name {
+	font-size: 0.85em; }
+
+.profile_bar .snowball_shake {
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+	width: auto;
+	border: 0;
+	font-size: 0.85em;
+	color: #0099cc;
+	background: transparent;
+	cursor: pointer; }
+
+.profile_bar .sticker .block {
+	margin: 5px 14px; }
+
+.profile_bar .sticker p {
+	padding-left: 15px; }
+
+.profile_bar .user_link span {
+	font-size: 0.85em; }
+
+.profile_bar .line_spacer {
+	margin: 0 14px 0 5px; }
+
+.profile_filling span.text {
+	float: left;
+	font-size: 0.85em;
+	color: #858585;
+	margin: 4px 5px 0 0; }
+
+.profile_filling span.bar {
+	float: left;
+	width: 51px;
+	height: 10px;
+	font-size: 1%;
+	margin-top: 5px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/profile_filling_percentage.gif?v=5afc6dfd31347ab3c66ace4dee33a14a") no-repeat;
+	border: 1px solid #ababab; }
+
+.profile_filling span.percent_100 {
+	background-position: 0 0; }
+
+.profile_filling span.percent_90 {
+	background-position: -5px 0; }
+
+.profile_filling span.percent_80 {
+	background-position: -10px 0; }
+
+.profile_filling span.percent_70 {
+	background-position: -15px 0; }
+
+.profile_filling span.percent_60 {
+	background-position: -20px 0; }
+
+.profile_filling span.percent_50 {
+	background-position: -25px 0; }
+
+.profile_filling span.percent_40 {
+	background-position: -30px 0; }
+
+.profile_filling span.percent_30 {
+	background-position: -35px 0; }
+
+.profile_filling span.percent_20 {
+	background-position: -40px 0; }
+
+.profile_filling span.percent_10 {
+	background-position: -45px 0; }
+
+.profile_filling span.percent_0 {
+	background-position: -50px 0; }
+
+.profile_ignore a {
+	text-decoration: underline;
+	color: #707070; }
+
+.profile_ignore span {
+	font-size: 0.85em; }
+
+.profile_ignore .submit {
+	border: none;
+	white-space: nowrap;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/kill.gif?v=c927dfb11962c4703cdaadbbab1ca11b") 2px 3px no-repeat transparent;
+	display: block;
+	width: auto;
+	text-decoration: underline;
+	font-size: 0.85em;
+	padding-left: 18px; }
+
+.profile_ignore a:hover {
+	color: #0099cc; }
+
+.profile_info {
+	float: right !important;
+	width: 522px !important; }
+
+* + html .profile_info {
+	position: relative;
+	z-index: 0; }
+
+.profile_info p {
+	margin: 0 0 8px 0;
+	line-height: 1.4em;
+	font-size: 0.85em; }
+
+.profile_info p.geostatus {
+	margin: 3px 0 5px 0;
+	padding-left: 1px;
+	font-weight: bold;
+	line-height: 1.6em; }
+
+.profile_info p.geostatus span {
+	color: #707070; }
+
+.profile_info ul.details li {
+	margin-bottom: 0;
+	font-size: 0.85em; }
+
+.profile_info ul.details .birthday {
+	margin-bottom: 10px; }
+
+.profile_info .zodiac_sign {
+	display: inline-block;
+	margin-left: 8px;
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/zodiac_signs_sm.gif?v=391bda89e1a4217f1e30169bd718bfea");
+	background-repeat: no-repeat;
+	padding: 2px 0 2px 21px; }
+
+.profile_info .aries {
+	background-position: left -4px; }
+
+.profile_info .aquarius {
+	background-position: left -244px; }
+
+.profile_info .cancer {
+	background-position: left -76px; }
+
+.profile_info .capricorn {
+	background-position: left -220px; }
+
+.profile_info .gemini {
+	background-position: left -51px; }
+
+.profile_info .leo {
+	background-position: left -99px; }
+
+.profile_info .libra {
+	background-position: left -148px; }
+
+.profile_info .pisces {
+	background-position: left -267px; }
+
+.profile_info .sagittarius {
+	background-position: left -196px; }
+
+.profile_info .scorpio {
+	background-position: left -171px;
+	padding-left: 18px; }
+
+.profile_info .taurus {
+	background-position: left -28px; }
+
+.profile_info .virgo {
+	background-position: left -123px; }
+
+.profile_info .tags {
+	padding: 0; }
+
+.profile_info .tester {
+	display: block;
+	width: 198px;
+	text-align: center;
+	margin: 6px 0 3px 0;
+	padding: 9px 0 0 0;
+	height: 24px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/badge_tester.gif?v=97ded6d2518fcf8c3b4d718123b682bd"); }
+
+.profile_info .tester b {
+	padding-left: 10px; }
+
+.profile_info .tags .common {
+	padding: 0 3px 2px 3px;
+	background: #e8fac6; }
+
+.profile_info .network_block {
+	font-size: 0.85em;
+	float: right;
+	clear: right;
+	margin: 0 4px 0 0;
+	width: 130px; }
+
+.profile_info .network_block a {
+	color: #707070;
+	text-decoration: underline; }
+
+.profile_info .network_block a:hover {
+	text-decoration: none; }
+
+.profile_info .nothing {
+	font-size: 1em; }
+
+/*.profile_info .profile_controls { margin: 10px 0 0 0; width: 140px; float: right; clear: right; }*/
+.online_block, .away_block, .offline_block {
+	font-size: 0.65em;
+	color: #707070;
+	padding: 2px 0;
+	margin: 4px 0 0 0; }
+
+.online_block, .away_block {
+	font-weight: bold; }
+
+.online_block .online {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/online_anime.gif?v=774407cdb43a25394fa01ce15a08db1f"); }
+
+.profile_photo img {
+	border: 1px solid #707070;
+	margin: 0 auto;
+	display: block; }
+
+.profile_photo_edit {
+	font-size: 0.85em;
+	line-height: 1.5em; }
+
+.profile_photo_edit small {
+	font-size: 0.9em;
+	color: #ec513b; }
+
+ul.users_photos {
+	width: 192px !important;
+	margin: 9px -14px 0 0;
+	overflow: hidden; }
+
+ul.users_photos li {
+	float: left;
+	padding: 1px 14px 13px 0; }
+
+ul.users_photos li.no_margin {
+	padding-right: 0; }
+
+ul.users_photos li.no_content {
+	width: auto;
+	margin: 10px;
+	color: #b0b0b0; }
+
+ul.users_photos li a.photo {
+	display: block; }
+
+ul.users_photos li.more_link {
+	text-align: left;
+	float: none;
+	clear: left;
+	font-size: 0.85em;
+	padding: 4px 5px !important;
+	margin: 0 !important;
+	width: 170px;
+	background: #F2F2F2; }
+
+ul.users_photos li.dashed {
+	border-top: 1px dashed #b0b0b0; }
+
+ul.users_photos li.personal {
+	padding-left: 12px !important;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_hidden.gif?v=e0a48c6d64f4fbbe47a2a80dc8e3be8c") left center no-repeat; }
+
+ul.users_photos li.note {
+	padding: 4px 0;
+	font-size: 0.85em; }
+
+ul.users_photos li a.photo span.not_public {
+	display: block;
+	position: absolute;
+	width: 14px;
+	height: 16px;
+	top: 2px;
+	left: 1px;
+	background: #fff url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_hidden.gif?v=e0a48c6d64f4fbbe47a2a80dc8e3be8c") no-repeat 3px 2px; }
+
+ul.users_photos li a.photo:hover {
+	text-decoration: none; }
+
+ul.users_photos li img {
+	border: 1px solid #707070; }
+
+ul.users_photos li.more_link img {
+	display: inline;
+	border: none;
+	margin: 0; }
+
+ul.users_photos li.loading {
+	margin: 10px 0 0 10px;
+	padding: 6px 0 6px 33px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_loading.gif?v=9098619e94a15e265b64abdfde243811") left center no-repeat;
+	color: #707070; }
+
+ul.users_photos a.add_item, .users_portraits a.add_item, .users_audio a.add_item {
+	display: block;
+	font-size: 0.85em;
+	width: 32px;
+	height: 33px;
+	padding: 15px 0 0 16px;
+	color: #84accf;
+	border: 1px solid #ddd;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/profile_photos_add_bg.gif?v=6f33aa47719ed93239768ded9c3eece3") no-repeat 2px 17px; }
+
+ul.users_photos a.add_item:hover, .users_portraits a.add_item:hover, .users_audio a.add_item:hover {
+	width: 30px;
+	height: 31px;
+	padding: 13px 0 0 14px;
+	border: 3px solid #4b8ec8;
+	background-position: 0 15px; }
+
+.users_audio {
+	padding-top: 9px; }
+
+.users_audio a.add_item {
+	width: auto;
+	height: auto;
+	padding: 8px 8px 8px 14px;
+	text-align: center;
+	background-position: 180px center; }
+
+.users_audio a.add_item:hover {
+	width: auto;
+	height: auto;
+	padding: 6px 6px 6px 12px;
+	background-position: 178px center; }
+
+.users_audio li.item {
+	padding-bottom: 10px; }
+
+.users_audio li.last {
+	padding-bottom: 0 !important; }
+
+.audio_list div.bot a {
+	color: #0a5aa0; }
+
+.audio_list div.with_margin {
+	margin-right: 150px; }
+
+div.audio_list div.settings {
+	width: 150px; }
+
+ul.users_photos a.add_item {
+	width: 29px;
+	padding-left: 19px;
+	background-position: 3px 16px; }
+
+ul.users_photos a.add_item:hover {
+	width: 27px;
+	padding-left: 17px;
+	background-position: 1px 14px; }
+
+div.profile_photo div.bot {
+	position: relative;
+	margin-top: -13px; }
+
+ul.users_videos {
+	width: 176px;
+	overflow: hidden;
+	margin: 0 auto;
+	font-size: 0.85em; }
+
+ul.users_videos li {
+	padding: 0 0 10px 7px;
+	margin-top: 10px;
+	border-bottom: 1px dotted #CACACA; }
+
+ul.users_videos li p {
+	margin-bottom: 7px !important; }
+
+.users_videos span.add_movie {
+	display: block;
+	background: none;
+	padding: 0;
+	margin: 0; }
+
+.users_videos span.add_movie a {
+	display: block;
+	height: 75px;
+	padding: 55px 0 0 46px;
+	color: #84accf;
+	border: 2px solid #ddd;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/sites_add_bg.gif?v=9b0fbfbba0f5f4b1e105fa035d1eba7b") no-repeat 20px 54px; }
+
+.users_videos span.add_movie a:hover {
+	padding: 54px 0 0 45px;
+	height: 74px;
+	border: 3px solid #4b8ec8;
+	background-position: 19px 53px; }
+
+.users_videos .top_bar {
+	display: block;
+	width: 160px;
+	height: 18px; }
+
+.users_videos .top_bar .stars {
+	float: left; }
+
+.users_videos .top_bar .duration {
+	float: right;
+	color: #555; }
+
+div.users_videos {
+	padding-top: 10px; }
+
+ul.users_videos li img {
+	display: block;
+	margin: 0 auto; }
+
+ul.users_videos li img.video_collection_icon {
+	display: inline-block;
+	float: none;
+	position: relative;
+	margin: 0 0 -2px 0; }
+
+div.friends .users_portraits {
+	width: 514px;
+	margin: 10px -14px 0 0; }
+
+div.friends .users_portraits li {
+	width: 50px;
+	padding: 0 14px 0 0;
+	height: 75px;
+	overflow: hidden; }
+
+div.profile_bar div.friends li.add_item {
+	height: 64px; }
+
+div.friends a.link {
+	text-decoration: none; }
+
+div.friends a.link em {
+	text-decoration: underline; }
+
+div.friends a.link:hover em {
+	text-decoration: none; }
+
+div.friends div.bot {
+	position: relative;
+	top: -8px; }
+
+div.friends div.bot a {
+	padding-right: 12px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/sites_more_marker.gif?v=cff06a73f28860ae7bc84c7fbfa415ed") right 5px no-repeat; }
+
+div.friends p {
+	padding-top: 8px; }
+
+div.friends div.bot a.hover {
+	background-position: right -69px; }
+
+.profile_body a, .profile_body a.head:hover, .profile_body .block h2 a.new:hover {
+	color: #0a5aa0;
+	text-decoration: underline; }
+
+.profile_body a:hover {
+	text-decoration: none; }
+
+.profile_body a em {
+	color: #0a5aa0; }
+
+.profile_body a.head {
+	color: #000;
+	text-decoration: none; }
+
+.profile_body a.edit_link {
+	color: #0a5aa0;
+	padding: 2px 0 0 13px;
+	text-transform: capitalize !important;
+	text-decoration: underline;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_pencil.gif?v=a71b9974c7d01deb96642eeb9377d275") no-repeat 0 5px !important; }
+
+.profile_body .edit_link:hover {
+	text-decoration: none; }
+
+.profile_body div.bot {
+	font-size: 0.85em;
+	text-align: right;
+	padding-top: 3px; }
+
+.profile_body div.bot a {
+	padding-right: 10px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/g/profile_add_info_vis_checker.gif?v=2970d22656876309cb5b6fbe4d3c0c19") no-repeat right -9px; }
+
+.profile_rating {
+	float: right;
+	height: 41px;
+	padding: 0;
+	margin: -6px 15px 2px 0;
+	text-align: center; }
+
+.profile_rating .rating {
+	display: block;
+	padding: 0 10px;
+	border-left: 1px solid #e3e2e2;
+	border-right: 1px solid #e3e2e2;
+	background: #fff;
+	padding-top: 2px; }
+
+.profile_rating span span {
+	font-size: 1.4em;
+	vertical-align: baseline;
+	padding: 0 3px; }
+
+.profile_rating_count {
+	margin: 0;
+	height: 17px; }
+
+.profile_rating_count span.left {
+	float: left;
+	width: 5px;
+	height: 17px;
+	padding: 0;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_profile_rating_sm.png?v=bf97809c149981b03be42cd928b92863") no-repeat 0 bottom; }
+
+.profile_rating_count span.right {
+	display: block;
+	text-align: center;
+	font-size: 0.75em;
+	height: 17px;
+	padding: 0 5px 0 0;
+	margin-left: 5px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_profile_rating_sm.png?v=bf97809c149981b03be42cd928b92863") no-repeat right bottom; }
+
+.stimulation {
+	color: #ec513b !important; }
+
+#user a.add_place, #user a.add_group, #user a.invite_user {
+	padding-left: 22px !important;
+	background-position: left center; }
+
+/* Users list */
+p.visit {
+	padding-bottom: 3px !important; }
+
+p.visit span {
+	color: #000;
+	font-weight: 600; }
+
+table.small td.col_info {
+	vertical-align: middle; }
+
+.col_photo img {
+	border: 1px solid #707070; }
+
+.users_list {
+	margin: 5px 0;
+	width: 100%; }
+
+.users_list td {
+	padding: 7px 5px;
+	vertical-align: top; }
+
+.users_list td.col_photo {
+	padding: 7px 0 7px 5px; }
+
+.users_list td.col_info {
+	padding: 7px 0 7px 10px; }
+
+.users_list td.col_info .capitalize {
+	text-transform: capitalize; }
+
+.users_list .contact_buts, .users_list .rating {
+	display: block;
+	float: right;
+	padding-top: 4px; }
+
+.users_list a.edit_friend {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_edit_sm.gif?v=070c0f0d69a90c5ad605e51069f8294f") 0 1px no-repeat;
+	font-size: 0.85em;
+	padding: 2px 0 2px 20px; }
+
+.users_list a.send_present {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_present_sm.gif?v=1d3ff95700f96285bae6f6df57383746") 0 1px no-repeat;
+	font-size: 0.85em;
+	padding: 2px 0 2px 20px; }
+
+.users_list a.write_to_user {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_write_sm.gif?v=059678365d4413b0b821aa6e9166ac9a") 0 1px no-repeat;
+	font-size: 0.85em;
+	padding: 2px 0 2px 20px; }
+
+.users_list a.invite_user {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_connect_sm.gif?v=bb91d245c32cafb7ad6c1fda2bd7b2db") 0 1px no-repeat;
+	font-size: 0.85em;
+	padding: 2px 7px 2px 20px; }
+
+.users_list div.post_details {
+	margin-bottom: 0; }
+
+.users_list div.post_details .date {
+	border-right: 0; }
+
+.users_list div.post_details a.link {
+	padding-right: 7px;
+	font-size: 0.85em;
+	color: #707070;
+	text-decoration: underline; }
+
+.big_list td p {
+	padding: 3px 0 0 0;
+	font-size: 1em; }
+
+.big_list td p.interests {
+	overflow: hidden; }
+
+.big_list td.col_info .name {
+	font-size: 1.5em; }
+
+.big_list td.col_info {
+	padding: 12px 10px 10px 10px !important; }
+
+td.col_butts a {
+	display: block;
+	margin: 7px 0 0 0; }
+
+td.col_butts form {
+	display: block !important;
+	margin: 7px 0 0 0; }
+
+td.col_butts span.submitted, td.col_butts span.loading_sm, td.col_butts span.not_submitted {
+	display: block;
+	margin: 7px 0 0 0; }
+
+td.col_butts .bordered_block {
+	margin: 10px 0 0 -10px;
+	padding: 4px 10px;
+	background: #FFFCDD; }
+
+td.col_butts .bordered_block form {
+	margin: 4px 0; }
+
+td.col_butts .bordered_block input {
+	padding: 0;
+	background: transparent;
+	display: block;
+	border: none;
+	color: #0099cc;
+	white-space: normal;
+	font-size: 0.75em;
+	text-decoration: underline; }
+
+td.col_butts .bordered_block input:hover {
+	text-decoration: none; }
+
+td.col_butts .bordered_block span {
+	color: #707070;
+	font-size: 0.75em; }
+
+/* Urls types */
+.url_type_mirtesen {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/mirtesen.gif?v=a1be268fbdaa820998a03c8ec5a54037") left center no-repeat; }
+
+.url_type_yaru {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/ya.gif?v=0e63d417187c1d62ce78b5e1dfaa4bfd") left center no-repeat; }
+
+.url_type_rambler {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/rambler.gif?v=45d74d6660ec473ec14bc924994bdaf3") left center no-repeat; }
+
+.url_type_mailru {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/mail.gif?v=0572e54470b0bc945b7c0fd5459a09b7") left center no-repeat; }
+
+.url_type_liru {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/li.gif?v=0be949c245827d9255e1c6760ecc4a55") left center no-repeat; }
+
+.url_type_odnoklassniki {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/odnoklassniki.gif?v=3fd8cfc78aa10e7033b76c3dde58a563") left center no-repeat; }
+
+.url_type_vkontakte {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/vkontakte.gif?v=2f19e06246f4bc136ba751be4aab4b7b") left center no-repeat; }
+
+.url_type_moikrug {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/moikrug.gif?v=f0adeebddc4702d219775ef01046d1a3") left center no-repeat; }
+
+.url_type_livejournal {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/livejournal.gif?v=340674b8b22a8b58e55e0a42ab79fa50") left center no-repeat; }
+
+.url_type_unknown {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/unknown.gif?v=3c0b30ca5982ca8be6f922ca3efce5ef") left center no-repeat; }
+
+.url_type_toodoo {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/toodoo.gif?v=b4b4859d00674d066a73988bc0553153") left center no-repeat; }
+
+.url_type_dirty {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/dirty.gif?v=fc03bbb20dedf983cba9975d6ea1760a") left center no-repeat; }
+
+.url_type_habr {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/habr.gif?v=0c6a2b0205a304dd6b163247d6fd8ab6") left center no-repeat; }
+
+.url_type_blogger {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/blogger.gif?v=96d30f949a06a1ffc0d606d5cbd1cee1") left center no-repeat; }
+
+.url_type_privet {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/privet.gif?v=11565c5968b0242ba5364015c528f909") left center no-repeat; }
+
+.url_type_neznakomka {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/neznakomka.gif?v=1fdbea4d6d357465cd84d70443508f35") left center no-repeat; }
+
+.url_type_memori {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/memori.gif?v=7cdf004817392e21597fc5036012d542") left center no-repeat; }
+
+.url_type_delicious {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/delicious.gif?v=f35aab336299a8783e72c8c2f3474bc9") left center no-repeat; }
+
+.url_type_rutube {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/rutube.gif?v=49e757c9f79d2ccbc8811bffd499cdc1") left center no-repeat; }
+
+.url_type_youtube {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/youtube.gif?v=ea552620646503016ab2a0b492b0bbaf") left center no-repeat; }
+
+.url_type_lastfm {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/lastfm.gif?v=f62cf65c7ed448e3bcfd717ce7b7f427") left center no-repeat; }
+
+.url_type_bigmir {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/bigmir.gif?v=64c394950484ff94659fc87f71e61047") left center no-repeat; }
+
+.url_type_jamango {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/jamango.gif?v=a472754933517a72912b913d9bd09fae") left center no-repeat; }
+
+.url_type_beon {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/beon.gif?v=514967332508fcf4b87cc50f99745075") left center no-repeat; }
+
+.url_type_lovep {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/lovep.gif?v=a0a7998bbec9c7b6a7697de4229f6e6f") left center no-repeat; }
+
+.url_type_diary {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/diary.gif?v=37e2ac462c036674a5a79780072cde0a") left center no-repeat; }
+
+.url_type_flickr {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/flickr.gif?v=3d3c76e2ba32512bffe0dd010bd63d8f") left center no-repeat; }
+
+.url_type_picasa {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/picasa.gif?v=0c54b8bf37f27c37bb269f03fd400b3b") left center no-repeat; }
+
+.url_type_photodia {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/photodia.gif?v=8862babe89eca904d9ef9776a47d73ad") left center no-repeat; }
+
+.url_type_flamber {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/flamber.gif?v=6e3c3955f162fa51a309134316b68780") left center no-repeat; }
+
+.url_type_linkedin {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/linkedin.gif?v=9c6f1e83bfb9db4129a781ff4245fcc3") left center no-repeat; }
+
+.url_type_mslive {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/live.gif?v=46eb75fe8274c65e3e98249bb53ffd51") left center no-repeat; }
+
+/* --- */
+.url_type_myspace {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/myspace.gif?v=3521e1f9ee009523ccf2c550cb2533b0") left center no-repeat; }
+
+.url_type_facebook {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/facebook.gif?v=4f0cbb80dadf1dbf7083480d2a82ccaf") left center no-repeat; }
+
+.url_type_fotkiyaru {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/fotkiya.gif?v=fe84f4a5158f2cc23b19e73d1ff74616") left center no-repeat; }
+
+.url_type_blogspot {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/blogspot.gif?v=7d2e49e2e7b36eb27cb1d4018c5ea328") left center no-repeat; }
+
+.url_type_mopoto {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/mopoto.gif?v=1592df988c23e149826640893438940b") left center no-repeat; }
+
+.url_type_rpod {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/rpod.gif?v=5d17250b6452653068380448138cfc02") left center no-repeat; }
+
+.url_type_blogru {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/blogru.gif?v=116dd1b7423bf3a5da609b5f9e8cbe26") left center no-repeat; }
+
+.url_type_photosight {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/photosight.gif?v=e4538db50d97469698bab6b68b71d7e5") left center no-repeat; }
+
+.url_type_freelance {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/freelance.gif?v=972d13cfdd85901d08e626c736714db9") left center no-repeat; }
+
+.url_type_lookatme {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/lookatme.gif?v=b3da1c0b2cc8ddc807ad6f7d42fac460") left center no-repeat; }
+
+.url_type_loadup {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/loadup.gif?v=c9d0d3f2f499583f2fbbfaa96c451bb5") left center no-repeat; }
+
+.url_type_smotri {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/smotri.gif?v=4be5ddf4970ea89c08f100d378b5c110") left center no-repeat; }
+
+.url_type_myvi {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/myvi.gif?v=f3767de1a7dd4e0847a3c7fce8829128") left center no-repeat; }
+
+.url_type_metacafe {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/metacafe.gif?v=0de03abe53a2ce158ca5be5347a902af") left center no-repeat; }
+
+.url_type_a1tv {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/diy.gif?v=846c670e01f1321d0cae4839ac5a99a0") left center no-repeat; }
+
+.url_type_imeem {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/imeem.gif?v=ff9296769681e07f119d00b9de21a9db") left center no-repeat; }
+
+.url_type_tumblr {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/tumblr.gif?v=4263f442a7a2ce6925a44355fab8a9fc") left center no-repeat; }
+
+.url_type_wordpress {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/wordpress.gif?v=7f915339fbf17bf5ebf2be6393d011cc") left center no-repeat; }
+
+.url_type_mmmtasty {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/mmm-tasty.gif?v=9679b0cce1a0ee7d0d1c6eec15c0e451") left center no-repeat; }
+
+.url_type_xing {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/xing.gif?v=6ca576c3fb12fc4e2506c5c30e1a565f") left center no-repeat; }
+
+.url_type_vspomni {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/vspomni.gif?v=50c0a6fbc906477b19d488831976ef1d") left center no-repeat; }
+
+.url_type_orkut {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/orkut.gif?v=1db7f0e2e3cdfb342bb345825b2f4680") left center no-repeat; }
+
+.url_type_photofile {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/photofile.gif?v=fae77a798bcacdb132087a8d0e9bd132") left center no-repeat; }
+
+.url_type_dating {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/dating.gif?v=16e3c3f9510b377ec2cc21211adedf78") left center no-repeat; }
+
+.url_type_mamba {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/mamba.gif?v=f191ae63b4d7db20db00a20ce461dce8") left center no-repeat; }
+
+.url_type_deviantart {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/imeem.gif?v=ff9296769681e07f119d00b9de21a9db") left center no-repeat; }
+
+.url_type_weblancer {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/weblancer.gif?v=a09f5ad3cd7474da5d44c2a75237b20e") left center no-repeat; }
+
+.url_type_freelancers {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/urls_types/free-lancers.gif?v=6fbe2df2566777fcbb9ce5023e1a1d8c") left center no-repeat; }
+
+/* personal badges */
+.badge {
+	display: block;
+	float: left;
+	position: relative;
+	margin: 3px 5px 3px 0;
+	width: 130px;
+	height: 49px;
+	cursor: default; }
+
+.badge img {
+	display: block;
+	margin: 0 auto; }
+
+.badge span {
+	display: none;
+	position: absolute;
+	bottom: 32px;
+	left: 120px; }
+
+.badge:hover span {
+	display: block;
+	padding: 5px 10px;
+	background: #fffcdd;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	border-radius: 6px; }
+
+.site_extra_badge {
+	width: 77px;
+	position: static; }
+
+span.wrap {
+	display: block; }
+
+#person_badges {
+	width: 176px;
+	padding: 7px 0 0 2px; }
+
+#person_badges li {
+	float: left;
+	padding: 0 3px; }
+
+#person_badges li.big {
+	padding-left: 21px; }
+
+/* profile snowballs */
+.delete_snowballs {
+	border: 0;
+	background: transparent;
+	font-size: 1em;
+	color: #0099cc;
+	display: block;
+	cursor: pointer;
+	margin: 0 auto 5px auto;
+	width: auto; }
+
+#profile_snowballs .snowball p b, #profile_snowballs .snowball p i {
+	width: 329px; }
+
+#profile_snowballs .snowball p b {
+	height: 9px; }
+
+.profile_snowballs .snowball {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background-repeat: no-repeat;
+	margin: 0;
+	z-index: auto; }
+
+.profile_snowballs .snowball:hover p, .profile_snowballs .snowball.hover p {
+	display: block; }
+
+.profile_snowballs .snowball p {
+	z-index: 210; }
+
+.profile_snowballs .snowball p .name {
+	text-align: left; }
+
+.snowball .transparent {
+	display: none; }
+
+.snowball_1 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_snowball1.png?v=0a194b46178339380844bff7ce40d1f2"); }
+
+.snowball_2 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_snowball2.png?v=f4c0cd6d27b9b9a3c8d10f1a9b78b09f"); }
+
+.snowball_3 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_snowball3.png?v=bfcfc84fba0d0a3891b4ba4cb449be65"); }
+
+.snowball_4 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_snowball4.png?v=a24ea0b3e0f93d3f12b33aea37c7c32f"); }
+
+.snowball_5 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_snowball5.png?v=f40bdef766dca2517923009581e66f71"); }
+
+.poison_snowball_1 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_poison_snowball1.png?v=9730ce6325dd313dfb9117446342c5d0"); }
+
+.poison_snowball_2 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_poison_snowball2.png?v=0893b6e3e707b9ac5d242baf40343e73"); }
+
+.poison_snowball_3 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_poison_snowball3.png?v=f2eced72c26dc14a6c007d686bd7c197"); }
+
+.poison_snowball_4 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_poison_snowball4.png?v=d9f5a38be5b741a306f64f1091aa3d45"); }
+
+.poison_snowball_5 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_poison_snowball5.png?v=c6f2c237ac0ea475f908f2e290a7d6f6"); }
+
+.poison_snowball_6 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_poison_snowball6.png?v=d1633d8be1d380fc90cfdfaff0ab7867");
+	width: 155px !important;
+	height: 120px !important; }
+
+.snowball.number_1 .balloon_item b, .snowball.number_3 .balloon_item b {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_popup_balloon_bottom_flip.gif?v=0e13293bf2c69c6b31a0a7817b8f2e92") no-repeat left top;
+	top: auto;
+	bottom: -9px; }
+
+.snowball.number_1 .balloon_item i, .snowball.number_3 .balloon_item i {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_popup_balloon_top_flip.gif?v=f94b0d345015215d04c25c6b1e7124cb") no-repeat left top;
+	bottom: auto;
+	top: -34px; }
+
+.snowball.number_1 .balloon_item, .snowball.number_3 .balloon_item {
+	top: 64px !important;
+	bottom: auto !important; }
+
+.muskrat_1 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_muskrat1.png?v=5e0982d43404ba87a8477601103fc153"); }
+
+.muskrat_2 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_muskrat2.png?v=68215f4584005260da0f82782437af2b"); }
+
+.muskrat_3 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_muskrat3.png?v=01a2472b5b9c86654b537a2048827afa"); }
+
+.muskrat_4 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_muskrat4.png?v=26dbb84e7bf79de4ef0029b3846a5b46"); }
+
+.muskrat_5 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_muskrat5.png?v=14dde823f8a9310f4cb13aa07403a96a"); }
+
+.poison_muskrat_1 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_poison_muskrat1.png?v=3d07218867f9b83b072dcfb12101aac0"); }
+
+.poison_muskrat_2 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_poison_muskrat2.png?v=62a19703778926daf21f4c19cc2e47dd"); }
+
+.poison_muskrat_3 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_poison_muskrat3.png?v=caa32f059b55df712f86f6bb1dbd8219"); }
+
+.poison_muskrat_4 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_poison_muskrat4.png?v=a23c9a16b87fd8849e426e540b4e2a9e"); }
+
+.poison_muskrat_5 {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_poison_muskrat5.png?v=24e9c4feec52237be6a959b5e32d76a0"); }
+
+/* Special groups */
+.special_groups {
+	width: 100%; }
+
+.special_groups img {
+	border: 0; }
+
+.special_groups td {
+	vertical-align: top;
+	padding: 0 10px 12px 0; }
+
+.special_groups .description {
+	font-size: 0.85em;
+	padding-top: 2px; }
+
+.special_groups .description a {
+	font-weight: bold; }
+
+.special_groups .description span {
+	color: #707070; }
+
+.special_groups .thumb {
+	text-align: right;
+	width: 120px; }
+
+.special_groups_marker {
+	display: block;
+	float: left;
+	color: #707070;
+	font-size: 0.85em; }
+
+/* Profile refactoring */
+h2 .small_text {
+	font-weight: normal;
+	text-transform: none; }
+
+.profile_top, .profile_bottom {
+	height: 7px;
+	position: relative;
+	z-index: -1; }
+
+.profile_top {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/dot_gray.gif?v=f35d50286c8fdff33d4e3e84f2804ece") top repeat-x; }
+
+.profile_bottom {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/dot_gray.gif?v=f35d50286c8fdff33d4e3e84f2804ece") bottom repeat-x #fafafa; }
+
+.profile_top i, .profile_top b, .profile_bottom i, .profile_bottom b {
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	overflow: hidden; }
+
+.profile_top i {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/c_profile_tl.png?v=649232f238aabc9189891dd26bdbef8e");
+	left: 0; }
+
+.profile_top b {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/c_profile_tr.png?v=88d8d7cc15b65a9cb2dc7b27c21fff7f");
+	right: 0; }
+
+.profile_bottom i {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/c_profile_bl.png?v=6a85f23942b7fbcfa7d1be5507625155");
+	left: 0; }
+
+.profile_bottom b {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/c_profile_br.png?v=61c788c908fd97ede748e6bd72d6cef4");
+	right: 0; }
+
+.profile_head {
+	border-left: 1px solid #e5e4e4;
+	border-right: 1px solid #e5e4e4; }
+
+.profile_head {
+	padding: 0 0 7px 15px;
+	border-bottom: 1px solid #e5e4e4; }
+
+.profile_head h1 {
+	padding-bottom: 3px; }
+
+.profile_head h1 span {
+	font-size: 0.48em; }
+
+.profile_head h1 span.away {
+	color: #eb7603; }
+
+.profile_head h1 span.offline {
+	color: #707070; }
+
+.profile_head a.geo {
+	color: #0a5aa0;
+	text-decoration: underline;
+	margin-right: 4px; }
+
+.profile_head a.geo:hover {
+	text-decoration: none; }
+
+.profile_head .user_place {
+	float: left;
+	padding: 1px 11px 0 0; }
+
+.profile_head .profile_filling {
+	float: left; }
+
+/*.profile_controls { height: 40px; background: url(bg_actions_line.gif?v=1e3da4cbf810ac017c8f30ec95221965) repeat-x #fafafa; }*/
+.profile_controls a {
+	color: #0a5aa0;
+	text-decoration: underline; }
+
+.profile_controls a:hover {
+	text-decoration: none; }
+
+.profile_controls li {
+	float: left;
+	padding: 7px 5px 0 15px;
+	height: 27px; }
+
+.profile_controls li.right {
+	float: right; }
+
+.profile_controls li .button_green a {
+	display: inline-block;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 20px; }
+
+.profile_controls li a {
+	display: inline;
+	font-size: 0.85em;
+	font-weight: bold;
+	text-decoration: underline; }
+
+* + html .profile_controls li a {
+	display: inline-block; }
+
+.profile_controls li a.settings {
+	float: left;
+	padding: 4px 0 4px 22px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/profiledrop_icon_7.png?v=8bf8880f47b47377eec988efa4397907") no-repeat -6px -3px; }
+
+.profile_controls li.profile_ignore, .profile_controls li.profile_trash {
+	float: right;
+	padding: 9px 15px 0 0; }
+
+.profile_controls li a.edit_link {
+	float: left;
+	background-position: left center;
+	padding: 4px 0 4px 22px; }
+
+.profile_controls li.more {
+	position: relative; }
+
+.profile_controls li.more a {
+	position: absolute;
+	top: 0;
+	min-height: 14px;
+	padding: 11px 20px 6px 20px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/more_arrow_left.gif?v=57e16b53ddd3f18f5f8542fa9b55e436") 7px 12px no-repeat; }
+
+.profile_controls span.profile_ignore, .profile_controls span.profile_trash {
+	display: block;
+	font-size: 1.15em;
+	margin-top: 10px; }
+
+.profile_controls span.profile_ignore span {
+	font-weight: normal;
+	color: #707070;
+	width: 15em; }
+
+.profile_controls span.more_actions_list {
+	padding: 0 0 5px 0; }
+
+.profile_controls input.butt_trash {
+	color: #0a5aa0;
+	text-decoration: underline;
+	display: block; }
+
+.profile_controls input.unlink {
+	display: inline-block;
+	color: #0a5aa0;
+	text-decoration: underline;
+	padding-left: 18px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/unlink.png?v=d7b13be3f76a9abb1c7ae86b8c7bf04b") no-repeat -1px 2px;
+	font-weight: bolder;
+	text-transform: capitalize; }
+
+.profile_controls li.more a span.more_actions_list {
+	display: none;
+	z-index: 3; }
+
+.profile_controls span.more_actions_list input {
+	text-align: left; }
+
+* + html .profile_controls span.more_actions_list span {
+	margin: 0;
+	padding: 3px 0 0 0; }
+
+.profile_controls li.more a:hover {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/more_arrow_down.gif?v=83eb7f61a18e9c97f2c0f2aa66602c40") 7px 14px no-repeat #d9f0f7;
+	text-decoration: none;
+	border-right: 1px solid #b0b0b0;
+	border-bottom: 1px solid #b0b0b0;
+	cursor: text;
+	min-height: 44px;
+	z-index: 2; }
+
+.profile_controls li.more a:hover span.title {
+	display: block;
+	border-bottom: 1px dashed #999;
+	padding-bottom: 3px; }
+
+.profile_controls li.more a:hover span.more_actions_list {
+	display: block; }
+
+.profile_controls li.more span.more_actions_list input {
+	position: static;
+	border: #d9f0f7 solid 1px; }
+
+.profile_controls a.invite {
+	float: left;
+	padding: 0 0 2px 19px;
+	margin-top: 4px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/a_invite_bg.png") no-repeat 0 0; }
+
+.profile_controls a.link_write, .profile_controls a.link_send_present, .profile_controls a.invite_user {
+	text-transform: capitalize; }
+
+.profile_controls li.profile_exit {
+	float: right; }
+
+.profile_controls li.profile_exit input {
+	float: left;
+	font-family: Tahoma, Verdana, Arial, "Liberation Sans", sans-serif;
+	font-size: 0.85em;
+	color: #0a5aa0;
+	width: auto;
+	height: 15px;
+	margin-top: 2px;
+	text-align: left;
+	text-decoration: underline;
+	text-transform: capitalize;
+	background: none;
+	border: none;
+	cursor: pointer; }
+
+.profile_controls li.profile_exit input:hover {
+	text-decoration: none; }
+
+.profile_body .profile_photo {
+	display: block;
+	padding: 0px;
+	margin-top: 15px;
+	background: #F6F6F7;
+	border: 1px solid #e5e4e4; }
+
+#status_block {
+	position: relative;
+	padding: 10px 10px 8px;
+	border: 1px solid #8b8b8b;
+	background: #fff; }
+
+#status_block .text {
+	display: block;
+	text-align: justify;
+	overflow: hidden; }
+
+#status_block .edit_link {
+	float: right;
+	font-size: 0.85em; }
+
+#status_block i {
+	position: absolute;
+	top: -30px;
+	right: 33px;
+	width: 29px;
+	height: 30px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/person_status_bg.gif?v=6c24bfed6dbca135400db9057a13b59c") 0 0 no-repeat; }
+
+.profile_body .block, .profile_block {
+	padding: 0 10px 10px 10px;
+	margin-top: 15px;
+	border: 1px solid #e5e4e4;
+	background: #fff; }
+
+.module.rounded_blocks .profile_body .block {
+	padding: 10px; }
+
+.profile_body .block h2, .profile_block h2 {
+	font-size: 1em;
+	font-weight: bold;
+	color: #000;
+	text-transform: uppercase;
+	border-bottom: 1px dotted #e5e4e4;
+	padding: 6px 0 3px 0; }
+
+.profile_body .block h2 .new {
+	color: #f00; }
+
+.profile_body .block h3 {
+	font-size: 1.3em;
+	padding: 8px 0px 0px 0px;
+	font-weight: normal;
+	color: #81c6dc; }
+
+.profile_body .block h3 .small_text {
+	font-size: 10px; }
+
+.profile_body .block h3 .red_text {
+	color: #fea79e; }
+
+.profile_body .block h3 .text_link {
+	color: #333333; }
+
+.profile_body .block h3 a:hover,
+.profile_body .block h3 a:hover .text_link {
+	color: #00B2EF; }
+
+.profile_body .block h3 a {
+	color: #81c6dc; }
+
+.profile_body .block h3 a.add_app,
+.profile_body .block h3 a.edit_link {
+	float: right;
+	font-size: 0.65em;
+	color: #00B2EF; }
+
+.profile_body .block h2 a.edit_link, .profile_body .block h2 a.add_app {
+	float: right;
+	font-size: 0.85em;
+	font-weight: normal;
+	text-transform: none; }
+
+.profile_body .block h1 a.edit_link {
+	float: right;
+	font-size: 0.55em;
+	font-weight: normal;
+	text-transform: none; }
+
+.profile_body .profile_place_block .rated_plus, .profile_body .profile_place_block .rated_minus {
+	background: none; }
+
+.profile_body .block .block_buttons {
+	margin-bottom: -5px; }
+
+.profile_body .block .block_container {
+	padding: 0 10px 5px 10px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_snowball_block_2.jpg?v=7546219b29a472123433587f27e7a019") no-repeat right top; }
+
+.profile_body .block .decal {
+	position: absolute; }
+
+.profile_body .decal_block {
+	position: relative; }
+
+.profile_body .decal_snowball {
+	color: #333;
+	border: 1px solid #0099cc;
+	padding: 7px;
+	background: #f2fafc; }
+
+.profile_body .decal_snowball h2 {
+	color: #0099CC;
+	border: none;
+	padding: 0;
+	font-size: 1.6em;
+	/* font-weight: bold; border: none; background: #0099cc; padding: 6px 10px 3px 10px; */ }
+
+.profile_body .decal_snowball .timing {
+	font-size: 0.5em;
+	float: right;
+	margin-top: 1em;
+	color: #333; }
+
+.profile_body .decal_snowball .block_buttons {
+	background: none;
+	border-top: 1px solid #B7E5F3;
+	padding-left: 0;
+	padding-right: 0; }
+
+/* .profile_body .decal_snowball .block_container { border: 1px solid #0099cc; border-width: 0 1px 1px 1px; } */
+/*.profile_body .decal_snowball .decal { top: -14px; left: 0; width: 109px; height: 20px; background: url(bg_decal_profile_snowballs_2.gif?v=5930e742412f029514646846b8912a34) no-repeat left top; }*/
+.profile_body .decal_snowball .snowball_messages {
+	padding: 5px 0; }
+
+.profile_body .decal_snowball .snowball_messages li {
+	font-size: 0.85em; }
+
+.profile_body .decal_snowball .snowball_stats {
+	height: auto;
+	margin: 10px 0;
+	padding: 10px 0 0px; }
+
+.profile_body .decal_snowball .snowball_stats p {
+	padding-top: 5px;
+	margin-bottom: 4px; }
+
+.profile_body .decal_snowball .snowball_stats span {
+	margin: 0 10px 0 0; }
+
+.profile_body .decal_snowball .special_poisoned {
+	color: #459836; }
+
+.profile_body .decal_snowball .team {
+	font-size: 1em;
+	margin: 5px 0 10px;
+	padding: 0 0 4px 0;
+	/* border-bottom: 1px solid #0099cc; */ }
+
+.profile_body .decal_snowball .block_buttons a {
+	padding: 6px 0 3px 0; }
+
+.profile_body .decal_snowball .block_buttons a.i_am_a_pacifist,
+.profile_body .decal_snowball .block_buttons a.howto {
+	float: right;
+	margin-left: 8px; }
+
+.profile_body .decal_snowball .block_buttons a.throw_link {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/bg_snowball_link.png?v=d81e3ef5dffdfcb9093ad2505db45d09") no-repeat left top;
+	padding-left: 26px; }
+
+.profile_body .decal_snowball .block_buttons a.on_map_link {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_onmap.gif?v=df408e0bee02985b4258f78b35fc631b") no-repeat left 3px;
+	padding-left: 20px;
+	margin-left: 8px; }
+
+.profile_body .decal_snowball .block_buttons input.simple {
+	padding: 3px 0 3px 0;
+	text-decoration: none; }
+
+.profile_body .decal_snowball .enemy {
+	color: #F00; }
+
+.profile_body .decal_snowball .friendly {
+	color: #358500; }
+
+.profile_body span.invis_stat {
+	float: right;
+	font-size: 0.85em;
+	font-weight: normal;
+	text-transform: none; }
+
+.profile_body span.invis_stat span {
+	font-size: 1em; }
+
+.hidden_notification {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_hidden.gif?v=e0a48c6d64f4fbbe47a2a80dc8e3be8c") 10px center no-repeat #fffcdd;
+	padding: 4px 25px;
+	margin-bottom: 4px !important;
+	font-size: 1em; }
+
+.highlight {
+	background: #fffcdd;
+	padding: 4px 13px;
+	font-size: 0.85em; }
+
+.link_write {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_mail_green.gif?v=fe06b4d6f439ff59c5e0bdea54288dc5") 0 4px no-repeat;
+	padding: 4px 0 6px 26px; }
+
+.profile_controls .invite_user, .profile_controls .link_write, .profile_controls .link_send_present {
+	float: left; }
+
+.link_send_present {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_present.gif?v=6e0226f70d1782d15c7068b9870fecca") 0 2px no-repeat;
+	padding: 4px 0 6px 26px; }
+
+.link_route {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_route.gif?v=050a0904f11008b056304f994c202f89") 0 4px no-repeat;
+	padding: 4px 0 6px 30px; }
+
+#block_buttons_presents {
+	font-size: 0.85em;
+	padding: 5px;
+	background: #f2f2f2; }
+
+dl, dt {
+	float: left; }
+
+dl {
+	padding: 5px 0;
+	font-size: 0.85em; }
+
+dt {
+	white-space: nowrap;
+	clear: left;
+	padding: 3px 0;
+	color: #a0a0a0; }
+
+dd {
+	padding: 3px 0;
+	margin-left: 10.5em; }
+
+dd.small {
+	padding: 1px 0; }
+
+dl.col_1 {
+	width: 250px; }
+
+dl.col_2 {
+	width: 240px;
+	float: right; }
+
+dl.col_2 dd {
+	margin-left: 12em; }
+
+p.snow_notice {
+	font-size: 0.85em;
+	padding: 8px 0 4px 0;
+	margin-left: -3px; }
+
+p.snow_notice span {
+	background: #fffcdd;
+	padding: 2px 4px 3px 5px; }
+
+input.get_code {
+	display: block;
+	width: 170px;
+	margin: 12px 0; }
+
+.banner_code {
+	width: 466px;
+	height: 50px;
+	padding: 1px;
+	overflow: hidden; }
+
+.profile_head h1 span.it_is_you {
+	font-size: 0.75em;
+	color: #a0a0a0; }
+
+.profile_head h1 span.balance {
+	font-size: 0.5em;
+	margin-left: 24px; }
+
+.profile_head h1 span.balance a {
+	color: #0A5AA0;
+	text-decoration: underline; }
+
+.profile_head h1 span.balance a:hover {
+	text-decoration: none; }
+
+#visitors h2 a.additional, #visitors h2 span.splitter {
+	float: right;
+	font-size: 0.65em;
+	margin-top: 6px; }
+
+#visitors h2 a.additional {
+	font-size: 0.85em;
+	font-weight: normal;
+	text-transform: none;
+	margin: 0; }
+
+#visitors ul.users_portraits small {
+	text-align: left;
+	color: #a0a0a0; }
+
+#visitors a.link {
+	width: auto; }
+
+#visitors ul.users_portraits {
+	padding-left: 1px; }
+
+#visitors ul.users_portraits a.photo {
+	width: 50px; }
+
+#visitors ul.users_portraits li {
+	width: 50px;
+	padding: 0 14px 0 0;
+	margin: 0; }
+
+#visitors ul.users_portraits li.last {
+	padding-right: 0; }
+
+span.common_interests {
+	color: #707070; }
+
+#profile_add_info_vis_checker {
+	font-size: 0.85em;
+	color: #0a5aa0;
+	cursor: pointer;
+	padding-left: 11px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/g/profile_add_info_vis_checker.gif?v=2970d22656876309cb5b6fbe4d3c0c19") no-repeat 0 -10px; }
+
+#profile_add_info_vis_checker.hover {
+	background-position: 0 5px; }
+
+#profile_add_info_vis_checker .hide, #profile_add_info.hide {
+	display: none; }
+
+#persons_groups {
+	position: relative;
+	padding-bottom: 8px;
+	padding-left: 6px !important; }
+
+#persons_groups .spacer {
+	padding-left: 4px; }
+
+#persons_groups h2 {
+	margin-left: 4px; }
+
+#persons_groups a.block_in {
+	float: left;
+	position: relative;
+	width: 84px;
+	height: 104px;
+	margin: 0 6px;
+	font-size: 0.85em;
+	color: #0a5aa0;
+	text-decoration: none;
+	text-align: center; }
+
+#persons_groups a.block_in:hover {
+	width: 92px;
+	height: 136px;
+	margin: -18px -5px -32px;
+	padding: 18px 7px 0 7px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/sites_item_bg.png?v=b414d74e04e5fceccbd8a1aecbb247c7") no-repeat 0 0;
+	cursor: pointer;
+	z-index: 1; }
+
+#persons_groups span.img {
+	display: block;
+	position: relative;
+	width: 84px;
+	height: 66px;
+	margin: 0 auto; }
+
+#persons_groups .my_sites {
+	position: absolute;
+	top: -10px;
+	left: -35px;
+	width: 120px;
+	height: 70px;
+	text-indent: -1000px;
+	overflow: hidden;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/m/icon_sites_manager.png?v=5aecacf0d9d4f837a60bb87696466ce1") 0 0 no-repeat;
+	z-index: 1; }
+
+#persons_groups span.text {
+	display: block;
+	width: 82px;
+	height: 28px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-decoration: underline; }
+
+#persons_groups a.i_am_owner span.text {
+	font-weight: bold; }
+
+#persons_groups span.big {
+	display: none;
+	width: 90px;
+	height: 56px; }
+
+#persons_groups a.block_in:hover span.text {
+	display: none;
+	text-decoration: none; }
+
+#persons_groups a.block_in:hover span.big {
+	display: block; }
+
+#persons_groups a.block_in:hover .my_sites {
+	background-position: 0 bottom; }
+
+#persons_groups .new_count {
+	position: absolute;
+	top: -5px;
+	right: 0;
+	color: #fff;
+	padding: 0 1px 2px 2px;
+	background: #f01f22; }
+
+#persons_groups span.add_site {
+	float: left;
+	width: 84px;
+	height: 104px; }
+
+#persons_groups span.add_site a {
+	display: block;
+	width: 54px;
+	height: 32px;
+	padding: 28px 1px;
+	margin: 0 auto;
+	font-size: 0.85em;
+	color: #84accf;
+	text-align: center;
+	border: 2px solid #ddd;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/sites_add_bg.gif?v=9b0fbfbba0f5f4b1e105fa035d1eba7b") no-repeat 31px 61px; }
+
+#persons_groups span.add_site a:hover {
+	padding: 27px 0;
+	border: 3px solid #4b8ec8;
+	background-position: 30px 60px; }
+
+#more_sites_block.hide {
+	display: none; }
+
+#more_sites {
+	display: block;
+	position: absolute;
+	top: 44px;
+	right: 0;
+	width: 38px;
+	height: 27px;
+	padding-top: 59px;
+	font-size: 0.75em;
+	color: #0a5aa0;
+	letter-spacing: 0;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: lowercase;
+	cursor: pointer; }
+
+#more_sites:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #4b8ec8 url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/sites_more_bg.gif?v=4d73a745bd925ef604ff2079c2a1f7f0") no-repeat 0 0; }
+
+#more_sites span {
+	padding-bottom: 8px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/sites_more_marker.gif?v=cff06a73f28860ae7bc84c7fbfa415ed") no-repeat center 15px; }
+
+#more_sites span.show, #more_sites.hover span.hide {
+	display: block; }
+
+#more_sites span.hide, #more_sites.hover span.show {
+	display: none; }
+
+#more_sites:hover span {
+	background-position: center -10px; }
+
+#more_sites.hover span {
+	background-position: center -60px; }
+
+#more_sites.hover:hover span {
+	background-position: center -35px; }
+
+#profile_main_blocks div.friends {
+	position: relative; }
+
+#profile_main_blocks div.friends .hide {
+	display: none; }
+
+#profile_main_blocks div.friends div.bot {
+	margin-bottom: -8px; }
+
+div.promo_button {
+	padding: 15px 1px 0; }
+
+div.promo_button .button_green {
+	display: block; }
+
+div.promo_button .button_green a {
+	display: block;
+	height: 21px;
+	padding-top: 6px;
+	font-size: 1em;
+	text-align: left;
+	text-shadow: none;
+	text-decoration: none;
+	background-repeat: no-repeat !important; }
+
+div.promo_button .button_green a.torrent {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icons/add_torrent.png?v=c7a2b80afcb05647da8681379627c16f") !important;
+	background-position: 21px center !important;
+	padding-left: 41px; }
+
+div.promo_button .button_green a.films {
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icons/films_online.png?v=fa37e3de93f11433c7fc5ff8881cbea3") !important;
+	background-position: 33px center !important;
+	padding-left: 56px; }
+
+div.bot_sites {
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #777; }
+
+div.bot_sites span.head {
+	font-weight: bold;
+	margin-right: 2px; }
+
+div.bot_sites a {
+	font-size: 95%;
+	color: #0a5aa0; }
+
+#person_discounts {
+	padding-top: 15px; }
+
+#person_discounts ul.tabs li {
+	width: auto;
+	height: 22px;
+	padding: 6px 11px 0;
+	margin-right: 6px;
+	background: #fff url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/discounts_profile_block_tab_bg.gif?v=4ed4f217eb8ee0ebc9fc4bd50445dfbb") 0 bottom repeat-x;
+	border: solid #777;
+	border-width: 1px 1px 0;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-khtml-border-top-right-radius: 5px;
+	-khtml-border-top-leftradius: 5px;
+	cursor: pointer; }
+
+#person_discounts ul.tabs li a {
+	background: none;
+	display: inline;
+	font-size: 1em;
+	height: auto;
+	padding: 0;
+	width: auto; }
+
+#person_discounts ul.tabs li.active {
+	position: relative;
+	height: 23px;
+	margin-bottom: -1px;
+	background-image: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/discounts_profile_block_tab_active_bg.gif?v=c036a14e058a8be5e6660330f04ad3be");
+	background-position: 0 0; }
+
+#person_discounts ul.tabs li.active a {
+	color: #292929;
+	font-weight: bold;
+	text-decoration: none; }
+
+#person_discounts div.block {
+	margin-top: 0; }
+
+#person_discounts .list {
+	width: 100%;
+	margin-bottom: 6px; }
+
+#person_discounts .list td {
+	padding: 9px 0;
+	vertical-align: top;
+	border-bottom: 1px dashed #ccc; }
+
+#person_discounts .list td.image {
+	width: 58px;
+	padding-top: 13px; }
+
+#person_discounts .list td.image div.space {
+	width: 58px;
+	height: 1px;
+	font-size: 0; }
+
+#person_discounts .list td.controls {
+	text-align: right;
+	padding-left: 10px; }
+
+#person_discounts .list td.controls .spacer_sm {
+	height: 7px; }
+
+#person_discounts div.info {
+	height: 14px;
+	font-size: 0.85em;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/discounts_profile_block_icon_period.gif?v=f4ca53b93f7a2ff453f4e70b5b2f0168") 0 center no-repeat;
+	padding-left: 21px;
+	margin-top: 9px;
+	white-space: nowrap; }
+
+#person_discounts div.bought {
+	font-size: 0.85em;
+	padding-top: 2px; }
+
+#person_discounts a.name {
+	font-weight: bold; }
+
+#person_discounts .date_counter {
+	background: #fc0;
+	padding: 0 2px 0 3px; }
+
+#person_discounts span.price {
+	display: inline-block;
+	position: relative;
+	font-size: 1.5em;
+	color: #376600;
+	margin-right: 8px;
+	top: 1px; }
+
+#person_discounts div.economy {
+	font-size: 0.85em;
+	text-align: right;
+	white-space: nowrap;
+	padding-top: 7px; }
+
+#person_discounts div.economy big {
+	display: block;
+	font-size: 1.15em;
+	padding-bottom: 2px; }
+
+#person_discounts span.code {
+	font-size: 1.4em;
+	position: relative;
+	top: 1px; }
+
+#person_discounts .button_green input {
+	width: 69px; }
+
+#person_discounts a.print {
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/discounts_profile_block_a_print.gif?v=300e1d41ac8f9b1b2a0055f37e16fcc8") 0 0 no-repeat;
+	padding-left: 23px;
+	margin-left: 4px; }
+
+#person_discounts .till_label {
+	color: #777; }
+
+#person_discounts div.block a.expired, #person_discounts div.block a.actual {
+	float: right;
+	padding: 1px 4px 2px;
+	margin-left: 12px; }
+
+#person_discounts div.block a.hover {
+	color: #fff;
+	text-decoration: none;
+	cursor: default;
+	background: #4b8ec8; }
+
+#person_discounts .hide {
+	display: none !important; }
+
+#person_discounts div.empty {
+	color: #777;
+	padding: 14px 0 10px;
+	text-align: center; }
+
+.invitation_teaser_container {
+	padding-bottom: 20px; }
+
+.invitation_teaser_holder {
+	min-height: 24px; }
+
+.invitation_teaser {
+	float: left;
+	padding: 0 20px 20px 0; }
+
+#profile_reverse_matching div.loading {
+	height: 50px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/icon_loading_hr.gif?v=4889784689c1b8109f97a0eecf9265f4") center center no-repeat; }
+
+.profile_body .profile_controls {
+	clear: both; }
+
+.profile_body .user_place {
+	float: left;
+	padding: 1px 11px 20px 0; }
+
+.new_design .profile_body .block, .profile_block, .new_design .profile_body .profile_photo {
+	border-color: #777 !important; }
+
+.new_design .profile_head {
+	padding-top: 7px;
+	border: 1px solid #777;
+	border-bottom: none !important;
+	background: #fff !important; }
+
+.new_design .profile_bar .profile_photo {
+	background: #fff !important; }
+
+.new_design .profile_bar .whith_out_bg {
+	background: none !important;
+	border: none !important;
+	padding: 0 !important; }
+
+/*.new_design .profile_controls {min-height: 36px; height: auto; border: 1px solid #777; border-top: none !important}*/
+.new_design .profile_bar {
+	width: 200px; }
+
+.new_design .profile_bar .commentForm textarea {
+	width: 176px; }
+
+.new_design ul.users_portraits li {
+	width: 59px;
+	padding: 0 0 3px 0;
+	margin: 0; }
+
+.new_design ul.users_portraits li a.photo {
+	width: 59px;
+	margin: 0;
+	padding: 0; }
+
+.new_design ul.users_portraits li a.link {
+	width: 59px;
+	margin: 0;
+	padding: 0;
+	text-align: left; }
+
+.new_design ul.users_portraits li a.photo img, .new_design ul.users_portraits li span.photo img {
+	margin: 0; }
+
+.new_design .profile_rating {
+	margin: 0 0 2px 0; }
+
+.new_design .profile_rating .rating {
+	border: none; }
+
+.new_design .profile_rating .profile_rating_count span {
+	background: none; }
+
+.new_design .profile_rating {
+	padding-right: 7px; }
+
+.profile_photo li.note, .profile_photo li.more_link {
+	font-size: 0.85em;
+	list-style-position: inside;
+	padding: 2px; }
+
+.new_design ul.photo_controls, .new_design ul.video_controls {
+	margin-top: 0;
+	padding-left: 0; }
+
+.new_design .right_col div.form, .new_design .right_col .right_col_button {
+	margin-left: 0 !important; }
+
+.new_design .wide_fields .block {
+	padding: 0 25px; }
+
+.new_design .form .block .age {
+	width: 24px; }
+
+.new_design .right_col h2.tips {
+	background-position: 0 2px;
+	padding: 1px 0 5px 20px; }
+
+#friends_block {
+	margin-bottom: 20px;
+	border: 1px solid #777;
+	background: #fff; }
+
+#friends_block .butt_popout {
+	float: right;
+	height: 16px;
+	width: 16px;
+	text-decoration: none;
+	margin: 3px 3px 0 0; }
+
+#friends_block div.head {
+	min-height: 50px;
+	padding: 4px;
+	background: #e9e9e9;
+	border-bottom: 1px solid #c5c5c5; }
+
+#friends_block div.head a.photo {
+	float: left;
+	width: auto;
+	border: 1px solid #777; }
+
+#friends_block div.head span.right {
+	display: block;
+	margin-left: 56px; }
+
+#friends_block div.head span.age {
+	color: #6c6d6f; }
+
+#friends_block div.head .status a {
+	padding-right: 11px;
+	background: url("urn:scrapbook:download:error:http://x.peoples-portal.com/sustaprime/mirtesen/css/friendsblock_geo_marker_2.gif?v=36cd329b3e0fa23d1cdeac171ab3560b") no-repeat right center; }
+
+#friends_block div.head .link {
+	font-size: 1em; }
+
+#friends_block .status a {
+	color: #84abcc; }
+
+#friends_block .user_link {
+	display: block;
+	position: relative;
+	margin: 0 !important;
+	padding: 0 !important;
+	border-bottom: 1px solid #f0f0f0; }
+
+#friends_block .user_link:hover {
+	background: #d2dff3; }
+
+#friends_block a {
+	font-size: 0.85em;
+	color: #0a5aa0;
+	text-decoration: underline; }
+
+#friends_block a:hover {
+	text-decoration: none; }
+
+#friends_block a.first_link {
+	padding-right: 5px; }
+
+#friends_block a.left {
+	display: block;
+	text-decoration: none;
+	min-height: 28px;
+	padding: 4px 4px 2px 6px;
+	margin-right: 34px; }
+
+#friends_block .link {
+	color: #0a5aa0; }
+
+#friends_block a.left:hover {
+	background: #d2dff3; }
+
+#friends_block span.on_site {
+	display: block;
+	position: relative;
+	width: 46px;
+	margin-top: 3px;
+	text-align: center;
+	font-size: 0.7em;
+	color: #fff;
+	cursor: default;
+	text-transform: lowercase;
+	background: #67ce67; }
+
+#friends_block .block_in .photo {
+	float: right;
+	width: auto;
+	padding: 4px; }
+
+#friends_block .user_link:hover img {
+	border: 2px solid #6a8cea; }
+
+#friends_block .user_link:hover .photo {
+	padding: 3px; }
+
+#friends_block .block_in .photo img {
+	float: left; }
+
+#friends_block .block_in .photo:hover img {
+	border-color: #0a5aa0; }
+
+#friends_block span.age {
+	color: #6c6d6f; }
+
+#friends_block span.address {
+	display: block;
+	font-size: 0.85em;
+	color: #6c6d6f;
+	padding-left: 12px; }
+
+#friends_block div.bot {
+	padding: 10px; }
+
+#friends_block div.block_links {
+	margin: 0;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	background: #e9e9e9; }
+
+#profile_personal div.form_field {
+	clear: both; }
+
+#personal_form, #contacts_form {
+	background: none !important; }
+
+#personal_form .block, #contacts_form .block {
+	padding: 5px !important;
+	border-top: 1px solid #ddf2fe; }
+
+#avatar a {
+	text-decoration: none; }
+
+#avatar a small {
+	margin: 10px;
+	display: block; }
+
+div.more_actions_list {
+	clear: both;
+	text-align: right;
+	padding: 10px 0 10px 0; }
+
+div.more_actions_list form {
+	display: inline;
+	float: right;
+	margin: 0 5px 0 5px; }
+
+div.more_actions_list .profile_rating {
+	float: left; }
+
+div.center_col {
+	float: left;
+	width: 730px; }
+
+div.right_col {
+	float: right;
+	width: 200px; }
+
+/*
+.form_field .social_login{
+    padding-left: 145px;
+}
+*/
+/*for contacts section at profile view page*/
+ul.contacts li.social_login {
+	padding-left: 0px; }
+
+.form_field_social_login {
+	float: left;
+	padding: 0px; }
+
+.form_field .social_login a.action_link {
+	background: none;
+	display: inline;
+	float: none;
+	margin-bottom: 3px; }
+
+.content_mode a, .content_mode a:hover {
+	color: #366291; }
+
+.content_mode .widget_people {
+	margin-left: -10px;
+	margin-right: -10px; }
+.content_mode .widget_people .item {
+    float: left;
+    width: 300px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    clear: none;
+    text-align: left;
+    border: none;
+    padding: 0; }
+.content_mode .widget_people .item:hover {
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px 0px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px 0px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px 0px; }
+.content_mode .widget_people .item, .content_mode .widget_people .item * {
+	font-family: 'Open Sans', sans-serif; }
+.content_mode .widget_people .photo img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    float: none;
+    margin: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px; }
+.content_mode .widget_people h3, .content_mode .widget_people h3 a,
+.content_mode .widget_people h3 em, .content_mode .widget_people h3 small {
+    color: #000;
+    font-size: 1.15em;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none !important; }
+.content_mode .widget_people h3 a {
+    text-decoration: none; }
+.content_mode .widget_people h3 small {
+    font-weight: 300; }
+.content_mode .widget_people h3 {
+    margin-bottom: 10px; }
+.content_mode .widget_people p {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    color: #969696;
+    line-height: 20px; }
+.content_mode .widget_people p span {
+	color: #707070; }
+.content_mode .widget_people .controls {
+    float: none; }
+.content_mode .widget_people .person_data {
+    display: block;
+    background: #fff;
+    border: 1px solid;
+    border-color: transparent;
+    padding: 13px 18px 13px 18px;
+    text-decoration: none !important; }
+.content_mode .widget_people a.geo i {
+    display: none; }
+.content_mode .widget_people .online, .content_mode .widget_people .offline {
+    padding: 0;
+    background: none; }
+
+/*# sourceMappingURL=maps/people.css.map */
+@media (max-width: 1100px){
+	.module_widget.widgetEnum_stylenum2{
+		display: none;
+	}
+
+	#con_footer{display: none;}
+	.widgetBlogPostsNew .showcase_mode.items{display: none;}
+	.adsbygoogle{display: none!important;}
+	.showcase-wide-wrapper{width: 275px;}
+}
+
+@media (max-width: 870px){
+	#navigation_in_group{display: none;}
+	#theme_selection_headers{display: none!important;}
+	body{margin-top: 0!important}
+	.widgetButtonJoinGroup{display: none;}
+	.showcase-wide-wrapper{width: 100%}
+	.container{margin-top: 0;}
+	.banner.large-12.columns{display: none;}
+}

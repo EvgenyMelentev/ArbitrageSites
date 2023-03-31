@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en" data-scrapbook-source="http://1-p196.yummyfit.ru/?&amp;is_comeback=1" data-scrapbook-create="20190520134031409">
+<head>
+<style type="text/css" title="audiojs">        .audiojs audio { position: absolute; left: -1px; }         .audiojs { width: 460px; height: 36px; background: #404040; overflow: hidden; font-family: monospace; font-size: 12px;                      -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3); -moz-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);           -o-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3); box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3); }         .audiojs .play-pause { width: 30px; height: 30px; padding: 4px 6px; margin: 0px; float: left; overflow: hidden; border-right: 1px solid #000; }         .audiojs p { display: none; width: 25px; height: 40px; margin: 0px; cursor: pointer; }         .audiojs .play { display: block; }         .audiojs .scrubber { position: relative; float: left; width: 280px; background: #5a5a5a; height: 14px; margin: 10px; border-top: 1px solid #3f3f3f; border-left: 0px; border-bottom: 0px; overflow: hidden; }         .audiojs .progress { position: absolute; top: 0px; left: 0px; height: 14px; width: 0px; background: #ccc; z-index: 1;           background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ccc), color-stop(0.5, #ddd), color-stop(0.51, #ccc), color-stop(1, #ccc));           background-image: -moz-linear-gradient(center top, #ccc 0%, #ddd 50%, #ccc 51%, #ccc 100%); }         .audiojs .loaded { position: absolute; top: 0px; left: 0px; height: 14px; width: 0px; background: #000;           background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.5, #333), color-stop(0.51, #222), color-stop(1, #222));           background-image: -moz-linear-gradient(center top, #222 0%, #333 50%, #222 51%, #222 100%); }         .audiojs .time { float: left; height: 36px; line-height: 36px; margin: 0px 0px 0px 6px; padding: 0px 6px 0px 12px; border-left: 1px solid #000; color: #ddd; text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5); }         .audiojs .time em { padding: 0px 2px 0px 0px; color: #f9f9f9; font-style: normal; }         .audiojs .time strong { padding: 0px 0px 0px 2px; font-weight: normal; }         .audiojs .error-message { float: left; display: none; margin: 0px 10px; height: 36px; width: 400px; overflow: hidden; line-height: 36px; white-space: nowrap; color: #fff;           text-overflow: ellipsis; -o-text-overflow: ellipsis; -icab-text-overflow: ellipsis; -khtml-text-overflow: ellipsis; -moz-text-overflow: ellipsis; -webkit-text-overflow: ellipsis; }         .audiojs .error-message a { color: #eee; text-decoration: none; padding-bottom: 1px; border-bottom: 1px solid #999; white-space: wrap; }                 .audiojs .play { background: url("urn:scrapbook:download:error:http://1-p196.yummyfit.ru/undefined") -2px -1px no-repeat; }         .audiojs .loading { background: url("urn:scrapbook:download:error:http://1-p196.yummyfit.ru/undefined") -2px -31px no-repeat; }         .audiojs .error { background: url("urn:scrapbook:download:error:http://1-p196.yummyfit.ru/undefined") -2px -61px no-repeat; }         .audiojs .pause { background: url("urn:scrapbook:download:error:http://1-p196.yummyfit.ru/undefined") -2px -91px no-repeat; }                 .playing .play, .playing .loading, .playing .error { display: none; }         .playing .pause { display: block; }                 .loading .play, .loading .pause, .loading .error { display: none; }         .loading .loading { display: block; }                 .error .time, .error .play, .error .pause, .error .scrubber, .error .loading { display: none; }         .error .error { display: block; }         .error .play-pause p { cursor: auto; }         .error .error-message { display: block; }</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="youtube.css">
+    <link href="css.css" rel="stylesheet">
+    <link rel="icon" href="favicon-1.ico">
+    <title>Купить YummyFit недорого. Цены, отзывы. Закажите YummyFit сейчас!</title>
+<script type="text/javascript" async=""></script><script></script><style type="text/css">.order-modal,.users-online{cursor:pointer;position:fixed;right:20px;top:120px;width:320px;background-color:rgba(0,0,0,.9);color:#fff;transition:all 1s;font-size:19px;line-height:22px;border-radius:10px;z-index:9999;opacity:0;visibility:hidden}.order-modal>div,.users-online>div{margin:10px}.order-modal>div>span,.users-online>div>span{display:inline-block;vertical-align:middle;width:calc(100% - 75px);margin-left:10px}.show-order,.show-order-last{opacity:1;visibility:visible;transition:all 1s}.blink{color:red!important;animation-name:blinker;animation-duration:1s;animation-timing-function:linear;animation-iteration-count:infinite;-webkit-animation-name:blinker;-webkit-animation-duration:1s;-webkit-animation-timing-function:linear;-webkit-animation-iteration-count:infinite;-moz-animation-name:blinker;-moz-animation-duration:1s;-moz-animation-timing-function:linear;-moz-animation-iteration-count:infinite;text-decoration:line-through}.blink_me{font-size:24px;color:red;font-weight:700}.show-order-last:before,.show-order:before{-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}.show-order-last:after,.show-order-last:before,.show-order:after,.show-order:before{content:"";position:absolute;right:0;top:-15px;width:15px;height:5px;background:red;transition:all 1s}.show-order-last:after,.show-order:after{-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg)}.everad-sprite{background:url("5c9c4b1226b9818d369a3c558e2e98201afad7da.png") no-repeat;display:inline-block;vertical-align:middle;width:50px;height:50px;margin-right:5px}.everad-sprite-bucket{background-position:-5px -5px}.everad-sprite-callback{background-position:-65px -5px}.everad-sprite-online_user{background-position:-5px -65px}@media screen and (max-width:767px){.cookie-popup-on .order-modal,.cookie-popup-on .users-online{top:auto;right:10px;bottom:35px;width:300px}}@media screen and (max-width:405px){.cookie-popup-on .order-modal,.cookie-popup-on .users-online{bottom:45px}}@media screen and (max-width:335px){.cookie-popup-on .order-modal,.cookie-popup-on .users-online{bottom:60px}}@media screen and (max-width:767px){.order-modal,.users-online{top:auto;right:10px;bottom:10px;width:300px}}@-moz-keyframes blinker{0%{opacity:1}50%{opacity:0}to{opacity:1}}@-webkit-keyframes blinker{0%{opacity:1}50%{opacity:0}to{opacity:1}}@keyframes blinker{0%{opacity:1}50%{opacity:0}to{opacity:1}}</style><style>.ever-popup-build{position: fixed; opacity: 0;z-index: -1; top: 0; left: -9999px;}</style><style>.ever-popup__body.ever-mobile{display:none}.ever-popup{position: fixed;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0,0,0,.7);z-index: 111;display: none;overflow: auto;}.ever-popup__body{position: static;float: none;display: block;margin: 0 auto;width:auto}.ever-popup.show{display: block;align-items: center;}.ever-popup__inner{position: relative;margin: 0 auto;padding-top:35px}.ever-popup__close{width: 35px;height: 30px;position: absolute;cursor:pointer;top: 0;right: 0;z-index: 1;-webkit-transition: .3s; -moz-transition: .3s; -ms-transition: .3s; -o-transition: .3s; transition: .3s;}.ever-popup__close:after, .ever-popup__close:before {content: "";position: absolute;right: 0;top: 10px;width: 35px;height: 10px;background: #fff;transition: all 1s;}.ever-popup__close:after {-webkit-transform: rotate(-45deg);-ms-transform: rotate(-45deg);-o-transform: rotate(-45deg);transform: rotate(-45deg);}.ever-popup__close:before {-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);-o-transform: rotate(45deg);transform: rotate(45deg);}@media screen and (max-width: 1000px){.ever-popup__body.ever-desktop{display:none}.ever-popup__body.ever-mobile{display:block}}</style><style>.phoneBtnContainer{position:fixed; right: 10px;bottom: 10px; visibility:hidden;background-color:transparent;width:200px;height:200px;cursor:pointer;z-index:99;-webkit-backface-visibility:hidden;-webkit-transform:translateZ(0);-webkit-transition:visibility .5s;-moz-transition:visibility .5s;-o-transition:visibility .5s;transition:visibility .5s}.cbh-phone.cbh-show{visibility:visible}@-webkit-keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);-ms-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}100%{opacity:1;-webkit-transform:none;-ms-transform:none;transform:none}}@-webkit-keyframes fadeInRightBig{0%{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}100%{opacity:1;-webkit-transform:none;transform:none}}@-webkit-keyframes fadeOutRight{0%{opacity:1}100%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}@keyframes fadeOutRight{0%{opacity:1}100%{opacity:0;-webkit-transform:translate3d(100%,0,0);-ms-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}.fadeOutRight{-webkit-animation-name:fadeOutRight;animation-name:fadeOutRight}.cbh-phone.cbh-static1{opacity:.6}.cbh-phone.cbh-hover1{opacity:1}.cbh-ph-circle{width:160px;height:160px;top:20px;left:20px;position:absolute;background-color:transparent;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;border:2px solid rgba(30,30,30,.4);opacity:.1;-webkit-animation:cbh-circle-anim 1.2s infinite ease-in-out;-moz-animation:cbh-circle-anim 1.2s infinite ease-in-out;-ms-animation:cbh-circle-anim 1.2s infinite ease-in-out;-o-animation:cbh-circle-anim 1.2s infinite ease-in-out;animation:cbh-circle-anim 1.2s infinite ease-in-out;-webkit-transition:all .5s;-moz-transition:all .5s;-o-transition:all .5s;transition:all .5s}.cbh-phone.cbh-active .cbh-ph-circle1{-webkit-animation:cbh-circle-anim 1.1s infinite ease-in-out!important;-moz-animation:cbh-circle-anim 1.1s infinite ease-in-out!important;-ms-animation:cbh-circle-anim 1.1s infinite ease-in-out!important;-o-animation:cbh-circle-anim 1.1s infinite ease-in-out!important;animation:cbh-circle-anim 1.1s infinite ease-in-out!important}.cbh-phone.cbh-static .cbh-ph-circle{-webkit-animation:cbh-circle-anim 2.2s infinite ease-in-out!important;-moz-animation:cbh-circle-anim 2.2s infinite ease-in-out!important;-ms-animation:cbh-circle-anim 2.2s infinite ease-in-out!important;-o-animation:cbh-circle-anim 2.2s infinite ease-in-out!important;animation:cbh-circle-anim 2.2s infinite ease-in-out!important}.cbh-phone.cbh-hover .cbh-ph-circle{border-color:rgba(0,175,242,1);opacity:.5}.cbh-phone.cbh-green.cbh-hover .cbh-ph-circle{border-color:rgba(117,235,80,1);opacity:.5}.cbh-phone.cbh-green .cbh-ph-circle{border-color:rgba(0,175,242,1);opacity:.5}.cbh-phone.cbh-gray.cbh-hover .cbh-ph-circle{border-color:rgba(204,204,204,1);opacity:.5}.cbh-phone.cbh-gray .cbh-ph-circle{border-color:rgba(117,235,80,1);opacity:.5}.cbh-ph-circle-fill{width:100px;height:100px;top:50px;left:50px;position:absolute;background-color:#000;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;border:2px solid transparent;opacity:.1;-webkit-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out;-moz-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out;-ms-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out;-o-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out;animation:cbh-circle-fill-anim 2.3s infinite ease-in-out;-webkit-transition:all .5s;-moz-transition:all .5s;-o-transition:all .5s;transition:all .5s}.cbh-phone.cbh-active .cbh-ph-circle-fill{-webkit-animation:cbh-circle-fill-anim 1.7s infinite ease-in-out!important;-moz-animation:cbh-circle-fill-anim 1.7s infinite ease-in-out!important;-ms-animation:cbh-circle-fill-anim 1.7s infinite ease-in-out!important;-o-animation:cbh-circle-fill-anim 1.7s infinite ease-in-out!important;animation:cbh-circle-fill-anim 1.7s infinite ease-in-out!important}.cbh-phone.cbh-static .cbh-ph-circle-fill{-webkit-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out!important;-moz-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out!important;-ms-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out!important;-o-animation:cbh-circle-fill-anim 2.3s infinite ease-in-out!important;animation:cbh-circle-fill-anim 2.3s infinite ease-in-out!important;opacity:0!important} .cbh-phone.cbh-hover .cbh-ph-circle-fill{background-color:rgba(0,175,242,.5);opacity:.75!important}.cbh-phone.cbh-green.cbh-hover .cbh-ph-circle-fill{background-color:rgba(117,235,80,.5);opacity:.75!important}.cbh-phone.cbh-green .cbh-ph-circle-fill{background-color:rgba(0,175,242,.5);opacity:.75!important}.cbh-phone.cbh-gray.cbh-hover .cbh-ph-circle-fill{background-color:rgba(204,204,204,.5);opacity:.75!important}.cbh-phone.cbh-gray .cbh-ph-circle-fill{background-color:rgba(117,235,80,.5);opacity:.75!important}.cbh-ph-img-circle1{width:60px;height:60px;top:70px;left:70px;position:absolute;background-image:url("c329352ae45a42489fce48dcc5594f3db8c52028.png");background-color:rgba(30,30,30,.1);background-position:center center;background-repeat:no-repeat;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;border:2px solid transparent;opacity:.7;-webkit-animation:cbh-circle-img-anim 1s infinite ease-in-out;-moz-animation:cbh-circle-img-anim 1s infinite ease-in-out;-ms-animation:cbh-circle-img-anim 1s infinite ease-in-out;-o-animation:cbh-circle-img-anim 1s infinite ease-in-out;animation:cbh-circle-img-anim 1s infinite ease-in-out}.cbh-phone.cbh-active .cbh-ph-img-circle1{-webkit-animation:cbh-circle-img-anim 1s infinite ease-in-out!important;-moz-animation:cbh-circle-img-anim 1s infinite ease-in-out!important;-ms-animation:cbh-circle-img-anim 1s infinite ease-in-out!important;-o-animation:cbh-circle-img-anim 1s infinite ease-in-out!important;animation:cbh-circle-img-anim 1s infinite ease-in-out!important}.cbh-phone.cbh-static .cbh-ph-img-circle1{-webkit-animation:cbh-circle-img-anim 0s infinite ease-in-out!important;-moz-animation:cbh-circle-img-anim 0s infinite ease-in-out!important;-ms-animation:cbh-circle-img-anim 0s infinite ease-in-out!important;-o-animation:cbh-circle-img-anim 0s infinite ease-in-out!important;animation:cbh-circle-img-anim 0s infinite ease-in-out!important}.cbh-phone.cbh-hover .cbh-ph-img-circle1{background-color:rgba(0,175,242,1)}.cbh-phone.cbh-green.cbh-hover .cbh-ph-img-circle1:hover{background-color:rgba(117,235,80,1)}.cbh-phone.cbh-green .cbh-ph-img-circle1{background-color:rgba(0,175,242,1)}.cbh-phone.cbh-green .cbh-ph-img-circle1{background-color:rgba(0,175,242,1)}.cbh-phone.cbh-gray.cbh-hover .cbh-ph-img-circle1{background-color:rgba(204,204,204,1)}.cbh-phone.cbh-gray .cbh-ph-img-circle1{background-color:rgba(117,235,80,1)}@-moz-keyframes cbh-circle-anim{0%{-moz-transform:rotate(0deg) scale(0.5) skew(1deg);opacity:.1;-moz-opacity:.1;-webkit-opacity:.1;-o-opacity:.1}30%{-moz-transform:rotate(0deg) scale(.7) skew(1deg);opacity:.5;-moz-opacity:.5;-webkit-opacity:.5;-o-opacity:.5}100%{-moz-transform:rotate(0deg) scale(1) skew(1deg);opacity:.6;-moz-opacity:.6;-webkit-opacity:.6;-o-opacity:.1}}@-webkit-keyframes cbh-circle-anim{0%{-webkit-transform:rotate(0deg) scale(0.5) skew(1deg);-webkit-opacity:.1}30%{-webkit-transform:rotate(0deg) scale(.7) skew(1deg);-webkit-opacity:.5}100%{-webkit-transform:rotate(0deg) scale(1) skew(1deg);-webkit-opacity:.1}}@-o-keyframes cbh-circle-anim{0%{-o-transform:rotate(0deg) kscale(0.5) skew(1deg);-o-opacity:.1}30%{-o-transform:rotate(0deg) scale(.7) skew(1deg);-o-opacity:.5}100%{-o-transform:rotate(0deg) scale(1) skew(1deg);-o-opacity:.1}}@keyframes cbh-circle-anim{0%{transform:rotate(0deg) scale(0.5) skew(1deg);opacity:.1}30%{transform:rotate(0deg) scale(.7) skew(1deg);opacity:.5}100%{transform:rotate(0deg) scale(1) skew(1deg);opacity:.1}}@-moz-keyframes cbh-circle-fill-anim{0%{-moz-transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}50%{-moz-transform:rotate(0deg) -moz-scale(1) skew(1deg);opacity:.2}100%{-moz-transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}}@-webkit-keyframes cbh-circle-fill-anim{0%{-webkit-transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}50%{-webkit-transform:rotate(0deg) scale(1) skew(1deg);opacity:.2}100%{-webkit-transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}}@-o-keyframes cbh-circle-fill-anim{0%{-o-transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}50%{-o-transform:rotate(0deg) scale(1) skew(1deg);opacity:.2}100%{-o-transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}}@keyframes cbh-circle-fill-anim{0%{transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}50%{transform:rotate(0deg) scale(1) skew(1deg);opacity:.2}100%{transform:rotate(0deg) scale(0.7) skew(1deg);opacity:.2}}@keyframes cbh-circle-img-anim{0%{transform:rotate(0deg) scale(1) skew(1deg)}10%{transform:rotate(-25deg) scale(1) skew(1deg)}20%{transform:rotate(25deg) scale(1) skew(1deg)}30%{transform:rotate(-25deg) scale(1) skew(1deg)}40%{transform:rotate(25deg) scale(1) skew(1deg)}100%,50%{transform:rotate(0deg) scale(1) skew(1deg)}}@-moz-keyframes cbh-circle-img-anim{0%{transform:rotate(0deg) scale(1) skew(1deg)}10%{-moz-transform:rotate(-25deg) scale(1) skew(1deg)}20%{-moz-transform:rotate(25deg) scale(1) skew(1deg)}30%{-moz-transform:rotate(-25deg) scale(1) skew(1deg)}40%{-moz-transform:rotate(25deg) scale(1) skew(1deg)}100%,50%{-moz-transform:rotate(0deg) scale(1) skew(1deg)}}@-webkit-keyframes cbh-circle-img-anim{0%{-webkit-transform:rotate(0deg) scale(1) skew(1deg)}10%{-webkit-transform:rotate(-25deg) scale(1) skew(1deg)}20%{-webkit-transform:rotate(25deg) scale(1) skew(1deg)}30%{-webkit-transform:rotate(-25deg) scale(1) skew(1deg)}40%{-webkit-transform:rotate(25deg) scale(1) skew(1deg)}100%,50%{-webkit-transform:rotate(0deg) scale(1) skew(1deg)}}@-o-keyframes cbh-circle-img-anim{0%{-o-transform:rotate(0deg) scale(1) skew(1deg)}10%{-o-transform:rotate(-25deg) scale(1) skew(1deg)}20%{-o-transform:rotate(25deg) scale(1) skew(1deg)}30%{-o-transform:rotate(-25deg) scale(1) skew(1deg)}40%{-o-transform:rotate(25deg) scale(1) skew(1deg)}100%,50%{-o-transform:rotate(0deg) scale(1) skew(1deg)}}.cbh-ph-img-circle1 {}.cbh-phone.cbh-green .cbh-ph-circle {border-color: rgba(0, 175, 242, 1)}.cbh-phone.cbh-green .cbh-ph-circle-fill {background-color: rgba(0, 175, 242, 1);}.cbh-phone.cbh-green .cbh-ph-img-circle1 {background-color:rgba(0, 175, 242, 1);}body, div, dl, dt, dd, ul, ol, li, nav, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, a {-webkit-transform-origin: center center;-ms-transform-origin: center center;-o-transform-origin: center center;transform-origin: center center;}@media screen and (max-width: 1000px) {#clbh_phone_div{display: none !important;}}</style>
+</head>
+
+<body data-invalid-name-text="Укажите корректное имя!" data-invalid-phone-text="Укажите корректный телефон, иначе мы не сможем с Вами связаться!">
+    <header class="header block">
+        <div class="container">
+            <div class="header__top">
+                <div class="header__logo">
+                    <h2 class="header__title wow fadeInDown" style="visibility: hidden; animation-name: none;">Две порции <span class="header__title_pink">Yummy</span><span class="header__title_orange">Fit</span> –<br>минус 1000 ккал в день,</h2><br>
+                    <p class="header__title_size wow fadeInDown" style="visibility: hidden; animation-name: none;"><span class="header__title_decoration-one">независимо
+                            от твоего</span>&nbsp;<br><span class="header__title_decoration-two">режима питания!</span></p>
+                </div>
+                <div class="header__aboutUS wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+                    <p class="header__aboutUS-title">О нас пишут:</p>
+                    <div class="header__aboutUS-item"><img src="aboutUS_one.png" alt="VOGUE"></div>
+                    <div class="header__aboutUS-item"><img src="aboutUS_two.png" alt="COSMOPOLITAN"></div>
+                    <div class="header__aboutUS-item"><img src="aboutUS_three.png" alt="ELLE"></div>
+                </div>
+            </div>
+            <div class="header__cont">
+                <div class="header__food"><img src="header_food.png" alt="food"></div>
+                <div class="header__description">
+                    <div class="header__text">
+                        <p class="header__text-desc wow fadeInDown" style="visibility: hidden; animation-name: none;"><span class="header__text-desc_size"><span class="header__text-desc_orange">Утренняя</span>
+                                порция — </span>&nbsp;<br>ускоряет метаболизм, мгновенно перерабатывая пищу в энергию.<br>Диета
+                            не нужна!</p>
+                        <p class="header__text-desc wow fadeInDown" style="visibility: hidden; animation-name: none;"><span class="header__text-desc_size"><span class="header__text-desc_pink">Вечерняя</span>
+                                порция —</span>&nbsp;<br>уничтожает жир, который уже есть в организме, равный
+                            употреблению<br>1000 ккал!</p>
+                    </div>
+                    <div class="header__product">
+                        <img src="product_two.png" alt="product" class="header__product-one">
+                        <img src="product_three.png" alt="product" class="header__product-two">
+                        <img src="product_four.png" alt="product" class="header__product-three">
+
+                        <p class="header__product-morning">Утро</p>
+                        <p class="header__product-evening">Вечер</p>
+                    </div>
+                    <div class="header__scales"><img src="header_scales.png" alt="scales"></div>
+                </div>
+                <div class="form">
+                    <div class="form__bg">
+                        <h2 class="form__title">Успейте заказать по&nbsp;акции<br><span class="form__title_color">до
+                                <span class="date-0">20.05.2019</span></span></h2>
+                        <div class="price">
+                            <div class="price__after">
+                                <p class="price__after-val"><span class="x_price_current">196</span> <span class="x_currency">руб</span><span class="price__star">*</span></p>
+                            </div>
+                        </div>
+                        <p class="form__pack">Осталось упаковок<br>по&nbsp;акции: <span class="form__pack_color lastpacks">12</span></p>
+                    </div>
+                    <form action="http://1-p196.yummyfit.ru/submit" method="post" class="x_order_form form__cont">
+                        <div class="form__input-name"><input type="text" name="name" placeholder="Моё имя" required="" autocomplete="name" class="form__input" value=""></div>
+                        <div class="form__input-phone"><input type="tel" name="phone" placeholder="Мой телефон" required="" autocomplete="tel" class="form__input" value=""></div><button type="/sybmit" class="form__btn">Заказать
+                            <span class="form__btn_size">по акции</span></button>
+                    <input type="hidden" name="landing_id" value="979"><input type="hidden" name="goal_id" value="408"><input type="hidden" name="price" value="196"><input type="hidden" name="delivery_price" value="0"><input type="hidden" name="es_list_id" value=""><input type="hidden" name="user_language" value="ru"><input type="hidden" name="campaign_id" value=""><input type="hidden" name="country_code" value=""></form>
+                    <p class="form__star-description">* цена за порцию</p>
+                    <p class="form__bottom">Оплата после получения</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header__bottom">
+        <div class="container">
+            <div class="header__item">
+                <p class="header__item-link one wow fadeInDown" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">Ешь любую еду,<br>какую захочешь</p>
+                <p class="header__item-link two wow fadeInDown" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">Худей до своего<br>идеального
+                    веса</p>
+                <p class="header__item-link three wow fadeInDown" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">Забудь о возвращении<br>лишних
+                    килограмм</p>
+            </div>
+        </div>
+    </div>
+    <section class="result block">
+        <div class="container">
+            <h2 class="title result__title wow fadeInDown" style="visibility: hidden; animation-name: none;">
+                Результаты похудевших с&nbsp;<span class="darkish-pink">Yummy</span><span class="squash">Fit</span>
+            </h2>
+            <div class="result__slider slick-initialized slick-slider slick-dotted"><div class="arr arr--left slick-arrow" style=""><i class="fico fico-arrow"></i></div>
+                
+                
+                
+                
+                
+                
+                
+                
+            <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 5100px; transform: translate3d(-300px, 0px, 0px);"><img src="slide-9.jpg" alt="photo" class="slide slick-slide slick-cloned" style="width: 280px;" data-slick-index="-1" aria-hidden="true" tabindex="-1"><img src="slide-1.jpg" alt="photo" class="slide slick-slide slick-current slick-active" style="width: 280px;" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00"><img src="slide-2.jpg" alt="photo" class="slide slick-slide" style="width: 280px;" data-slick-index="1" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01"><img src="slide-4.jpg" alt="photo" class="slide slick-slide" style="width: 280px;" data-slick-index="2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02"><img src="slide-5.jpg" alt="photo" class="slide slick-slide" style="width: 280px;" data-slick-index="3" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide03" aria-describedby="slick-slide-control03"><img src="slide-6.jpg" alt="photo" class="slide slick-slide" style="width: 280px;" data-slick-index="4" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide04" aria-describedby="slick-slide-control04"><img src="slide-7.jpg" alt="photo" class="slide slick-slide" style="width: 280px;" data-slick-index="5" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide05" aria-describedby="slick-slide-control05"><img src="slide-8.jpg" alt="photo" class="slide slick-slide" style="width: 280px;" data-slick-index="6" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide06" aria-describedby="slick-slide-control06"><img src="slide-9.jpg" alt="photo" class="slide slick-slide" style="width: 280px;" data-slick-index="7" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide07" aria-describedby="slick-slide-control07"><img src="slide-1.jpg" alt="photo" class="slide slick-slide slick-cloned" style="width: 280px;" data-slick-index="8" aria-hidden="true" tabindex="-1"><img src="slide-2.jpg" alt="photo" class="slide slick-slide slick-cloned" style="width: 280px;" data-slick-index="9" aria-hidden="true" tabindex="-1"><img src="slide-4.jpg" alt="photo" class="slide slick-slide slick-cloned" style="width: 280px;" data-slick-index="10" aria-hidden="true" tabindex="-1"><img src="slide-5.jpg" alt="photo" class="slide slick-slide slick-cloned" style="width: 280px;" data-slick-index="11" aria-hidden="true" tabindex="-1"><img src="slide-6.jpg" alt="photo" class="slide slick-slide slick-cloned" style="width: 280px;" data-slick-index="12" aria-hidden="true" tabindex="-1"><img src="slide-7.jpg" alt="photo" class="slide slick-slide slick-cloned" style="width: 280px;" data-slick-index="13" aria-hidden="true" tabindex="-1"><img src="slide-8.jpg" alt="photo" class="slide slick-slide slick-cloned" style="width: 280px;" data-slick-index="14" aria-hidden="true" tabindex="-1"><img src="slide-9.jpg" alt="photo" class="slide slick-slide slick-cloned" style="width: 280px;" data-slick-index="15" aria-hidden="true" tabindex="-1"></div></div><div class="arr arr--right slick-arrow" style=""><i class="fico fico-arrow"></i></div><ul class="slick-dots" style="" role="tablist"><li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 8" tabindex="0" aria-selected="true">1</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 8" tabindex="-1">2</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control02" aria-controls="slick-slide02" aria-label="3 of 8" tabindex="-1">3</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control03" aria-controls="slick-slide03" aria-label="4 of 8" tabindex="-1">4</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control04" aria-controls="slick-slide04" aria-label="5 of 8" tabindex="-1">5</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control05" aria-controls="slick-slide05" aria-label="6 of 8" tabindex="-1">6</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control06" aria-controls="slick-slide06" aria-label="7 of 8" tabindex="-1">7</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control07" aria-controls="slick-slide07" aria-label="8 of 8" tabindex="-1">8</button></li></ul></div>
+        </div>
+    </section>
+    <section class="advantage block">
+        <div class="container">
+            <h2 class="title advantage__title wow fadeInDown" style="visibility: hidden; animation-name: none;">Стройные девушки всегда получают больше</h2>
+            <div class="advantage__content">
+                <div class="advantage__item wow fadeInDown" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;"><img src="advantage-1.png" alt="photo" class="photo">
+                    <p class="text">Возможность&nbsp;<br>не испытывать вину, если съела что-то калорийное</p>
+                </div>
+                <div class="advantage__item wow fadeInDown" data-wow-delay="0.15s" style="visibility: hidden; animation-delay: 0.15s; animation-name: none;"><img src="advantage-2.png" alt="photo" class="photo">
+                    <p class="text">Внимание мужчин&nbsp;<br>и крепкие отношения</p>
+                </div>
+                <div class="advantage__item wow fadeInDown" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><img src="advantage-3.png" alt="photo" class="photo">
+                    <p class="text">Удовольствие от выбора одежды</p>
+                </div>
+                <div class="advantage__item wow fadeInDown" data-wow-delay="0.25s" style="visibility: hidden; animation-delay: 0.25s; animation-name: none;"><img src="advantage-4.png" alt="photo" class="photo">
+                    <p class="text">Восхищение&nbsp;<br>и комплименты окружающих</p>
+                </div>
+            </div>
+            <div class="advantage__result wow fadeInDown" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;"><span class="ttl">Не теряй это!</span>
+                <p class="effect">Все твои полненькие подружки будут распрашивать,&nbsp;<br>как тебе удалось так быстро
+                    похудеть!</p>
+            </div>
+        </div>
+        <div class="scroll-bth js-scroll"><a href="#calculate"><i class="fico fico-caret-down"></i></a></div>
+    </section>
+    <section class="calculate block" id="calculate">
+        <div class="container">
+            <h2 class="title calculate__title wow fadeInDown" style="visibility: hidden; animation-name: none;">Кто сказал, что худеть легко?</h2>
+            <div class="calculate__block">
+                <div class="big-calories">
+                    <h4 class="ttl">Сколько калорий&nbsp;<br>в обычном дневном рационе</h4>
+                    <p class="value"><span class="start">2000</span>-<span class="finish">2500</span></p><span class="name">калорий</span>
+                    <div class="img-wrap"><img src="big-calories.png" alt="big-calories" class="photo">
+                        <p class="text">Если ты ешь вкусно&nbsp;<br>и не голодаешь</p>
+                    </div>
+                </div>
+                <div class="small-calories">
+                    <h4 class="ttl">Сколько калорий нужно съесть,&nbsp;<br>чтобы похудеть</h4>
+                    <p class="value"><span class="start">1000</span>-<span class="finish">1500</span></p><span class="name">калорий</span>
+                    <div class="img-wrap"><img src="small-calories.png" alt="small-calories" class="photo">
+                        <p class="text">Тебе придется отказаться&nbsp;<br>от мучного, жирного и сладкого</p>
+                    </div>
+                </div>
+            </div>
+            <div class="calculate__content">
+                <div class="item wow fadeInDown" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;"><img src="calculate-1.png" alt="photo" class="item__photo">
+                    <p class="item__text">У тебя наворачиваются слезы на глазах от одной мысли о&nbsp;таком рационе?</p>
+                </div>
+                <div class="item wow fadeInDown" data-wow-delay="0.15s" style="visibility: hidden; animation-delay: 0.15s; animation-name: none;"><img src="calculate-2.png" alt="photo" class="item__photo">
+                    <p class="item__text">Садилась на диету сотни раз, но постоянно срывалась?</p>
+                </div>
+                <div class="item wow fadeInDown" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><img src="calculate-3.png" alt="photo" class="item__photo">
+                    <p class="item__text">Жизнь становится безрадостной без&nbsp;<br>любимой еды?</p>
+                </div>
+            </div>
+            <p class="calculate__result wow fadeInDown" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">Страдать не обязательно –&nbsp;<br>вы
+                легко похудеете с <span class="darkish-pink">Yummy</span><span class="squash">Fit</span>!</p>
+        </div>
+        <div class="scroll-bth scroll-bth--white js-scroll"><a href="#reduce"><i class="fico fico-caret-down"></i></a></div>
+    </section>
+    <section class="reduce block" id="reduce">
+        <div class="container">
+            <h2 class="title title-reduce wow fadeInDown" style="visibility: hidden; animation-name: none;"><span class="darkish-pink">Yummy</span><span class="squash">Fit</span>:
+                2 порции сжигают от&nbsp;1000 ккал</h2>
+            <p class="subtitle-reduce">А значит, с <span class="darkish-pink">Yummy</span><span class="squash">Fit</span>
+                ты похудеешь,<br>даже если съела очень много вредной, но такой вкусной&nbsp;еды</p>
+            <div class="reduce__wrap">
+                <div class="reduce__left">
+                    <div class="reduce__item">
+                        <div class="reduce__img"><img src="burger-reduce.png" alt="бургер"></div>
+                        <div class="reduce__info">
+                            <p class="reduce__number">500</p>
+                            <p class="reduce__calorie">калорий</p>
+                        </div>
+                    </div>
+                    <div class="reduce__item">
+                        <div class="reduce__img"><img src="chocolate.png" alt="шоколад"></div>
+                        <div class="reduce__info reduce__info-chocolate">
+                            <p class="reduce__number">250</p>
+                            <p class="reduce__calorie">калорий</p>
+                        </div>
+                    </div>
+                    <div class="reduce__item">
+                        <div class="reduce__img reduce__img-pancake"><img src="pancake.png" alt="блины"></div>
+                        <div class="reduce__info">
+                            <p class="reduce__number">250</p>
+                            <p class="reduce__calorie">калорий</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reduce__mid">
+                    <div class="reduce__prod">
+                        <img src="product_one.png" alt="product" class="reduce__prod-one">
+                        <img src="product_three.png" alt="product" class="reduce__prod-two">
+                        <img src="product_four.png" alt="product" class="reduce__prod-three">
+                        <div class="reduce__glassful">
+                            <img src="glassful.png" alt="стакан">
+                        </div>
+                    </div>
+                </div>
+                <div class="reduce__right">
+                    <div class="reduce__circle">
+                        <div class="reduce__girl"><img src="girl-reduce.png" alt="девушка"></div>
+                    </div>
+                </div>
+            </div>
+            <p class="reduce__bottom wow fadeInDown" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">Почему <span class="darkish-pink">Yummy</span><span class="squash">Fit</span> настолько эффективен?</p>
+        </div>
+        <div class="scroll-bth js-scroll"><a href="#components"><i class="fico fico-caret-down"></i></a></div>
+    </section>
+    <section class="components block" id="components">
+        <div class="container">
+            <h2 class="title components__title wow fadeInDown" style="visibility: hidden; animation-name: none;"><span class="darkish-pink">Yummy</span><span class="squash">Fit</span>:
+                позволяет не поправляться&nbsp;<br>и худеть на 3-7&nbsp;кг с&nbsp;первых дней применения</h2>
+            <p class="components__desc wow fadeInDown" style="visibility: hidden; animation-name: none;">благодаря уникальному миксу всех популярных жиросжигающих
+                экстрактов</p>
+            <div class="components__content">
+                <div class="item wow fadeInDown" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;"><img src="component-1.png" alt="img" class="item__photo">
+                    <h4 class="item__ttl">Готу кола</h4>
+                    <p class="item__text">Сохраняет объем груди и&nbsp;тонизирует кожу для подтянутых линий.</p>
+                </div>
+                <div class="item wow fadeInDown" data-wow-delay="0.15s" style="visibility: hidden; animation-delay: 0.15s; animation-name: none;"><img src="component-2.png" alt="img" class="item__photo">
+                    <h4 class="item__ttl">ДНК лососевых</h4>
+                    <p class="item__text">Регулирует скорость жирового обмена. Поддерживает красоту и&nbsp;молодость
+                        кожи, волос.</p>
+                </div>
+                <div class="item wow fadeInDown" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><img src="component-3.png" alt="img" class="item__photo">
+                    <h4 class="item__ttl">Матча</h4>
+                    <p class="item__text">Улучшает метаболизм, сжигает жиры и фигура становится сексуальной.</p>
+                </div>
+                <div class="item wow fadeInDown" data-wow-delay="0.25s" style="visibility: hidden; animation-delay: 0.25s; animation-name: none;"><img src="component-4.png" alt="img" class="item__photo">
+                    <h4 class="item__ttl">Створки фасоли</h4>
+                    <p class="item__text">Проводят естественную детоксикацию организма, выводят шлаки, придают
+                        свежий&nbsp;вид.</p>
+                </div>
+                <div class="item wow fadeInDown" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;"><img src="component-5.png" alt="img" class="item__photo">
+                    <h4 class="item__ttl">Сушеница топяная</h4>
+                    <p class="item__text">Ускоряет обмен веществ и&nbsp;помогает быстро избавляться от&nbsp;лишних
+                        килограммов.</p>
+                </div>
+                <div class="item wow fadeInDown" data-wow-delay="0.35s" style="visibility: hidden; animation-delay: 0.35s; animation-name: none;"><img src="component-6.png" alt="img" class="item__photo">
+                    <h4 class="item__ttl">Сафлора</h4>
+                    <p class="item__text">Помогает кишечнику выводить шлаки и&nbsp;токсичные вещества.</p>
+                </div>
+                <div class="item wow fadeInDown" data-wow-delay="0.4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;"><img src="component-7.png" alt="img" class="item__photo">
+                    <h4 class="item__ttl">Калган</h4>
+                    <p class="item__text">Улучшает состояние кожи, делает ее эластичной.</p>
+                </div>
+                <div class="item wow fadeInDown" data-wow-delay="0.45s" style="visibility: hidden; animation-delay: 0.45s; animation-name: none;"><img src="component-8.png" alt="img" class="item__photo">
+                    <h4 class="item__ttl">Хлорелла</h4>
+                    <p class="item__text">Нормализует пищеварение, способствует похудению и&nbsp;улучшает тонус кожи.</p>
+                </div>
+            </div>
+            <div class="components__result">
+                <h4 class="ttl">Вывод:</h4>
+                <p class="text">сочетание мощнейших растительных компонентов&nbsp;<br>запустит твое похудение,
+                    независимо от твоей диеты.</p>
+            </div>
+        </div>
+        <div class="scroll-bth scroll-bth--white js-scroll"><a href="#refuse"><i class="fico fico-caret-down"></i></a></div>
+    </section>
+    <section class="refuse block" id="refuse">
+        <div class="container">
+            <h2 class="title title-refuse wow fadeInDown" style="visibility: hidden; animation-name: none;">Не отказывай себе во вкусной еде и худей с&nbsp;<span class="darkish-pink">Yummy</span><span class="squash">Fit</span></h2>
+            <div class="refuse__wrap">
+                <div class="refuse__left">
+                    <div class="refuse__prod">
+                        <img src="product_one.png" alt="product" class="refuse__prod-one">
+                        <img src="product_three.png" alt="product" class="refuse__prod-two">
+                        <img src="product_four.png" alt="product" class="refuse__prod-three">
+                    </div>
+                </div>
+                <div class="refuse__right">
+                    <ul class="refuse__list">
+                        <li class="refuse__item wow fadeInDown" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">
+                            <p class="refuse__do">Сжигай</p>
+                            <p class="refuse__what">съеденные калории</p>
+                        </li>
+                        <li class="refuse__item wow fadeInDown" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+                            <p class="refuse__do">Устраняй</p>
+                            <p class="refuse__what">лишний вес и целлюлит</p>
+                        </li>
+                        <li class="refuse__item wow fadeInDown" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+                            <p class="refuse__do">Не допусти</p>
+                            <p class="refuse__what">возврата лишнего веса</p>
+                        </li>
+                    </ul><button class="form__btn form__btn-refuse ever-popup-btn">Заказать <span class="form__btn_size">по
+                            акции</span></button>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-bth js-scroll"><a href="#journal"><i class="fico fico-caret-down"></i></a></div>
+    </section>
+    <section class="journal block" id="journal">
+        <div class="container">
+            <h2 class="title wow fadeInDown" style="visibility: hidden; animation-name: none;">Все популярные журналы уже написали<br>о лучшем средстве для
+                похудения&nbsp;–&nbsp;<span class="darkish-pink">Yummy</span><span class="squash">Fit</span></h2>
+            <div class="journal__cont">
+                <div class="journal__item wow fadeInDown" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;"><img src="journal_one.png" alt="journal one"></div>
+                <div class="journal__item wow fadeInDown" data-wow-delay="0.15s" style="visibility: hidden; animation-delay: 0.15s; animation-name: none;"><img src="journal_two.png" alt="journal one"></div>
+                <div class="journal__item wow fadeInDown" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;"><img src="journal_three.png" alt="journal one"></div>
+                <div class="journal__item wow fadeInDown animated" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInDown;"><img src="journal_four.png" alt="journal one"></div>
+                <div class="journal__item wow fadeInDown animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;"><img src="journal_fife.png" alt="journal one"></div>
+            </div>
+            <h2 class="journal__title">Начни пить <span class="darkish-pink">Yummy</span><span class="squash">Fit,</span></h2>
+            <p class="journal__subtitle">и уже через неделю ты увидишь эффект в зеркале!</p><button class="form__btn journal__btn ever-popup-btn">Заказать
+                <span class="form__btn_size">по акции</span></button>
+        </div>
+        <div class="scroll-bth scroll-bth--white js-scroll"><a href="#instruction"><i class="fico fico-caret-down"></i></a></div>
+    </section>
+    <section class="instruction block" id="instruction">
+        <div class="container">
+            <h2 class="title wow fadeInDown" style="visibility: hidden; animation-name: none;">Как принимать шипучий гель <span class="darkish-pink">Yummy</span><span class="squash">Fit</span></h2>
+            <div class="instruction__cont">
+                <div class="instruction__product">
+                    <img src="product_one.png" alt="product" class="instruction__product-one">
+                    <img src="product_three.png" alt="product" class="instruction__product-two">
+                    <img src="product_four.png" alt="product" class="instruction__product-three">
+                </div>
+                <div class="instruction__text">
+                    <p class="instruction__title">С <span class="darkish-pink">Yummy</span><span class="squash">Fit</span>
+                        тебе позволено все!</p>
+                    <p class="instruction__description">Выпей 1 стик за 30 минут до еды, и не отказывай себе даже в
+                        самой калорийной еде! Формула <span class="darkish-pink">Yummy</span><span class="squash">Fit</span>
+                        будет активно сжигать поступающие калории.</p>
+                    <div class="instruction__warning">
+                        <p class="instruction__warning-title">Будь осторожна!</p>
+                        <p class="instruction__warning-description"><span class="darkish-pink">Yummy</span><span class="squash">Fit</span>
+                            – сильнейший сжигатель жира.<br>Он дает очень мощный эффект.<br>Потому <span class="instruction__warning-description_color">нельзя
+                                принимать более 2 стиков в сутки!</span><br>Слишком резкая потеря веса может дать
+                            большую нагрузку на органы.</p>
+                    </div>
+                </div>
+            </div><button class="form__btn instruction__bg ever-popup-btn">Заказать <span class="form__btn_size">по
+                    акции</span></button>
+        </div>
+    </section>
+    <section class="dietolog block">
+        <div class="container">
+            <h2 class="title title-dietolog wow fadeInDown" style="visibility: hidden; animation-name: none;">Почему именно <span class="darkish-pink">Yummy</span><span class="squash">Fit</span> выбрали профессиональные диетологи</h2>
+            <p class="subtitle-dietolog wow fadeInDown" style="visibility: hidden; animation-name: none;">для клиентов любого пола и&nbsp;возраста</p>
+            <div class="dietolog__wrap">
+                <p class="dietolog__name">Кристина Полякова</p>
+                <p class="dietolog__position">Диетолог</p>
+                <p class="dietolog__quote">В похудении ценится скорость, безопасность и то,<br>не будет ли похудевший
+                    человек выглядеть болезненно.</p>
+                <p class="dietolog__text">Если выпивать по две порции <span class="darkish-pink">Yummy</span><span class="squash">Fit</span> в день, то заметно стройнее можно стать уже через 2 недели, а вид при
+                    этом сохраняется на все сто, независимо от режима питания человека. Благодаря <span class="darkish-pink">Yummy</span><span class="squash">Fit</span> организм насыщается витаминами и микроэлементами, а не теряет их. И в
+                    итоге волосы, ногти и&nbsp;кожа выглядят великолепно, а человек остается энергичен и бодр.
+                    Это&nbsp;лучшее на сегодняшний день средство для похудения.</p>
+                <div class="dietolog__signature"><img src="dietolog-signature.png" alt="подпись"></div>
+                <div class="dietolog__img"><img src="dietolog.png" alt="диетолог"></div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews block">
+        <div class="container">
+            <h2 class="title reviews__title wow fadeInDown" style="visibility: hidden; animation-name: none;">Узнай мнение людей,&nbsp;<br>которые уже применяли <span class="darkish-pink">Yummy</span><span class="squash">Fit</span></h2>
+            <div class="reviews__audio">
+                <h2 class="title">Аудио отзывы</h2>
+                <div class="audio-reviews-items">
+                    <div class="audio-reviews-item audio-1">
+                        <div class="audiojs" classname="audiojs" id="audiojs_wrapper0"><audio preload="none">
+                            <source src="Inna.mp3" type="audio/mp3">
+                        </audio>          <div class="play-pause">             <p class="play"></p>             <p class="pause"></p>             <p class="loading"></p>             <p class="error"></p>           </div>           <div class="scrubber">             <div class="progress"></div>             <div class="loaded"></div>           </div>           <div class="time">             <em class="played">00:00</em>/<strong class="duration">00:00</strong>           </div>           <div class="error-message"></div></div>
+                        <div class="audio-reviews-title">Инна</div>
+                    </div>
+                    <div class="audio-reviews-item audio-2">
+                        <div class="audiojs" classname="audiojs" id="audiojs_wrapper1"><audio preload="none">
+                            <source src="Oksana.mp3" type="audio/mp3">
+                        </audio>          <div class="play-pause">             <p class="play"></p>             <p class="pause"></p>             <p class="loading"></p>             <p class="error"></p>           </div>           <div class="scrubber">             <div class="progress"></div>             <div class="loaded"></div>           </div>           <div class="time">             <em class="played">00:00</em>/<strong class="duration">00:00</strong>           </div>           <div class="error-message"></div></div>
+                        <div class="audio-reviews-title">Оксана</div>
+                    </div>
+                    <div class="audio-reviews-item audio-3">
+                        <div class="audiojs" classname="audiojs" id="audiojs_wrapper2"><audio preload="none">
+                            <source src="Veronica.mp3" type="audio/mp3">
+                        </audio>          <div class="play-pause">             <p class="play"></p>             <p class="pause"></p>             <p class="loading"></p>             <p class="error"></p>           </div>           <div class="scrubber">             <div class="progress"></div>             <div class="loaded"></div>           </div>           <div class="time">             <em class="played">00:00</em>/<strong class="duration">00:00</strong>           </div>           <div class="error-message"></div></div>
+                        <div class="audio-reviews-title">Вероника</div>
+                    </div>
+                    <div class="audio-reviews-item audio-3">
+                        <div class="audiojs" classname="audiojs" id="audiojs_wrapper3"><audio preload="none">
+                            <source src="Yuliya.mp3" type="audio/mp3">
+                        </audio>          <div class="play-pause">             <p class="play"></p>             <p class="pause"></p>             <p class="loading"></p>             <p class="error"></p>           </div>           <div class="scrubber">             <div class="progress"></div>             <div class="loaded"></div>           </div>           <div class="time">             <em class="played">00:00</em>/<strong class="duration">00:00</strong>           </div>           <div class="error-message"></div></div>
+                        <div class="audio-reviews-title">Юлия</div>
+                    </div>
+                    <div class="audio-reviews-item audio-3">
+                        <div class="audiojs" classname="audiojs" id="audiojs_wrapper4"><audio preload="none">
+                            <source src="Anton.mp3" type="audio/mp3">
+                        </audio>          <div class="play-pause">             <p class="play"></p>             <p class="pause"></p>             <p class="loading"></p>             <p class="error"></p>           </div>           <div class="scrubber">             <div class="progress"></div>             <div class="loaded"></div>           </div>           <div class="time">             <em class="played">00:00</em>/<strong class="duration">00:00</strong>           </div>           <div class="error-message"></div></div>
+                        <div class="audio-reviews-title">Антон</div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__video">
+                <h2 class="title">Видео отзывы</h2>
+                <div class="new-video">
+                    <div class="new-video__cont">
+                        <div class="youtube" id="vytP9pK07FI" style="width:300px; height:240px;">
+                            <div class="play"></div>
+                        <img src="hqdefault.jpg" class="thumb"><div class="play"></div></div>
+                        <p class="new-video__name">Андрей</p>
+                    </div>
+                    <div class="new-video__cont">
+                        <div class="youtube" id="JWodE44oxu4" style="width:300px; height:240px;">
+                            <div class="play"></div>
+                        <img src="hqdefault-1.jpg" class="thumb"><div class="play"></div></div>
+                        <p class="new-video__name">Елена</p>
+                    </div>
+                    <div class="new-video__cont">
+                        <div class="youtube" id="YqT0vaMmhlw" style="width:300px; height:240px;">
+                            <div class="play"></div>
+                        <img src="hqdefault-2.jpg" class="thumb"><div class="play"></div></div>
+                        <p class="new-video__name">Лиза</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__slider slick-initialized slick-slider slick-dotted"><div class="arr arr--left slick-arrow" style=""><i class="fico fico-arrow"></i></div>
+                
+                
+                
+                
+                
+                
+            <div class="slick-list draggable" style="height: 1421.29px;"><div class="slick-track" style="opacity: 1; width: 0px;"><div class="slide slick-slide slick-current slick-active" style="width: 0px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10"><img src="photo-1.jpg" alt="photo" class="slide__img">
+                    <div class="slide__content"><span class="name">Masha</span>
+                        <p class="ttl">Больше не испытываю вину&nbsp;<br>из-за съеденного кусочка тортика!</p>
+                        <p class="desc">Хорошая штука. Мне нужно было сбросить&nbsp;<br>15 кило, и я это сделала
+                            с&nbsp;<span class="darkish-pink">Yummy</span><span class="squash">Fit</span>&nbsp;<br>за 1
+                            месяц! И самое главное - я ела всё,&nbsp;<br>что хотела! Больше не испытываю вину&nbsp;<br>из-за
+                            съеденного кусочка тортика или&nbsp;бургера. В итоге у&nbsp;меня сейчас потрясная фигура,
+                            почти полностью ушел целлюлит, а&nbsp;самооценка сильно повысилась. Давно хотела
+                            чувствовать себя дюймовочкой, и&nbsp;уже 2&nbsp;месяца этим чувством наслаждаюсь!</p>
+                    </div>
+                </div><div class="slide slick-slide" style="width: 0px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0;" data-slick-index="1" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide11" aria-describedby="slick-slide-control11"><img src="photo-6.jpg" alt="photo" class="slide__img">
+                    <div class="slide__content"><span class="name">Екатерина</span>
+                        <p class="ttl">Двигаюсь мало, потому только <span class="darkish-pink">Yummy</span><span class="squash">Fit</span>
+                            помогает</p>
+                        <p class="desc">У меня уже не то здоровье, чтобы бегать&nbsp;<br>и на тренировки ходить.
+                            Двигаюсь меньше, чем раньше, потому складочки на боках появляются, животик. А&nbsp;это и до
+                            диабета довести может. Мне дочка <span class="darkish-pink">Yummy</span><span class="squash">Fit</span>
+                            предложила пить, она с ним отлично похудела. И&nbsp;вы знаете, мне тоже подошло.
+                            Он&nbsp;натуральный, потому пью и не опасаюсь, что печени хуже станет. А&nbsp;животик
+                            уходит!</p>
+                    </div>
+                </div><div class="slide slick-slide" style="width: 0px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0;" data-slick-index="2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide12" aria-describedby="slick-slide-control12"><img src="photo-5.jpg" alt="photo" class="slide__img">
+                    <div class="slide__content"><span class="name">Katya</span>
+                        <p class="ttl">Пью <span class="darkish-pink">Yummy</span><span class="squash">Fit</span>,
+                            чтобы больше вкусненького съесть :)</p>
+                        <p class="desc">Я - организатор вечеринок. Я каждый день бываю на фуршетах и застольях, иногда
+                            даже на двух. Невозможно удержаться и не есть пироженки и другие вкусности. Потому
+                            я&nbsp;заранее пью <span class="darkish-pink">Yummy</span><span class="squash">Fit</span>.
+                            Это очень удобно, я&nbsp;уверена, что не наберу ни одного лишнего килограмма!</p>
+                    </div>
+                </div><div class="slide slick-slide" style="width: 0px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0;" data-slick-index="3" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide13" aria-describedby="slick-slide-control13"><img src="photo-4.jpg" alt="photo" class="slide__img">
+                    <div class="slide__content"><span class="name">Леонид</span>
+                        <p class="ttl">Препарат удобный и без побочек</p>
+                        <p class="desc">Привет. У меня были проблемы со здоровьем&nbsp;из-за лишнего веса. 500 метров
+                            пройду - и&nbsp;одышка начинается. Пил чаи для похудения - не&nbsp;помогли. Потом я пил
+                            таблетки, которые оказались со&nbsp;слабительным эффектом, и&nbsp;это&nbsp;была жесть.
+                            Потом попробовал <span class="darkish-pink">Yummy</span><span class="squash">Fit</span>.
+                            В&nbsp;итоге за 3 месяца я сбросил 33 кило. Отличное средство без&nbsp;побочек.</p>
+                    </div>
+                </div><div class="slide slick-slide" style="width: 0px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0;" data-slick-index="4" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide14" aria-describedby="slick-slide-control14"><img src="photo-3.jpg" alt="photo" class="slide__img">
+                    <div class="slide__content"><span class="name">Кристинка</span>
+                        <p class="ttl">Знакомые меня не узнают!</p>
+                        <p class="desc">Я весила 116 кг. После трех курсов <span class="darkish-pink">Yummy</span><span class="squash">Fit</span> я вешу 77! И это при том, что я продолжаю буквально питаться
+                            в макашницах) А фигура стала бомбезной. Старые знакомые при&nbsp;встрече не верят, что это
+                            я. Каждый мой день теперь проходит насыщеннее и интереснее. На меня оборачиваются
+                            незнакомые парни. И вообще, все вокруг резко стали любезнее и&nbsp;улыбчивее. Единственный
+                            минус - не знаю, куда теперь сплавить огромные чехлы, которые я полгода назад считала своей
+                            одеждой)))</p>
+                    </div>
+                </div><div class="slide slick-slide" style="width: 0px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0;" data-slick-index="5" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide15" aria-describedby="slick-slide-control15"><img src="photo-2.jpg" alt="photo" class="slide__img">
+                    <div class="slide__content"><span class="name">Ольга Владимировна</span>
+                        <p class="ttl">Первый раз заказала через интернет.</p>
+                        <p class="desc">Я не знала, как заказывать через интернет препараты. Думала, это сложно. И мало
+                            ли, что там придет в посылке. <span class="darkish-pink">Yummy</span><span class="squash">Fit</span>
+                            заказать очень хотела, потому что много о&nbsp;нем хорошего читала, но сложно было
+                            решиться. Свой номер телефона все же оставила. Так мне перезвонила девушка, и&nbsp;про
+                            <span class="darkish-pink">Yummy</span><span class="squash">Fit</span> еще больше
+                            рассказала, и&nbsp;все данные сама записала, сама все оформила. Я только с почты посылку
+                            забрала! Пью его 2&nbsp;недели, ем всё что хочу, никаких диет, и&nbsp;стройнею: минус
+                            5,7&nbsp;кг. Довольна сказочно!</p>
+                    </div>
+                </div></div></div><div class="arr arr--right slick-arrow" style=""><i class="fico fico-arrow"></i></div><ul class="slick-dots" style="" role="tablist"><li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control10" aria-controls="slick-slide10" aria-label="1 of 6" tabindex="0" aria-selected="true">1</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control11" aria-controls="slick-slide11" aria-label="2 of 6" tabindex="-1">2</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control12" aria-controls="slick-slide12" aria-label="3 of 6" tabindex="-1">3</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control13" aria-controls="slick-slide13" aria-label="4 of 6" tabindex="-1">4</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control14" aria-controls="slick-slide14" aria-label="5 of 6" tabindex="-1">5</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control15" aria-controls="slick-slide15" aria-label="6 of 6" tabindex="-1">6</button></li></ul></div>
+        </div>
+    </section>
+    <section class="order block">
+        <div class="container">
+            <h2 class="title wow fadeInDown" style="visibility: hidden; animation-name: none;">Заказать оригинальный <span class="darkish-pink">Yummy</span><span class="squash">Fit</span><br>можно
+                только на этом сайте</h2>
+            <div class="order__cont">
+                <div class="order__item wow fadeInDown" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">
+                    <div class="order__item-img"><img src="order_one.png" alt="form" class="width"></div>
+                    <p class="order__item-title">Заполните форму заказа</p>
+                    <p class="order__item-description">Укажите только свое имя<br>и номер телефона</p>
+                </div>
+                <div class="order__item wow fadeInDown" data-wow-delay="0.15s" style="visibility: hidden; animation-delay: 0.15s; animation-name: none;">
+                    <div class="order__item-img"><img src="order_two.png" alt="woman" class="woman"></div>
+                    <p class="order__item-title">Ответьте на звонок оператора</p>
+                    <p class="order__item-description">Он уточнит ваши адресные<br>данные</p>
+                </div>
+                <div class="order__item wow fadeInDown" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+                    <div class="order__item-img"><img src="order_three.png" alt="product"></div>
+                    <p class="order__item-title">Оплатите после получения</p>
+                    <p class="order__item-description">Быстрая доставка</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <header class="header block header--bottom">
+        <div class="container">
+            <div class="header__top">
+                <div class="header__logo">
+                    <h2 class="header__title wow fadeInDown" style="visibility: hidden; animation-name: none;">Две порции <span class="header__title_pink">Yummy</span><span class="header__title_orange">Fit</span> –<br>минус 1000 ккал в день,</h2><br>
+                    <p class="header__title_size wow fadeInDown" style="visibility: hidden; animation-name: none;"><span class="header__title_decoration-one">независимо
+                            от твоего</span>&nbsp;<br><span class="header__title_decoration-two">режима питания!</span></p>
+                </div>
+                <div class="header__aboutUS wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+                    <p class="header__aboutUS-title">О нас пишут:</p>
+                    <div class="header__aboutUS-item"><img src="aboutUS_one.png" alt="VOGUE"></div>
+                    <div class="header__aboutUS-item"><img src="aboutUS_two.png" alt="COSMOPOLITAN"></div>
+                    <div class="header__aboutUS-item"><img src="aboutUS_three.png" alt="ELLE"></div>
+                </div>
+            </div>
+            <div class="header__cont">
+                <div class="header__food"><img src="header_food.png" alt="food"></div>
+                <div class="header__description">
+                    <div class="header__text">
+                        <p class="header__text-desc wow fadeInDown" style="visibility: hidden; animation-name: none;"><span class="header__text-desc_size"><span class="header__text-desc_orange">Утренняя</span>
+                                порция — </span>&nbsp;<br>ускоряет метаболизм, мгновенно перерабатывая пищу в энергию.<br>Диета
+                            не нужна!</p>
+                        <p class="header__text-desc wow fadeInDown" style="visibility: hidden; animation-name: none;"><span class="header__text-desc_size"><span class="header__text-desc_pink">Вечерняя</span>
+                                порция —</span>&nbsp;<br>уничтожает жир, который уже есть в организме, равный
+                            употреблению<br>1000 ккал!</p>
+                    </div>
+                    <div class="header__product">
+                        <img src="product_two.png" alt="product" class="header__product-one">
+                        <img src="product_three.png" alt="product" class="header__product-two">
+                        <img src="product_four.png" alt="product" class="header__product-three">
+
+                        <p class="header__product-morning">Утро</p>
+                        <p class="header__product-evening">Вечер</p>
+                    </div>
+                    <div class="header__scales"><img src="header_scales.png" alt="scales"></div>
+                </div>
+                <div class="form">
+                    <div class="form__bg">
+                        <h2 class="form__title">Успейте заказать по&nbsp;акции<br><span class="form__title_color">до
+                                <span class="date-0">20.05.2019</span></span></h2>
+                        <div class="price">
+                            <div class="price__after">
+                                <p class="price__after-val"><span class="x_price_current">196</span> <span class="x_currency">руб</span><span class="price__star">*</span></p>
+                            </div>
+                        </div>
+                        <p class="form__pack">Осталось упаковок<br>по&nbsp;акции: <span class="form__pack_color lastpacks">12</span></p>
+                    </div>
+                    <form action="http://1-p196.yummyfit.ru/submit" method="post" class="x_order_form form__cont">
+                        <div class="form__input-name"><input type="text" name="name" placeholder="Моё имя" required="" autocomplete="name" class="form__input" value=""></div>
+                        <div class="form__input-phone"><input type="tel" name="phone" placeholder="Мой телефон" required="" autocomplete="tel" class="form__input" value=""></div><button type="/sybmit" class="form__btn">Заказать
+                            <span class="form__btn_size">по акции</span></button>
+                    <input type="hidden" name="landing_id" value="979"><input type="hidden" name="goal_id" value="408"><input type="hidden" name="price" value="196"><input type="hidden" name="delivery_price" value="0"><input type="hidden" name="es_list_id" value=""><input type="hidden" name="user_language" value="ru"><input type="hidden" name="campaign_id" value=""><input type="hidden" name="country_code" value=""></form>
+                    <p class="form__star-description">* цена за порцию</p>
+                    <p class="form__bottom">Оплата после получения</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header__bottom header__bottom-bot">
+        <div class="container">
+            <div class="header__item">
+                <p class="header__item-link one wow fadeInDown" data-wow-delay="0.1s" style="visibility: hidden; animation-delay: 0.1s; animation-name: none;">Ешь любую еду,<br>какую захочешь</p>
+                <p class="header__item-link two wow fadeInDown" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">Худей до своего<br>идеального
+                    веса</p>
+                <p class="header__item-link three wow fadeInDown" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">Забудь о возвращении<br>лишних
+                    килограмм</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer block">
+        <div class="container">
+            <div class="footer__wrap">
+                <div class="footer__left">
+                    <div class="footer__logo"><svg class="svg-ev" xmlns="http://www.w3.org/2000/svg" width="54" height="49" viewBox="0 0 160 145.9">
+                            <style type="text/css">
+                                .svg-ev path {
+                                    fill: #de335e;
+                                }
+                            </style>
+                            <path d="M106.9,0.6c0,2,0,4.1,0,6.1c0,4.7,0,9.3,0,14c0,0.2,0,0.4,0,0.7C77.3,38.7,47.7,55.9,18.1,73.2
+                                  c0.4,0.4,85,49.9,88.8,51.9c17.7-10.3,35.4-20.6,53.2-31c0,7,0,13.8,0,20.7c-0.2,0.1-0.4,0.3-0.7,0.4c-9.5,5.6-19,11.1-28.5,16.7
+                                  c-7.8,4.6-15.7,9.1-23.5,13.7c-0.1,0.1-0.3,0.2-0.4,0.3c-0.1,0-0.2,0-0.2,0c-0.2-0.1-0.5-0.3-0.7-0.4c-8.2-4.8-16.4-9.6-24.7-14.4
+                                  c-16.4-9.6-32.8-19.1-49.3-28.7C21.7,96.2,11.2,90.1,0.7,84c-0.2-0.1-0.4-0.2-0.6-0.3c0-7,0-13.9,0-20.9c0.2-0.1,0.4-0.1,0.6-0.2
+                                  c2.2-1.3,4.4-2.5,6.6-3.8c29.5-17.2,59-34.4,88.6-51.7c3.4-2,6.8-4,10.2-5.9c0.2-0.1,0.5-0.2,0.6-0.6C106.6,0.6,106.8,0.6,106.9,0.6
+                                  z"></path>
+                            <path d="M124.6,52.5c-17.8,10.4-35.5,20.8-53.3,31.1c-5.9-3.5-11.8-6.9-17.8-10.4c23.7-13.9,47.4-27.7,71.1-41.5
+                                  C124.6,38.7,124.6,45.6,124.6,52.5z"></path>
+                            <path d="M142.4,62.9c0,7,0,13.9,0,20.8c-11.8,6.9-23.7,13.8-35.5,20.7c-5.9-3.5-11.8-6.9-17.8-10.4
+                                  C106.9,83.6,124.6,73.3,142.4,62.9z"></path>
+                        </svg></div>
+                    <div class="footer__name">
+                        <p class="footer__prod"><span class="darkish-pink">Yummy</span><span class="squash">Fit</span></p>
+                        <p class="footer__copy">Copyright&nbsp;<script></script>2019
+                        </p>
+                    </div>
+                </div>
+                <div class="footer__center"><a href="http://1-p196.yummyfit.ru/privacy.html" class="footer__privacy" target="_blank">Политика
+                        конфиденциальности</a>
+                    <p class="footer__adress">ООО "Восток" г. Москва, ул. Чоботовская, д.17</p>
+                </div>
+                <div class="footer__right">
+                    <p class="footer__numbers">ИНН&nbsp;7707251637</p>
+                    <p class="footer__numbers">ОГРН&nbsp;1157735921758</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="ever-popup-build">
+        <div class="popup__wrap" id="cloneThis">
+            <div class="popup">
+                <div class="popup__left">
+                    <p class="popup__name"><span class="darkish-pink">Yummy</span><span class="squash">Fit</span></p>
+                    <div class="popup__prod">
+                        <div class="instruction__product pupup">
+                            <img src="product_one.png" alt="product" class="instruction__product-one">
+                            <img src="product_three.png" alt="product" class="instruction__product-two">
+                            <img src="product_four.png" alt="product" class="instruction__product-three">
+                        </div>
+                        <div class="popup__glassful">
+                            <img src="glassful.png" alt="стакан">
+                        </div>
+                    </div>
+                </div>
+                <div class="popup__right">
+                    <div class="form form-popup">
+                        <div class="form__bg">
+                            <h2 class="form__title">Успейте заказать по&nbsp;акции<br><span class="form__title_color">до
+                                    <span class="date-0">20.05.2019</span></span></h2>
+                            <div class="price">
+                                <div class="price__after">
+                                    <p class="price__after-val"><span class="x_price_current">196</span> <span class="x_currency">руб</span><span class="price__star">*</span></p>
+                                </div>
+                            </div>
+                            <p class="form__pack">Осталось упаковок<br>по&nbsp;акции: <span class="form__pack_color lastpacks">12</span></p>
+                        </div>
+                        <form action="http://1-p196.yummyfit.ru/submit" class="x_order_form form__cont" method="post">
+                            <div class="form__input-name"><input autocomplete="name" class="form__input" name="name" placeholder="Моё имя" required="" type="text" value=""></div>
+                            <div class="form__input-phone"><input autocomplete="tel" class="form__input" name="phone" placeholder="Мой телефон" required="" type="tel" value=""></div><button class="form__btn" type="/sybmit">Заказать <span class="form__btn_size">по акции</span></button>
+                        <input type="hidden" name="landing_id" value="979"><input type="hidden" name="goal_id" value="408"><input type="hidden" name="price" value="196"><input type="hidden" name="delivery_price" value="0"><input type="hidden" name="es_list_id" value=""><input type="hidden" name="user_language" value="ru"><input type="hidden" name="campaign_id" value=""><input type="hidden" name="country_code" value=""></form>
+                        <p class="form__star-description">* цена за порцию</p>
+                        <p class="form__bottom">Оплата после получения</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--require img/svg/symbols.svg -->
+    
+    
+    
+    
+    
+    
+    
+<script></script><script></script><script type="text/javascript"></script><script></script>
+
+<div class="ever-popup"><div class="ever-popup__inner" style="width: 270px;"><div class="ever-popup__close"></div><div class="popup__wrap ever-popup__body">
+            <div class="popup">
+                <div class="popup__left">
+                    <p class="popup__name"><span class="darkish-pink">Yummy</span><span class="squash">Fit</span></p>
+                    <div class="popup__prod">
+                        <div class="instruction__product pupup">
+                            <img src="product_one.png" alt="product" class="instruction__product-one">
+                            <img src="product_three.png" alt="product" class="instruction__product-two">
+                            <img src="product_four.png" alt="product" class="instruction__product-three">
+                        </div>
+                        <div class="popup__glassful">
+                            <img src="glassful.png" alt="стакан">
+                        </div>
+                    </div>
+                </div>
+                <div class="popup__right">
+                    <div class="form form-popup">
+                        <div class="form__bg">
+                            <h2 class="form__title">Успейте заказать по&nbsp;акции<br><span class="form__title_color">до
+                                    <span class="date-0">20.05.2019</span></span></h2>
+                            <div class="price">
+                                <div class="price__after">
+                                    <p class="price__after-val"><span class="x_price_current">196</span> <span class="x_currency">руб</span><span class="price__star">*</span></p>
+                                </div>
+                            </div>
+                            <p class="form__pack">Осталось упаковок<br>по&nbsp;акции: <span class="form__pack_color lastpacks">12</span></p>
+                        </div>
+                        <form action="http://1-p196.yummyfit.ru/submit" class="x_order_form form__cont" method="post">
+                            <div class="form__input-name"><input autocomplete="name" class="form__input" name="name" placeholder="Моё имя" required="" type="text" value=""></div>
+                            <div class="form__input-phone"><input autocomplete="tel" class="form__input" name="phone" placeholder="Мой телефон" required="" type="tel" value=""></div><button class="form__btn" type="/sybmit">Заказать <span class="form__btn_size">по акции</span></button>
+                        <input type="hidden" name="landing_id" value="979"><input type="hidden" name="goal_id" value="408"><input type="hidden" name="price" value="196"><input type="hidden" name="delivery_price" value="0"><input type="hidden" name="es_list_id" value=""><input type="hidden" name="user_language" value="ru"><input type="hidden" name="campaign_id" value=""><input type="hidden" name="country_code" value=""></form>
+                        <p class="form__star-description">* цена за порцию</p>
+                        <p class="form__bottom">Оплата после получения</p>
+                    </div>
+                </div>
+            </div>
+        </div></div></div><div class="phoneBtnContainer"><div class="bluePhone"><div class=" phone-call cbh-phone cbh-green cbh-show ever-popup-btn cbh-static" id="clbh_phone_div"><div class="phoneJs"><div class="cbh-ph-circle"></div><div class="cbh-ph-circle-fill"></div><div class="cbh-ph-img-circle1"></div></div></div></div></div></body>
+</html>

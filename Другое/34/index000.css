@@ -1,0 +1,86 @@
+/* ::::: http://world-diary.com/omolozhenie/style.css ::::: */
+
+
+body { background: rgb(255, 255, 255); font-family: Tahoma,Verdana; font-size: 14px; line-height: 23px; width: 100%; }
+a { color: rgb(0, 71, 255); outline: medium none; text-decoration: underline; }
+a:hover { text-decoration: none; }
+p { margin: 0px 0px 11px; }
+strong, b { font-weight: bolder; }
+img { border: medium none; }
+h1 { margin: 10px 0px; font-size: 23px; }
+h2 { margin: 10px 0px; font-size: 22px; }
+h3 { margin: 2px 0px 10px; font-size: 20px; font-weight: normal; }
+
+.header { width: 100%; margin: 0px auto 15px; overflow: hidden; height: auto; cursor: pointer; border-bottom-right-radius: 15px; border-bottom-left-radius: 15px; }
+.header img { width: 100%;}
+.left-column { float: left; max-width: 690px;  background: none repeat scroll 0% 0% white; box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);  margin-bottom: 10px; border-radius: 10px 10px 10px 10px; }
+.sidebar { float: right; padding-right: 0; font-size: 12px;}
+.sidebar-last-posts { background: none repeat scroll 0% 0% white; box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); padding: 15px; margin-bottom: 20px; border-radius: 10px 10px 10px 10px; }
+.sidebar-last-post { margin-bottom: 0px; }
+.sidebar-last-post a { color: rgb(72, 155, 31); }
+.sidebar-last-post-info { font-size: 11px; margin-bottom: 15px; }
+.sidebar-last-post-info-login { color: rgb(187, 34, 92); margin-right: 5px; }
+.sidebar-last-post-info-date { margin-right: 5px; color: rgb(119, 119, 119); }
+.sidebar-last-post-info-comments { color: rgb(119, 119, 119); text-decoration: underline; }
+.sidebar-bloggers { background: none repeat scroll 0% 0% white; box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); padding: 15px; margin-bottom: 20px; border-radius: 10px 10px 10px 10px; }
+.sidebar-bloggers-avatar { display: inline-block; }
+.sidebar-bloggers img { margin: 5px; }
+.footer { clear: both; margin-bottom: 20px; font-size: 12px; color: rgb(119, 119, 119); }
+.vk-container { font-family: tahoma,arial,verdana,sans-serif,Lucida Sans; font-size: 11px; line-height: 17px; color: black; text-decoration: none; }
+.vk-link { text-decoration: none ! important; cursor: default ! important; }
+.vk-header { background: none repeat scroll 0% 0% rgb(218, 226, 232); padding: 4px 4px 4px 6px; margin-bottom: 10px; }
+.vk-logo { background: url("urn:scrapbook:download:error:http://bloggerzlive.com/amoney/golunova/images/vk-logo0.gif")/*tpa=http://blogistars.com/ma/Golunova/images/vk-logo0.gif*/ no-repeat scroll 0% 0% transparent; width: 16px; height: 16px; float: right; margin-top: -1px; }
+.vk-header-text { padding: 2px 3px 1px; line-height: 100%; color: rgb(69, 104, 142); font-weight: bold; }
+.vk-avatar img { float: left; margin-right: 10px; cursor: pointer;}
+.vk-comment, .vk-comment-load { margin-bottom: 15px; position: relative; border-bottom: 1px solid rgb(218, 225, 232); padding-bottom: 15px; }
+.vk-comment:last-child { border-bottom: 0px none; }
+.vk-comment-name { color: rgb(43, 88, 122); font-weight: bold; font-size: 12px; }
+.vk-comment-name:hover {text-decoration: underline; cursor: pointer;}
+.vk-comment-text { margin-left: 60px; color: #000; }
+.vk-comment-date { margin-left: 60px; color: rgb(153, 153, 153); }
+.vk-comment-like { position: absolute; right: -5px; bottom: 10px; background: url("urn:scrapbook:download:error:http://bloggerzlive.com/amoney/golunova/images/like0000.png")/*tpa=http://blogistars.com/ma/Golunova/images/like0000.png*/ no-repeat scroll left center transparent; width: 30px; height: 16px; display: inline-block; }
+.vk-comment-like:hover { opacity: 0.5; cursor: pointer; }
+.vk-comment-like-count { padding-left: 14px; font-weight: bold; color: rgb(114, 149, 178); font-size: 10px; }
+.vk-comment-answer { color: rgb(43, 88, 122); }
+.vk-comment-answer:hover { opacity: 0.5; cursor: pointer; }
+
+/*   fix   */
+
+.bigbg {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+.editable.bigbg {
+  z-index: 2;
+  visibility: visible;
+}
+.big_bg{
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;	
+  background-size: cover;
+}
+
+
+.main_cont{
+  position: relative;
+  z-index: 2;
+  max-width: 960px;
+}
+
+@media (max-width: 768px) {
+  .vk-container { font-size: 14px;}
+  .vk-comment-name { font-size: 15px;}
+  .vk-comment-date { max-width: 220px;}
+  .main_cont { margin-top: 70px;}
+  body { font-size: 16px;}
+}
+
